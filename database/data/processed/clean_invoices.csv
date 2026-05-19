@@ -1,0 +1,1001 @@
+invoice_id,vendor,department,invoice_type,amount,submitted_date,due_date,approved_date,approval_days,payment_terms_days,has_purchase_order,duplicate_flag,vendor_delay_history,sla_breached,risk_level,risk_reason,next_best_action,days_until_due,approval_delay_flag,amount_category
+INV-00001,CloudBridge Ltd,Finance,Logistics,6948.23,2025-02-22,2025-03-24,2025-03-02,8,30,1,1,0,0,High,Duplicate invoice detected,Send for manual review,30,0,Medium
+INV-00002,TechNova Solutions,Finance,Consulting Service,5893.26,2025-10-15,2025-10-30,2025-11-04,20,15,1,1,0,1,High,Duplicate invoice detected,Escalate to manager,15,1,Medium
+INV-00003,Alpha Consulting,HR,Cloud Infrastructure,20254.82,2025-08-05,2025-09-04,2025-08-06,1,30,1,0,0,0,Low,No risk detected,Approve for payment,30,0,Large
+INV-00004,FinEdge Services,Procurement,Software License,2409.37,2025-06-26,2025-08-10,2025-06-30,4,45,1,0,1,0,Medium,Vendor has previous delays,Request missing information,45,0,Medium
+INV-00005,Alpha Consulting,HR,Software License,24330.58,2025-10-10,2025-10-25,2025-10-23,13,15,1,0,1,1,Medium,Vendor has previous delays,Escalate to manager,15,1,Large
+INV-00006,FinEdge Services,Risk Management,Software License,1241.03,2025-02-10,2025-03-27,2025-02-18,8,45,1,0,0,0,Low,No risk detected,Approve for payment,45,0,Medium
+INV-00007,OfficePlus Group,Operations,Logistics,20869.35,2025-07-01,2025-08-15,2025-07-07,6,45,1,0,1,0,Medium,Vendor has previous delays,Request missing information,45,0,Large
+INV-00008,CloudBridge Ltd,HR,Logistics,4361.35,2025-08-25,2025-09-24,2025-09-02,8,30,0,0,1,0,Medium,Missing purchase order,Request missing information,30,0,Medium
+INV-00009,FinEdge Services,Risk Management,Cloud Infrastructure,21087.01,2025-01-17,2025-02-16,2025-01-19,2,30,1,1,0,0,High,Duplicate invoice detected,Send for manual review,30,0,Large
+INV-00010,CloudBridge Ltd,IT,Security Service,21921.55,2025-09-13,2025-10-13,2025-09-24,11,30,0,1,0,1,High,Duplicate invoice detected,Escalate to manager,30,1,Large
+INV-00011,OfficePlus Group,IT,Consulting Service,18650.23,2025-10-27,2025-12-11,2025-11-14,18,45,0,1,0,1,High,Duplicate invoice detected,Escalate to manager,45,1,Large
+INV-00012,FinEdge Services,IT,Security Service,12388.54,2025-03-20,2025-04-04,2025-03-22,2,15,1,1,1,0,High,Duplicate invoice detected,Send for manual review,15,0,Large
+INV-00013,CloudBridge Ltd,Operations,Office Supplies,14937.62,2025-10-11,2025-11-25,2025-10-26,15,45,1,0,1,1,Medium,Vendor has previous delays,Escalate to manager,45,1,Large
+INV-00014,OfficePlus Group,Risk Management,Cloud Infrastructure,2877.65,2025-08-21,2025-09-20,2025-09-04,14,30,1,0,1,1,Medium,Vendor has previous delays,Escalate to manager,30,1,Medium
+INV-00015,DataCore Systems,HR,Software License,21775.91,2025-03-20,2025-04-19,2025-03-30,10,30,1,0,1,0,Medium,Vendor has previous delays,Request missing information,30,0,Large
+INV-00016,TechNova Solutions,HR,Cloud Infrastructure,12266.28,2025-06-07,2025-07-22,2025-06-11,4,45,1,0,0,0,Low,No risk detected,Approve for payment,45,0,Large
+INV-00017,CloudBridge Ltd,Finance,Logistics,12201.16,2025-03-07,2025-04-06,2025-03-10,3,30,0,0,0,0,Medium,Missing purchase order,Request missing information,30,0,Large
+INV-00018,GreenLogix,IT,Security Service,18906.1,2025-07-24,2025-09-07,2025-07-31,7,45,1,1,1,0,High,Duplicate invoice detected,Send for manual review,45,0,Large
+INV-00019,Alpha Consulting,Finance,Consulting Service,5694.96,2025-10-29,2025-11-13,2025-11-09,11,15,1,0,0,1,Low,No risk detected,Escalate to manager,15,1,Medium
+INV-00020,CloudBridge Ltd,Risk Management,Logistics,1565.96,2025-06-19,2025-07-04,2025-06-22,3,15,1,0,0,0,Low,No risk detected,Approve for payment,15,0,Medium
+INV-00021,Alpha Consulting,IT,Security Service,3394.57,2025-05-05,2025-07-04,2025-05-24,19,60,0,1,0,1,High,Duplicate invoice detected,Escalate to manager,60,1,Medium
+INV-00022,CloudBridge Ltd,Finance,Logistics,10833.17,2025-08-28,2025-10-27,2025-09-11,14,60,1,0,0,1,Low,No risk detected,Escalate to manager,60,1,Large
+INV-00023,GreenLogix,Risk Management,Cloud Infrastructure,20034.75,2025-04-09,2025-05-09,2025-04-13,4,30,1,1,0,0,High,Duplicate invoice detected,Send for manual review,30,0,Large
+INV-00024,GreenLogix,IT,Cloud Infrastructure,11619.44,2025-10-09,2025-12-08,2025-10-12,3,60,1,0,1,0,Medium,Vendor has previous delays,Request missing information,60,0,Large
+INV-00025,TechNova Solutions,Finance,Consulting Service,4241.15,2025-04-20,2025-06-19,2025-05-06,16,60,0,0,0,1,Medium,Missing purchase order,Escalate to manager,60,1,Medium
+INV-00026,GreenLogix,Finance,Office Supplies,6703.56,2025-08-05,2025-09-19,2025-08-20,15,45,0,0,0,1,Medium,Missing purchase order,Escalate to manager,45,1,Medium
+INV-00027,OfficePlus Group,IT,Software License,14521.59,2025-06-10,2025-06-25,2025-06-28,18,15,1,0,1,1,Medium,Vendor has previous delays,Escalate to manager,15,1,Large
+INV-00028,Alpha Consulting,HR,Security Service,4020.07,2025-04-06,2025-04-21,2025-04-23,17,15,1,0,1,1,Medium,Vendor has previous delays,Escalate to manager,15,1,Medium
+INV-00029,FinEdge Services,Operations,Software License,23545.74,2025-10-24,2025-11-23,2025-11-12,19,30,1,0,0,1,Low,No risk detected,Escalate to manager,30,1,Large
+INV-00030,NetSecure Inc,Procurement,Consulting Service,16776.18,2025-05-16,2025-06-15,2025-05-27,11,30,0,0,1,1,High,Amount exceeds approval limit,Escalate to manager,30,1,Large
+INV-00031,OfficePlus Group,Operations,Cloud Infrastructure,23232.56,2025-08-23,2025-09-07,2025-08-26,3,15,1,0,1,0,Medium,Vendor has previous delays,Request missing information,15,0,Large
+INV-00032,FinEdge Services,HR,Cloud Infrastructure,3398.17,2025-05-06,2025-05-21,2025-05-18,12,15,1,0,0,1,Low,No risk detected,Escalate to manager,15,1,Medium
+INV-00033,Alpha Consulting,HR,Logistics,7632.68,2025-10-11,2025-10-26,2025-10-28,17,15,1,0,0,1,Low,No risk detected,Escalate to manager,15,1,Medium
+INV-00034,OfficePlus Group,Finance,Software License,18586.18,2025-05-25,2025-07-09,2025-05-30,5,45,1,0,0,0,Low,No risk detected,Approve for payment,45,0,Large
+INV-00035,OfficePlus Group,HR,Office Supplies,6352.92,2025-11-21,2025-12-06,2025-11-23,2,15,0,0,0,0,Medium,Missing purchase order,Request missing information,15,0,Medium
+INV-00036,TechNova Solutions,Procurement,Consulting Service,15964.12,2025-08-15,2025-09-14,2025-08-24,9,30,0,0,0,0,High,Amount exceeds approval limit,Send for manual review,30,0,Large
+INV-00037,CloudBridge Ltd,Risk Management,Consulting Service,13685.2,2025-08-09,2025-09-08,2025-08-21,12,30,1,0,0,1,Low,No risk detected,Escalate to manager,30,1,Large
+INV-00038,NetSecure Inc,Finance,Cloud Infrastructure,5330.91,2025-07-01,2025-07-16,2025-07-09,8,15,0,0,0,0,Medium,Missing purchase order,Request missing information,15,0,Medium
+INV-00039,DataCore Systems,IT,Office Supplies,717.18,2025-05-08,2025-07-07,2025-05-19,11,60,1,0,1,1,Medium,Vendor has previous delays,Escalate to manager,60,1,Small
+INV-00040,CloudBridge Ltd,Operations,Software License,21478.97,2025-08-24,2025-09-23,2025-09-01,8,30,1,0,0,0,Low,No risk detected,Approve for payment,30,0,Large
+INV-00041,FinEdge Services,Finance,Logistics,4908.93,2025-02-05,2025-03-22,2025-02-16,11,45,1,0,1,1,Medium,Vendor has previous delays,Escalate to manager,45,1,Medium
+INV-00042,GreenLogix,Risk Management,Security Service,8345.63,2025-05-14,2025-05-29,2025-05-15,1,15,1,0,0,0,Low,No risk detected,Approve for payment,15,0,Medium
+INV-00043,CloudBridge Ltd,HR,Office Supplies,8707.61,2025-11-07,2026-01-06,2025-11-18,11,60,1,1,1,1,High,Duplicate invoice detected,Escalate to manager,60,1,Medium
+INV-00044,FinEdge Services,Procurement,Software License,17748.75,2025-07-06,2025-08-05,2025-07-07,1,30,0,0,1,0,High,Amount exceeds approval limit,Send for manual review,30,0,Large
+INV-00045,NetSecure Inc,HR,Cloud Infrastructure,16618.35,2025-09-17,2025-11-01,2025-09-21,4,45,1,1,0,0,High,Duplicate invoice detected,Send for manual review,45,0,Large
+INV-00046,GreenLogix,Risk Management,Cloud Infrastructure,13904.87,2025-07-14,2025-09-12,2025-07-21,7,60,1,0,0,0,Low,No risk detected,Approve for payment,60,0,Large
+INV-00047,TechNova Solutions,Procurement,Cloud Infrastructure,5333.55,2025-08-27,2025-10-11,2025-09-15,19,45,0,1,1,1,High,Duplicate invoice detected,Escalate to manager,45,1,Medium
+INV-00048,FinEdge Services,HR,Office Supplies,19864.01,2025-05-26,2025-06-10,2025-06-01,6,15,1,0,0,0,Low,No risk detected,Approve for payment,15,0,Large
+INV-00049,OfficePlus Group,IT,Consulting Service,3769.11,2025-09-01,2025-10-01,2025-09-03,2,30,1,1,0,0,High,Duplicate invoice detected,Send for manual review,30,0,Medium
+INV-00050,FinEdge Services,Risk Management,Logistics,9661.06,2025-03-17,2025-04-16,2025-03-30,13,30,1,0,0,1,Low,No risk detected,Escalate to manager,30,1,Medium
+INV-00051,FinEdge Services,IT,Logistics,12997.15,2025-03-04,2025-04-03,2025-03-06,2,30,0,0,0,0,Medium,Missing purchase order,Request missing information,30,0,Large
+INV-00052,NetSecure Inc,Operations,Security Service,20393.66,2025-10-08,2025-12-07,2025-10-25,17,60,0,0,1,1,High,Amount exceeds approval limit,Escalate to manager,60,1,Large
+INV-00053,Alpha Consulting,Operations,Cloud Infrastructure,18819.24,2025-11-17,2026-01-16,2025-11-26,9,60,1,0,0,0,Low,No risk detected,Approve for payment,60,0,Large
+INV-00054,CloudBridge Ltd,Risk Management,Cloud Infrastructure,5938.89,2025-10-04,2025-11-18,2025-10-15,11,45,1,0,0,1,Low,No risk detected,Escalate to manager,45,1,Medium
+INV-00055,FinEdge Services,Operations,Logistics,3904.85,2025-08-01,2025-08-16,2025-08-08,7,15,0,0,1,0,Medium,Missing purchase order,Request missing information,15,0,Medium
+INV-00056,Alpha Consulting,Operations,Software License,5250.18,2025-10-27,2025-12-26,2025-11-10,14,60,1,1,0,1,High,Duplicate invoice detected,Escalate to manager,60,1,Medium
+INV-00057,TechNova Solutions,Procurement,Cloud Infrastructure,18861.53,2025-09-07,2025-10-07,2025-09-21,14,30,1,0,0,1,Low,No risk detected,Escalate to manager,30,1,Large
+INV-00058,Alpha Consulting,Finance,Office Supplies,8469.63,2025-08-28,2025-09-27,2025-09-10,13,30,1,0,0,1,Low,No risk detected,Escalate to manager,30,1,Medium
+INV-00059,TechNova Solutions,Finance,Logistics,10772.46,2025-01-26,2025-02-25,2025-02-10,15,30,1,1,0,1,High,Duplicate invoice detected,Escalate to manager,30,1,Large
+INV-00060,FinEdge Services,Operations,Cloud Infrastructure,8503.76,2025-08-04,2025-09-18,2025-08-17,13,45,1,0,0,1,Low,No risk detected,Escalate to manager,45,1,Medium
+INV-00061,TechNova Solutions,Risk Management,Security Service,1396.93,2025-02-05,2025-03-07,2025-02-17,12,30,1,0,0,1,Low,No risk detected,Escalate to manager,30,1,Medium
+INV-00062,FinEdge Services,Finance,Security Service,3894.32,2025-02-28,2025-04-29,2025-03-05,5,60,1,1,1,0,High,Duplicate invoice detected,Send for manual review,60,0,Medium
+INV-00063,OfficePlus Group,Procurement,Consulting Service,15186.73,2025-06-09,2025-07-09,2025-06-13,4,30,1,0,0,0,Low,No risk detected,Approve for payment,30,0,Large
+INV-00064,GreenLogix,Operations,Logistics,5038.41,2025-02-22,2025-03-24,2025-03-13,19,30,1,0,1,1,Medium,Vendor has previous delays,Escalate to manager,30,1,Medium
+INV-00065,TechNova Solutions,Procurement,Security Service,10766.61,2025-09-17,2025-10-02,2025-09-29,12,15,1,0,0,1,Low,No risk detected,Escalate to manager,15,1,Large
+INV-00066,Alpha Consulting,Finance,Office Supplies,24023.61,2025-08-11,2025-09-10,2025-08-26,15,30,1,0,1,1,Medium,Vendor has previous delays,Escalate to manager,30,1,Large
+INV-00067,Alpha Consulting,Operations,Office Supplies,20660.79,2025-06-15,2025-07-30,2025-07-04,19,45,1,0,0,1,Low,No risk detected,Escalate to manager,45,1,Large
+INV-00068,Alpha Consulting,IT,Office Supplies,14289.26,2025-01-15,2025-03-01,2025-01-28,13,45,0,0,0,1,Medium,Missing purchase order,Escalate to manager,45,1,Large
+INV-00069,Alpha Consulting,IT,Cloud Infrastructure,19966.03,2025-11-02,2025-12-17,2025-11-13,11,45,1,0,1,1,Medium,Vendor has previous delays,Escalate to manager,45,1,Large
+INV-00070,FinEdge Services,Finance,Consulting Service,18029.86,2025-09-01,2025-10-01,2025-09-17,16,30,0,1,0,1,High,Duplicate invoice detected,Escalate to manager,30,1,Large
+INV-00071,CloudBridge Ltd,Procurement,Consulting Service,10169.59,2025-10-25,2025-12-09,2025-11-02,8,45,1,1,1,0,High,Duplicate invoice detected,Send for manual review,45,0,Large
+INV-00072,NetSecure Inc,Operations,Logistics,13804.67,2025-05-19,2025-07-18,2025-05-31,12,60,1,0,0,1,Low,No risk detected,Escalate to manager,60,1,Large
+INV-00073,CloudBridge Ltd,Risk Management,Consulting Service,7957.14,2025-04-09,2025-05-09,2025-04-27,18,30,1,1,0,1,High,Duplicate invoice detected,Escalate to manager,30,1,Medium
+INV-00074,OfficePlus Group,Finance,Consulting Service,7476.54,2025-06-04,2025-07-04,2025-06-16,12,30,1,0,0,1,Low,No risk detected,Escalate to manager,30,1,Medium
+INV-00075,TechNova Solutions,Finance,Security Service,7374.2,2025-02-22,2025-04-23,2025-02-27,5,60,1,0,0,0,Low,No risk detected,Approve for payment,60,0,Medium
+INV-00076,Alpha Consulting,Operations,Cloud Infrastructure,4690.66,2025-09-02,2025-10-17,2025-09-04,2,45,1,0,0,0,Low,No risk detected,Approve for payment,45,0,Medium
+INV-00077,Alpha Consulting,Finance,Security Service,15773.2,2025-03-18,2025-04-17,2025-03-20,2,30,1,0,0,0,Low,No risk detected,Approve for payment,30,0,Large
+INV-00078,CloudBridge Ltd,HR,Office Supplies,15197.31,2025-09-25,2025-10-25,2025-10-15,20,30,0,1,0,1,High,Duplicate invoice detected,Escalate to manager,30,1,Large
+INV-00079,OfficePlus Group,HR,Office Supplies,7703.97,2025-11-09,2025-11-24,2025-11-29,20,15,1,0,1,1,Medium,Vendor has previous delays,Escalate to manager,15,1,Medium
+INV-00080,FinEdge Services,Procurement,Logistics,2121.57,2025-10-10,2025-11-09,2025-10-18,8,30,1,0,0,0,Low,No risk detected,Approve for payment,30,0,Medium
+INV-00081,GreenLogix,Operations,Logistics,14885.9,2025-04-29,2025-05-14,2025-05-09,10,15,1,0,1,0,Medium,Vendor has previous delays,Request missing information,15,0,Large
+INV-00082,Alpha Consulting,Finance,Logistics,5912.25,2025-08-06,2025-09-05,2025-08-15,9,30,1,0,1,0,Medium,Vendor has previous delays,Request missing information,30,0,Medium
+INV-00083,DataCore Systems,Procurement,Consulting Service,1878.1,2025-11-01,2025-12-16,2025-11-07,6,45,1,1,0,0,High,Duplicate invoice detected,Send for manual review,45,0,Medium
+INV-00084,Alpha Consulting,Risk Management,Cloud Infrastructure,17523.37,2025-08-13,2025-10-12,2025-08-22,9,60,1,0,0,0,Low,No risk detected,Approve for payment,60,0,Large
+INV-00085,NetSecure Inc,HR,Cloud Infrastructure,744.04,2025-05-18,2025-06-02,2025-05-26,8,15,1,0,0,0,Low,No risk detected,Approve for payment,15,0,Small
+INV-00086,Alpha Consulting,Procurement,Consulting Service,24923.94,2025-02-16,2025-04-17,2025-03-02,14,60,0,0,0,1,High,Amount exceeds approval limit,Escalate to manager,60,1,Large
+INV-00087,NetSecure Inc,Procurement,Logistics,2704.54,2025-07-30,2025-09-13,2025-08-05,6,45,0,0,1,0,Medium,Missing purchase order,Request missing information,45,0,Medium
+INV-00088,GreenLogix,HR,Software License,11425.17,2025-06-15,2025-07-30,2025-06-26,11,45,1,1,1,1,High,Duplicate invoice detected,Escalate to manager,45,1,Large
+INV-00089,TechNova Solutions,Risk Management,Security Service,11603.21,2025-09-23,2025-10-23,2025-09-25,2,30,1,1,1,0,High,Duplicate invoice detected,Send for manual review,30,0,Large
+INV-00090,Alpha Consulting,Finance,Consulting Service,6749.7,2025-08-13,2025-09-27,2025-08-18,5,45,0,0,0,0,Medium,Missing purchase order,Request missing information,45,0,Medium
+INV-00091,FinEdge Services,Risk Management,Consulting Service,7837.68,2025-02-17,2025-04-18,2025-02-18,1,60,1,0,0,0,Low,No risk detected,Approve for payment,60,0,Medium
+INV-00092,CloudBridge Ltd,Risk Management,Consulting Service,12509.55,2025-08-01,2025-09-15,2025-08-11,10,45,0,1,0,0,High,Duplicate invoice detected,Send for manual review,45,0,Large
+INV-00093,Alpha Consulting,HR,Consulting Service,9651.29,2025-02-05,2025-03-07,2025-02-25,20,30,1,1,0,1,High,Duplicate invoice detected,Escalate to manager,30,1,Medium
+INV-00094,OfficePlus Group,Finance,Cloud Infrastructure,18178.67,2025-03-18,2025-05-17,2025-04-06,19,60,0,1,0,1,High,Duplicate invoice detected,Escalate to manager,60,1,Large
+INV-00095,NetSecure Inc,HR,Security Service,9492.53,2025-05-03,2025-06-02,2025-05-14,11,30,0,0,0,1,Medium,Missing purchase order,Escalate to manager,30,1,Medium
+INV-00096,TechNova Solutions,Procurement,Logistics,11877.11,2025-03-19,2025-05-18,2025-04-01,13,60,0,0,0,1,Medium,Missing purchase order,Escalate to manager,60,1,Large
+INV-00097,NetSecure Inc,Finance,Office Supplies,2582.82,2025-03-15,2025-03-30,2025-03-30,15,15,0,0,0,1,Medium,Missing purchase order,Escalate to manager,15,1,Medium
+INV-00098,Alpha Consulting,Procurement,Cloud Infrastructure,15619.16,2025-06-18,2025-07-03,2025-07-01,13,15,0,0,1,1,High,Amount exceeds approval limit,Escalate to manager,15,1,Large
+INV-00099,Alpha Consulting,HR,Software License,15474.74,2025-04-27,2025-06-11,2025-05-05,8,45,1,1,0,0,High,Duplicate invoice detected,Send for manual review,45,0,Large
+INV-00100,CloudBridge Ltd,Operations,Consulting Service,17380.63,2025-06-16,2025-07-01,2025-06-17,1,15,1,0,0,0,Low,No risk detected,Approve for payment,15,0,Large
+INV-00101,NetSecure Inc,Operations,Consulting Service,6180.52,2025-03-29,2025-04-28,2025-04-12,14,30,1,0,1,1,Medium,Vendor has previous delays,Escalate to manager,30,1,Medium
+INV-00102,GreenLogix,HR,Logistics,6096.66,2025-04-29,2025-05-29,2025-05-18,19,30,0,0,0,1,Medium,Missing purchase order,Escalate to manager,30,1,Medium
+INV-00103,OfficePlus Group,Risk Management,Software License,22482.82,2025-10-07,2025-11-21,2025-10-22,15,45,1,0,0,1,Low,No risk detected,Escalate to manager,45,1,Large
+INV-00104,NetSecure Inc,HR,Cloud Infrastructure,16009.57,2025-08-22,2025-10-06,2025-09-05,14,45,1,0,0,1,Low,No risk detected,Escalate to manager,45,1,Large
+INV-00105,Alpha Consulting,Finance,Consulting Service,9595.97,2025-06-01,2025-07-16,2025-06-13,12,45,1,1,0,1,High,Duplicate invoice detected,Escalate to manager,45,1,Medium
+INV-00106,TechNova Solutions,HR,Logistics,19479.96,2025-05-27,2025-07-26,2025-05-29,2,60,1,0,0,0,Low,No risk detected,Approve for payment,60,0,Large
+INV-00107,FinEdge Services,HR,Cloud Infrastructure,16976.34,2025-11-18,2025-12-03,2025-11-23,5,15,1,0,0,0,Low,No risk detected,Approve for payment,15,0,Large
+INV-00108,TechNova Solutions,HR,Cloud Infrastructure,18335.76,2025-06-17,2025-08-01,2025-06-20,3,45,0,0,0,0,High,Amount exceeds approval limit,Send for manual review,45,0,Large
+INV-00109,DataCore Systems,HR,Cloud Infrastructure,13318.22,2025-05-12,2025-06-11,2025-05-21,9,30,0,0,1,0,Medium,Missing purchase order,Request missing information,30,0,Large
+INV-00110,NetSecure Inc,Finance,Office Supplies,24076.04,2025-07-23,2025-08-22,2025-07-28,5,30,1,0,0,0,Low,No risk detected,Approve for payment,30,0,Large
+INV-00111,TechNova Solutions,Procurement,Security Service,3177.36,2025-10-27,2025-12-11,2025-11-08,12,45,0,0,0,1,Medium,Missing purchase order,Escalate to manager,45,1,Medium
+INV-00112,FinEdge Services,Operations,Software License,15526.72,2025-11-09,2025-12-24,2025-11-27,18,45,1,0,1,1,Medium,Vendor has previous delays,Escalate to manager,45,1,Large
+INV-00113,Alpha Consulting,Risk Management,Cloud Infrastructure,16266.06,2025-01-24,2025-02-23,2025-01-28,4,30,1,0,0,0,Low,No risk detected,Approve for payment,30,0,Large
+INV-00114,CloudBridge Ltd,Finance,Consulting Service,22192.76,2025-08-21,2025-10-20,2025-08-26,5,60,1,1,1,0,High,Duplicate invoice detected,Send for manual review,60,0,Large
+INV-00115,DataCore Systems,Operations,Logistics,2565.64,2025-05-24,2025-07-23,2025-06-09,16,60,1,0,0,1,Low,No risk detected,Escalate to manager,60,1,Medium
+INV-00116,Alpha Consulting,Operations,Consulting Service,21400.71,2025-10-06,2025-11-20,2025-10-10,4,45,1,0,0,0,Low,No risk detected,Approve for payment,45,0,Large
+INV-00117,OfficePlus Group,IT,Software License,23730.37,2025-04-19,2025-05-04,2025-05-04,15,15,1,0,0,1,Low,No risk detected,Escalate to manager,15,1,Large
+INV-00118,FinEdge Services,IT,Security Service,5209.62,2025-10-28,2025-11-27,2025-11-15,18,30,1,0,0,1,Low,No risk detected,Escalate to manager,30,1,Medium
+INV-00119,DataCore Systems,HR,Software License,7004.14,2025-10-04,2025-11-03,2025-10-09,5,30,1,0,0,0,Low,No risk detected,Approve for payment,30,0,Medium
+INV-00120,TechNova Solutions,IT,Software License,9020.23,2025-01-09,2025-02-23,2025-01-17,8,45,1,0,0,0,Low,No risk detected,Approve for payment,45,0,Medium
+INV-00121,DataCore Systems,Risk Management,Office Supplies,13199.53,2025-08-18,2025-10-17,2025-08-21,3,60,1,0,0,0,Low,No risk detected,Approve for payment,60,0,Large
+INV-00122,FinEdge Services,HR,Software License,18208.35,2025-08-23,2025-10-07,2025-09-09,17,45,1,0,0,1,Low,No risk detected,Escalate to manager,45,1,Large
+INV-00123,GreenLogix,Operations,Logistics,2788.25,2025-02-11,2025-02-26,2025-02-26,15,15,1,0,0,1,Low,No risk detected,Escalate to manager,15,1,Medium
+INV-00124,DataCore Systems,Procurement,Security Service,15863.61,2025-07-15,2025-08-29,2025-08-02,18,45,1,1,1,1,High,Duplicate invoice detected,Escalate to manager,45,1,Large
+INV-00125,GreenLogix,Finance,Logistics,2948.91,2025-08-09,2025-09-08,2025-08-27,18,30,0,0,0,1,Medium,Missing purchase order,Escalate to manager,30,1,Medium
+INV-00126,NetSecure Inc,Operations,Office Supplies,10458.14,2025-08-07,2025-09-21,2025-08-11,4,45,1,0,0,0,Low,No risk detected,Approve for payment,45,0,Large
+INV-00127,DataCore Systems,Risk Management,Office Supplies,1771.62,2025-08-10,2025-08-25,2025-08-13,3,15,1,0,0,0,Low,No risk detected,Approve for payment,15,0,Medium
+INV-00128,TechNova Solutions,HR,Security Service,14085.92,2025-07-01,2025-08-30,2025-07-05,4,60,0,0,0,0,Medium,Missing purchase order,Request missing information,60,0,Large
+INV-00129,OfficePlus Group,Procurement,Software License,14490.17,2025-09-04,2025-10-04,2025-09-11,7,30,1,0,0,0,Low,No risk detected,Approve for payment,30,0,Large
+INV-00130,NetSecure Inc,Finance,Cloud Infrastructure,14395.09,2025-11-08,2025-11-23,2025-11-22,14,15,1,0,0,1,Low,No risk detected,Escalate to manager,15,1,Large
+INV-00131,OfficePlus Group,Risk Management,Cloud Infrastructure,23046.28,2025-04-03,2025-04-18,2025-04-15,12,15,1,1,0,1,High,Duplicate invoice detected,Escalate to manager,15,1,Large
+INV-00132,DataCore Systems,Risk Management,Logistics,24298.08,2025-07-12,2025-08-11,2025-07-15,3,30,0,1,0,0,High,Duplicate invoice detected,Send for manual review,30,0,Large
+INV-00133,DataCore Systems,Procurement,Cloud Infrastructure,18067.74,2025-01-27,2025-02-11,2025-02-15,19,15,1,0,1,1,Medium,Vendor has previous delays,Escalate to manager,15,1,Large
+INV-00134,TechNova Solutions,Risk Management,Software License,6875.36,2025-11-07,2026-01-06,2025-11-21,14,60,0,1,0,1,High,Duplicate invoice detected,Escalate to manager,60,1,Medium
+INV-00135,FinEdge Services,HR,Software License,8694.8,2025-10-31,2025-12-15,2025-11-04,4,45,0,0,0,0,Medium,Missing purchase order,Request missing information,45,0,Medium
+INV-00136,FinEdge Services,Operations,Security Service,1464.07,2025-04-19,2025-06-03,2025-04-26,7,45,1,0,0,0,Low,No risk detected,Approve for payment,45,0,Medium
+INV-00137,NetSecure Inc,Finance,Software License,12484.89,2025-03-08,2025-04-07,2025-03-22,14,30,0,0,1,1,Medium,Missing purchase order,Escalate to manager,30,1,Large
+INV-00138,NetSecure Inc,Finance,Office Supplies,21557.93,2025-01-10,2025-03-11,2025-01-12,2,60,0,0,0,0,High,Amount exceeds approval limit,Send for manual review,60,0,Large
+INV-00139,GreenLogix,HR,Office Supplies,17766.52,2025-02-28,2025-04-14,2025-03-14,14,45,0,0,0,1,High,Amount exceeds approval limit,Escalate to manager,45,1,Large
+INV-00140,DataCore Systems,HR,Office Supplies,20817.45,2025-08-12,2025-08-27,2025-08-24,12,15,1,0,0,1,Low,No risk detected,Escalate to manager,15,1,Large
+INV-00141,GreenLogix,HR,Software License,9954.59,2025-04-24,2025-06-08,2025-05-04,10,45,1,0,0,0,Low,No risk detected,Approve for payment,45,0,Medium
+INV-00142,CloudBridge Ltd,HR,Security Service,4928.2,2025-11-27,2026-01-11,2025-12-09,12,45,1,0,0,1,Low,No risk detected,Escalate to manager,45,1,Medium
+INV-00143,DataCore Systems,Procurement,Consulting Service,4420.13,2025-04-01,2025-04-16,2025-04-06,5,15,0,1,1,0,High,Duplicate invoice detected,Send for manual review,15,0,Medium
+INV-00144,Alpha Consulting,Risk Management,Security Service,16110.5,2025-11-18,2026-01-02,2025-12-08,20,45,1,0,0,1,Low,No risk detected,Escalate to manager,45,1,Large
+INV-00145,CloudBridge Ltd,Operations,Office Supplies,15821.49,2025-06-30,2025-07-15,2025-07-09,9,15,1,0,0,0,Low,No risk detected,Approve for payment,15,0,Large
+INV-00146,Alpha Consulting,Finance,Software License,9281.57,2025-11-27,2025-12-12,2025-12-07,10,15,1,1,0,0,High,Duplicate invoice detected,Send for manual review,15,0,Medium
+INV-00147,TechNova Solutions,Operations,Security Service,16330.75,2025-09-14,2025-11-13,2025-09-25,11,60,1,0,0,1,Low,No risk detected,Escalate to manager,60,1,Large
+INV-00148,CloudBridge Ltd,Procurement,Logistics,2199.8,2025-05-07,2025-05-22,2025-05-13,6,15,0,1,1,0,High,Duplicate invoice detected,Send for manual review,15,0,Medium
+INV-00149,DataCore Systems,Procurement,Cloud Infrastructure,22956.63,2025-06-23,2025-08-22,2025-07-06,13,60,1,0,0,1,Low,No risk detected,Escalate to manager,60,1,Large
+INV-00150,NetSecure Inc,Finance,Security Service,16991.65,2025-11-05,2025-12-20,2025-11-15,10,45,1,0,0,0,Low,No risk detected,Approve for payment,45,0,Large
+INV-00151,DataCore Systems,Procurement,Cloud Infrastructure,24195.64,2025-11-01,2025-12-01,2025-11-14,13,30,1,0,1,1,Medium,Vendor has previous delays,Escalate to manager,30,1,Large
+INV-00152,GreenLogix,Risk Management,Cloud Infrastructure,20348.3,2025-11-27,2025-12-12,2025-12-14,17,15,0,0,0,1,High,Amount exceeds approval limit,Escalate to manager,15,1,Large
+INV-00153,NetSecure Inc,Procurement,Consulting Service,23784.12,2025-04-09,2025-06-08,2025-04-20,11,60,1,0,0,1,Low,No risk detected,Escalate to manager,60,1,Large
+INV-00154,CloudBridge Ltd,Procurement,Software License,12741.47,2025-06-22,2025-07-07,2025-07-10,18,15,1,1,0,1,High,Duplicate invoice detected,Escalate to manager,15,1,Large
+INV-00155,DataCore Systems,IT,Logistics,19300.34,2025-01-23,2025-03-24,2025-01-29,6,60,0,0,1,0,High,Amount exceeds approval limit,Send for manual review,60,0,Large
+INV-00156,FinEdge Services,Operations,Security Service,7194.71,2025-10-01,2025-10-31,2025-10-16,15,30,1,0,0,1,Low,No risk detected,Escalate to manager,30,1,Medium
+INV-00157,FinEdge Services,Procurement,Logistics,23683.54,2025-05-25,2025-07-24,2025-06-09,15,60,0,1,0,1,High,Duplicate invoice detected,Escalate to manager,60,1,Large
+INV-00158,FinEdge Services,HR,Consulting Service,21837.75,2025-07-10,2025-09-08,2025-07-12,2,60,1,0,0,0,Low,No risk detected,Approve for payment,60,0,Large
+INV-00159,CloudBridge Ltd,IT,Cloud Infrastructure,11288.05,2025-08-12,2025-09-11,2025-08-29,17,30,1,0,0,1,Low,No risk detected,Escalate to manager,30,1,Large
+INV-00160,NetSecure Inc,Finance,Office Supplies,1426.1,2025-05-01,2025-06-15,2025-05-18,17,45,0,0,0,1,Medium,Missing purchase order,Escalate to manager,45,1,Medium
+INV-00161,FinEdge Services,Finance,Cloud Infrastructure,23277.57,2025-03-12,2025-04-11,2025-03-23,11,30,1,0,0,1,Low,No risk detected,Escalate to manager,30,1,Large
+INV-00162,DataCore Systems,Risk Management,Office Supplies,11270.18,2025-01-10,2025-01-25,2025-01-11,1,15,1,0,0,0,Low,No risk detected,Approve for payment,15,0,Large
+INV-00163,GreenLogix,Finance,Cloud Infrastructure,6017.24,2025-05-03,2025-05-18,2025-05-07,4,15,0,1,0,0,High,Duplicate invoice detected,Send for manual review,15,0,Medium
+INV-00164,CloudBridge Ltd,Operations,Security Service,13447.74,2025-03-15,2025-04-14,2025-04-01,17,30,1,1,0,1,High,Duplicate invoice detected,Escalate to manager,30,1,Large
+INV-00165,NetSecure Inc,IT,Security Service,10472.53,2025-02-04,2025-03-21,2025-02-07,3,45,1,1,0,0,High,Duplicate invoice detected,Send for manual review,45,0,Large
+INV-00166,TechNova Solutions,Risk Management,Office Supplies,24527.88,2025-07-02,2025-07-17,2025-07-11,9,15,1,0,0,0,Low,No risk detected,Approve for payment,15,0,Large
+INV-00167,CloudBridge Ltd,HR,Logistics,18941.31,2025-06-30,2025-07-15,2025-07-05,5,15,1,0,1,0,Medium,Vendor has previous delays,Request missing information,15,0,Large
+INV-00168,Alpha Consulting,Risk Management,Office Supplies,15830.22,2025-08-23,2025-09-07,2025-08-28,5,15,1,0,0,0,Low,No risk detected,Approve for payment,15,0,Large
+INV-00169,TechNova Solutions,IT,Software License,7958.34,2025-10-06,2025-12-05,2025-10-16,10,60,0,0,0,0,Medium,Missing purchase order,Request missing information,60,0,Medium
+INV-00170,FinEdge Services,Procurement,Cloud Infrastructure,21567.25,2025-05-20,2025-07-04,2025-05-22,2,45,1,0,0,0,Low,No risk detected,Approve for payment,45,0,Large
+INV-00171,GreenLogix,Risk Management,Office Supplies,22376.47,2025-04-06,2025-05-21,2025-04-19,13,45,0,1,0,1,High,Duplicate invoice detected,Escalate to manager,45,1,Large
+INV-00172,OfficePlus Group,Finance,Logistics,10670.04,2025-10-07,2025-11-06,2025-10-21,14,30,1,0,0,1,Low,No risk detected,Escalate to manager,30,1,Large
+INV-00173,CloudBridge Ltd,Procurement,Logistics,7461.43,2025-03-27,2025-05-26,2025-04-11,15,60,0,0,0,1,Medium,Missing purchase order,Escalate to manager,60,1,Medium
+INV-00174,TechNova Solutions,Risk Management,Cloud Infrastructure,15409.8,2025-11-24,2026-01-08,2025-12-08,14,45,1,0,1,1,Medium,Vendor has previous delays,Escalate to manager,45,1,Large
+INV-00175,GreenLogix,Procurement,Security Service,20047.29,2025-03-15,2025-03-30,2025-03-21,6,15,0,0,0,0,High,Amount exceeds approval limit,Send for manual review,15,0,Large
+INV-00176,CloudBridge Ltd,IT,Logistics,9221.58,2025-11-06,2025-11-21,2025-11-19,13,15,1,1,0,1,High,Duplicate invoice detected,Escalate to manager,15,1,Medium
+INV-00177,NetSecure Inc,Operations,Software License,14390.65,2025-07-23,2025-09-06,2025-08-09,17,45,1,0,0,1,Low,No risk detected,Escalate to manager,45,1,Large
+INV-00178,CloudBridge Ltd,Finance,Logistics,4732.6,2025-10-15,2025-12-14,2025-11-01,17,60,1,0,0,1,Low,No risk detected,Escalate to manager,60,1,Medium
+INV-00179,Alpha Consulting,IT,Security Service,7210.86,2025-03-04,2025-04-03,2025-03-20,16,30,1,0,0,1,Low,No risk detected,Escalate to manager,30,1,Medium
+INV-00180,DataCore Systems,Risk Management,Office Supplies,24931.83,2025-02-03,2025-03-20,2025-02-14,11,45,1,0,0,1,Low,No risk detected,Escalate to manager,45,1,Large
+INV-00181,DataCore Systems,Procurement,Security Service,5683.62,2025-05-02,2025-06-01,2025-05-09,7,30,0,0,0,0,Medium,Missing purchase order,Request missing information,30,0,Medium
+INV-00182,NetSecure Inc,Operations,Security Service,3331.3,2025-06-08,2025-06-23,2025-06-11,3,15,0,1,1,0,High,Duplicate invoice detected,Send for manual review,15,0,Medium
+INV-00183,GreenLogix,Operations,Security Service,1936.39,2025-08-19,2025-09-03,2025-08-30,11,15,0,0,0,1,Medium,Missing purchase order,Escalate to manager,15,1,Medium
+INV-00184,DataCore Systems,IT,Office Supplies,12621.31,2025-09-23,2025-10-08,2025-09-25,2,15,1,0,0,0,Low,No risk detected,Approve for payment,15,0,Large
+INV-00185,DataCore Systems,Procurement,Logistics,5714.21,2025-02-10,2025-03-27,2025-02-27,17,45,1,0,1,1,Medium,Vendor has previous delays,Escalate to manager,45,1,Medium
+INV-00186,OfficePlus Group,IT,Logistics,7640.33,2025-09-15,2025-09-30,2025-10-03,18,15,1,0,0,1,Low,No risk detected,Escalate to manager,15,1,Medium
+INV-00187,NetSecure Inc,HR,Software License,20648.38,2025-01-24,2025-02-08,2025-01-25,1,15,1,0,1,0,Medium,Vendor has previous delays,Request missing information,15,0,Large
+INV-00188,GreenLogix,HR,Logistics,854.12,2025-11-25,2026-01-09,2025-12-13,18,45,1,1,0,1,High,Duplicate invoice detected,Escalate to manager,45,1,Small
+INV-00189,GreenLogix,Procurement,Office Supplies,1917.03,2025-08-14,2025-09-13,2025-08-16,2,30,0,1,0,0,High,Duplicate invoice detected,Send for manual review,30,0,Medium
+INV-00190,FinEdge Services,Procurement,Security Service,3677.35,2025-07-24,2025-09-07,2025-08-04,11,45,1,0,1,1,Medium,Vendor has previous delays,Escalate to manager,45,1,Medium
+INV-00191,CloudBridge Ltd,Procurement,Consulting Service,11715.17,2025-05-07,2025-07-06,2025-05-16,9,60,1,0,0,0,Low,No risk detected,Approve for payment,60,0,Large
+INV-00192,OfficePlus Group,Operations,Security Service,10511.56,2025-10-23,2025-12-07,2025-10-29,6,45,1,0,0,0,Low,No risk detected,Approve for payment,45,0,Large
+INV-00193,Alpha Consulting,HR,Office Supplies,12519.12,2025-01-12,2025-03-13,2025-01-22,10,60,1,1,1,0,High,Duplicate invoice detected,Send for manual review,60,0,Large
+INV-00194,Alpha Consulting,IT,Consulting Service,14625.27,2025-05-25,2025-06-09,2025-05-27,2,15,0,1,0,0,High,Duplicate invoice detected,Send for manual review,15,0,Large
+INV-00195,TechNova Solutions,Finance,Office Supplies,3434.98,2025-07-26,2025-09-09,2025-08-04,9,45,1,0,0,0,Low,No risk detected,Approve for payment,45,0,Medium
+INV-00196,TechNova Solutions,HR,Security Service,4946.92,2025-02-07,2025-03-24,2025-02-25,18,45,0,1,1,1,High,Duplicate invoice detected,Escalate to manager,45,1,Medium
+INV-00197,OfficePlus Group,HR,Logistics,15314.97,2025-07-21,2025-08-05,2025-07-26,5,15,1,0,1,0,Medium,Vendor has previous delays,Request missing information,15,0,Large
+INV-00198,NetSecure Inc,IT,Consulting Service,15101.33,2025-01-24,2025-02-08,2025-02-06,13,15,1,0,1,1,Medium,Vendor has previous delays,Escalate to manager,15,1,Large
+INV-00199,NetSecure Inc,Operations,Security Service,11479.02,2025-06-17,2025-07-17,2025-07-07,20,30,1,0,0,1,Low,No risk detected,Escalate to manager,30,1,Large
+INV-00200,OfficePlus Group,HR,Cloud Infrastructure,12732.14,2025-10-16,2025-12-15,2025-11-02,17,60,1,1,0,1,High,Duplicate invoice detected,Escalate to manager,60,1,Large
+INV-00201,NetSecure Inc,Procurement,Logistics,2829.15,2025-11-19,2026-01-03,2025-12-03,14,45,1,1,0,1,High,Duplicate invoice detected,Escalate to manager,45,1,Medium
+INV-00202,FinEdge Services,Risk Management,Software License,14629.73,2025-03-17,2025-05-16,2025-03-23,6,60,1,0,1,0,Medium,Vendor has previous delays,Request missing information,60,0,Large
+INV-00203,CloudBridge Ltd,IT,Software License,11081.86,2025-07-31,2025-08-30,2025-08-14,14,30,1,1,1,1,High,Duplicate invoice detected,Escalate to manager,30,1,Large
+INV-00204,Alpha Consulting,Risk Management,Logistics,1650.8,2025-10-15,2025-11-14,2025-10-20,5,30,1,1,1,0,High,Duplicate invoice detected,Send for manual review,30,0,Medium
+INV-00205,GreenLogix,Procurement,Consulting Service,11545.62,2025-10-07,2025-11-21,2025-10-25,18,45,1,0,1,1,Medium,Vendor has previous delays,Escalate to manager,45,1,Large
+INV-00206,Alpha Consulting,IT,Consulting Service,7047.26,2025-06-02,2025-07-02,2025-06-12,10,30,1,0,1,0,Medium,Vendor has previous delays,Request missing information,30,0,Medium
+INV-00207,Alpha Consulting,Procurement,Office Supplies,8785.2,2025-03-04,2025-04-18,2025-03-13,9,45,0,1,0,0,High,Duplicate invoice detected,Send for manual review,45,0,Medium
+INV-00208,DataCore Systems,Procurement,Software License,7262.0,2025-08-15,2025-09-29,2025-08-18,3,45,1,1,0,0,High,Duplicate invoice detected,Send for manual review,45,0,Medium
+INV-00209,FinEdge Services,HR,Cloud Infrastructure,23332.3,2025-02-25,2025-03-27,2025-03-06,9,30,1,0,0,0,Low,No risk detected,Approve for payment,30,0,Large
+INV-00210,FinEdge Services,Risk Management,Consulting Service,1407.03,2025-08-30,2025-10-14,2025-09-13,14,45,1,0,0,1,Low,No risk detected,Escalate to manager,45,1,Medium
+INV-00211,DataCore Systems,Operations,Logistics,23382.3,2025-04-13,2025-06-12,2025-04-29,16,60,1,0,0,1,Low,No risk detected,Escalate to manager,60,1,Large
+INV-00212,TechNova Solutions,Finance,Logistics,14395.92,2025-03-31,2025-04-15,2025-04-18,18,15,0,0,0,1,Medium,Missing purchase order,Escalate to manager,15,1,Large
+INV-00213,GreenLogix,Operations,Consulting Service,23421.56,2025-01-05,2025-01-20,2025-01-15,10,15,1,0,0,0,Low,No risk detected,Approve for payment,15,0,Large
+INV-00214,OfficePlus Group,Operations,Logistics,13628.18,2025-09-16,2025-10-16,2025-10-02,16,30,0,0,0,1,Medium,Missing purchase order,Escalate to manager,30,1,Large
+INV-00215,CloudBridge Ltd,Procurement,Consulting Service,18304.87,2025-01-08,2025-02-07,2025-01-17,9,30,1,0,1,0,Medium,Vendor has previous delays,Request missing information,30,0,Large
+INV-00216,FinEdge Services,IT,Security Service,21418.05,2025-09-21,2025-11-20,2025-10-04,13,60,1,0,0,1,Low,No risk detected,Escalate to manager,60,1,Large
+INV-00217,CloudBridge Ltd,IT,Consulting Service,11988.61,2025-05-14,2025-05-29,2025-05-22,8,15,0,0,0,0,Medium,Missing purchase order,Request missing information,15,0,Large
+INV-00218,OfficePlus Group,Procurement,Cloud Infrastructure,14603.27,2025-05-14,2025-05-29,2025-06-02,19,15,1,0,0,1,Low,No risk detected,Escalate to manager,15,1,Large
+INV-00219,CloudBridge Ltd,Operations,Cloud Infrastructure,4076.95,2025-03-02,2025-04-16,2025-03-19,17,45,1,0,1,1,Medium,Vendor has previous delays,Escalate to manager,45,1,Medium
+INV-00220,FinEdge Services,IT,Consulting Service,12006.73,2025-08-01,2025-09-15,2025-08-16,15,45,0,0,0,1,Medium,Missing purchase order,Escalate to manager,45,1,Large
+INV-00221,CloudBridge Ltd,HR,Office Supplies,13251.51,2025-10-16,2025-10-31,2025-10-28,12,15,1,0,1,1,Medium,Vendor has previous delays,Escalate to manager,15,1,Large
+INV-00222,FinEdge Services,HR,Security Service,3831.32,2025-03-01,2025-04-30,2025-03-12,11,60,1,1,0,1,High,Duplicate invoice detected,Escalate to manager,60,1,Medium
+INV-00223,Alpha Consulting,Finance,Office Supplies,3385.41,2025-10-16,2025-12-15,2025-10-30,14,60,1,1,1,1,High,Duplicate invoice detected,Escalate to manager,60,1,Medium
+INV-00224,OfficePlus Group,Risk Management,Software License,9959.12,2025-10-24,2025-11-23,2025-10-25,1,30,1,0,0,0,Low,No risk detected,Approve for payment,30,0,Medium
+INV-00225,NetSecure Inc,Risk Management,Software License,13574.97,2025-08-30,2025-09-14,2025-09-01,2,15,1,0,0,0,Low,No risk detected,Approve for payment,15,0,Large
+INV-00226,DataCore Systems,IT,Logistics,24460.5,2025-07-15,2025-08-29,2025-07-29,14,45,0,1,0,1,High,Duplicate invoice detected,Escalate to manager,45,1,Large
+INV-00227,CloudBridge Ltd,Risk Management,Logistics,21876.39,2025-03-02,2025-04-16,2025-03-07,5,45,1,1,1,0,High,Duplicate invoice detected,Send for manual review,45,0,Large
+INV-00228,DataCore Systems,Risk Management,Consulting Service,20887.06,2025-08-26,2025-10-10,2025-08-27,1,45,0,1,0,0,High,Duplicate invoice detected,Send for manual review,45,0,Large
+INV-00229,FinEdge Services,Operations,Cloud Infrastructure,3962.52,2025-01-17,2025-02-01,2025-01-24,7,15,0,0,0,0,Medium,Missing purchase order,Request missing information,15,0,Medium
+INV-00230,FinEdge Services,Finance,Software License,14889.21,2025-05-06,2025-05-21,2025-05-21,15,15,1,1,0,1,High,Duplicate invoice detected,Escalate to manager,15,1,Large
+INV-00231,FinEdge Services,HR,Consulting Service,18884.2,2025-09-15,2025-10-15,2025-09-17,2,30,1,0,1,0,Medium,Vendor has previous delays,Request missing information,30,0,Large
+INV-00232,NetSecure Inc,HR,Security Service,19336.2,2025-06-04,2025-07-04,2025-06-15,11,30,1,0,0,1,Low,No risk detected,Escalate to manager,30,1,Large
+INV-00233,OfficePlus Group,Procurement,Software License,13962.28,2025-11-17,2025-12-17,2025-12-06,19,30,0,1,0,1,High,Duplicate invoice detected,Escalate to manager,30,1,Large
+INV-00234,NetSecure Inc,Risk Management,Logistics,9590.75,2025-08-02,2025-09-16,2025-08-19,17,45,0,0,0,1,Medium,Missing purchase order,Escalate to manager,45,1,Medium
+INV-00235,GreenLogix,IT,Security Service,11890.62,2025-03-15,2025-04-29,2025-03-23,8,45,0,0,1,0,Medium,Missing purchase order,Request missing information,45,0,Large
+INV-00236,GreenLogix,Operations,Security Service,13296.8,2025-05-11,2025-06-10,2025-05-24,13,30,1,0,1,1,Medium,Vendor has previous delays,Escalate to manager,30,1,Large
+INV-00237,CloudBridge Ltd,Operations,Cloud Infrastructure,2402.35,2025-05-18,2025-06-02,2025-05-25,7,15,0,0,0,0,Medium,Missing purchase order,Request missing information,15,0,Medium
+INV-00238,FinEdge Services,HR,Logistics,16819.12,2025-04-17,2025-06-16,2025-04-24,7,60,1,0,0,0,Low,No risk detected,Approve for payment,60,0,Large
+INV-00239,FinEdge Services,IT,Logistics,3021.17,2025-11-06,2025-12-06,2025-11-22,16,30,1,1,0,1,High,Duplicate invoice detected,Escalate to manager,30,1,Medium
+INV-00240,NetSecure Inc,Procurement,Office Supplies,11709.64,2025-05-14,2025-06-28,2025-05-26,12,45,1,1,0,1,High,Duplicate invoice detected,Escalate to manager,45,1,Large
+INV-00241,CloudBridge Ltd,Risk Management,Office Supplies,19064.56,2025-07-09,2025-08-08,2025-07-20,11,30,1,1,0,1,High,Duplicate invoice detected,Escalate to manager,30,1,Large
+INV-00242,FinEdge Services,Risk Management,Consulting Service,503.88,2025-06-01,2025-07-31,2025-06-19,18,60,1,0,0,1,Low,No risk detected,Escalate to manager,60,1,Small
+INV-00243,FinEdge Services,Operations,Security Service,20850.73,2025-05-12,2025-06-26,2025-05-28,16,45,0,1,0,1,High,Duplicate invoice detected,Escalate to manager,45,1,Large
+INV-00244,DataCore Systems,Risk Management,Cloud Infrastructure,4314.72,2025-04-05,2025-06-04,2025-04-23,18,60,1,0,0,1,Low,No risk detected,Escalate to manager,60,1,Medium
+INV-00245,TechNova Solutions,Finance,Office Supplies,3523.54,2025-03-19,2025-04-03,2025-03-27,8,15,1,0,1,0,Medium,Vendor has previous delays,Request missing information,15,0,Medium
+INV-00246,Alpha Consulting,Procurement,Software License,15484.1,2025-09-07,2025-11-06,2025-09-27,20,60,1,0,1,1,Medium,Vendor has previous delays,Escalate to manager,60,1,Large
+INV-00247,GreenLogix,Finance,Software License,13282.5,2025-01-09,2025-02-23,2025-01-18,9,45,0,0,0,0,Medium,Missing purchase order,Request missing information,45,0,Large
+INV-00248,CloudBridge Ltd,HR,Consulting Service,6100.12,2025-07-01,2025-08-15,2025-07-21,20,45,1,1,0,1,High,Duplicate invoice detected,Escalate to manager,45,1,Medium
+INV-00249,NetSecure Inc,Operations,Office Supplies,14168.55,2025-02-11,2025-03-28,2025-02-19,8,45,1,0,0,0,Low,No risk detected,Approve for payment,45,0,Large
+INV-00250,GreenLogix,Operations,Security Service,11952.53,2025-02-12,2025-03-14,2025-02-13,1,30,0,1,1,0,High,Duplicate invoice detected,Send for manual review,30,0,Large
+INV-00251,NetSecure Inc,HR,Software License,22380.3,2025-04-19,2025-05-19,2025-04-21,2,30,0,0,0,0,High,Amount exceeds approval limit,Send for manual review,30,0,Large
+INV-00252,CloudBridge Ltd,Risk Management,Cloud Infrastructure,22492.86,2025-04-02,2025-04-17,2025-04-21,19,15,1,0,0,1,Low,No risk detected,Escalate to manager,15,1,Large
+INV-00253,DataCore Systems,Risk Management,Office Supplies,23228.99,2025-10-16,2025-11-15,2025-10-26,10,30,1,1,1,0,High,Duplicate invoice detected,Send for manual review,30,0,Large
+INV-00254,NetSecure Inc,Operations,Logistics,3584.77,2025-01-28,2025-03-14,2025-01-31,3,45,1,1,0,0,High,Duplicate invoice detected,Send for manual review,45,0,Medium
+INV-00255,CloudBridge Ltd,Procurement,Security Service,19248.24,2025-06-17,2025-08-16,2025-07-07,20,60,1,0,0,1,Low,No risk detected,Escalate to manager,60,1,Large
+INV-00256,Alpha Consulting,IT,Cloud Infrastructure,13870.64,2025-04-06,2025-06-05,2025-04-19,13,60,0,0,1,1,Medium,Missing purchase order,Escalate to manager,60,1,Large
+INV-00257,OfficePlus Group,IT,Logistics,1930.32,2025-07-14,2025-08-13,2025-07-23,9,30,1,1,0,0,High,Duplicate invoice detected,Send for manual review,30,0,Medium
+INV-00258,NetSecure Inc,Finance,Software License,229.36,2025-07-04,2025-09-02,2025-07-14,10,60,1,0,0,0,Low,No risk detected,Approve for payment,60,0,Small
+INV-00259,CloudBridge Ltd,IT,Office Supplies,11276.21,2025-02-22,2025-04-23,2025-03-12,18,60,1,0,0,1,Low,No risk detected,Escalate to manager,60,1,Large
+INV-00260,CloudBridge Ltd,HR,Security Service,19632.52,2025-05-30,2025-06-14,2025-06-12,13,15,0,1,0,1,High,Duplicate invoice detected,Escalate to manager,15,1,Large
+INV-00261,FinEdge Services,HR,Security Service,4322.61,2025-03-13,2025-04-12,2025-03-26,13,30,1,0,0,1,Low,No risk detected,Escalate to manager,30,1,Medium
+INV-00262,Alpha Consulting,IT,Software License,4263.46,2025-06-03,2025-08-02,2025-06-12,9,60,0,0,0,0,Medium,Missing purchase order,Request missing information,60,0,Medium
+INV-00263,OfficePlus Group,IT,Logistics,15663.34,2025-08-23,2025-09-22,2025-09-12,20,30,1,0,0,1,Low,No risk detected,Escalate to manager,30,1,Large
+INV-00264,TechNova Solutions,Operations,Cloud Infrastructure,21056.17,2025-08-14,2025-09-28,2025-08-27,13,45,1,1,1,1,High,Duplicate invoice detected,Escalate to manager,45,1,Large
+INV-00265,DataCore Systems,Procurement,Cloud Infrastructure,15119.96,2025-06-10,2025-08-09,2025-06-17,7,60,1,1,0,0,High,Duplicate invoice detected,Send for manual review,60,0,Large
+INV-00266,OfficePlus Group,Risk Management,Logistics,15859.27,2025-06-16,2025-07-16,2025-07-05,19,30,0,0,0,1,High,Amount exceeds approval limit,Escalate to manager,30,1,Large
+INV-00267,NetSecure Inc,Finance,Security Service,5075.02,2025-10-09,2025-11-08,2025-10-27,18,30,1,1,1,1,High,Duplicate invoice detected,Escalate to manager,30,1,Medium
+INV-00268,FinEdge Services,Operations,Cloud Infrastructure,20798.92,2025-09-13,2025-11-12,2025-09-16,3,60,1,0,0,0,Low,No risk detected,Approve for payment,60,0,Large
+INV-00269,OfficePlus Group,Risk Management,Consulting Service,17909.39,2025-08-18,2025-09-02,2025-08-31,13,15,0,1,1,1,High,Duplicate invoice detected,Escalate to manager,15,1,Large
+INV-00270,GreenLogix,HR,Software License,19788.95,2025-02-25,2025-03-12,2025-03-09,12,15,1,0,0,1,Low,No risk detected,Escalate to manager,15,1,Large
+INV-00271,TechNova Solutions,HR,Logistics,16969.05,2025-08-09,2025-09-23,2025-08-22,13,45,1,0,0,1,Low,No risk detected,Escalate to manager,45,1,Large
+INV-00272,OfficePlus Group,IT,Security Service,18696.64,2025-08-17,2025-09-16,2025-09-04,18,30,1,1,0,1,High,Duplicate invoice detected,Escalate to manager,30,1,Large
+INV-00273,DataCore Systems,Procurement,Software License,12121.0,2025-02-13,2025-04-14,2025-02-23,10,60,1,0,0,0,Low,No risk detected,Approve for payment,60,0,Large
+INV-00274,OfficePlus Group,Procurement,Office Supplies,19628.32,2025-06-28,2025-08-27,2025-07-15,17,60,0,0,0,1,High,Amount exceeds approval limit,Escalate to manager,60,1,Large
+INV-00275,Alpha Consulting,Procurement,Software License,7576.58,2025-06-25,2025-07-10,2025-06-29,4,15,1,0,1,0,Medium,Vendor has previous delays,Request missing information,15,0,Medium
+INV-00276,FinEdge Services,HR,Consulting Service,13842.57,2025-08-25,2025-10-24,2025-09-05,11,60,1,1,1,1,High,Duplicate invoice detected,Escalate to manager,60,1,Large
+INV-00277,DataCore Systems,IT,Logistics,16466.97,2025-11-11,2025-11-26,2025-11-24,13,15,1,1,1,1,High,Duplicate invoice detected,Escalate to manager,15,1,Large
+INV-00278,GreenLogix,Operations,Software License,17647.92,2025-02-02,2025-03-19,2025-02-09,7,45,1,0,0,0,Low,No risk detected,Approve for payment,45,0,Large
+INV-00279,NetSecure Inc,IT,Office Supplies,2937.48,2025-11-02,2025-12-17,2025-11-18,16,45,0,1,1,1,High,Duplicate invoice detected,Escalate to manager,45,1,Medium
+INV-00280,CloudBridge Ltd,Procurement,Cloud Infrastructure,21153.39,2025-06-02,2025-07-02,2025-06-22,20,30,1,0,0,1,Low,No risk detected,Escalate to manager,30,1,Large
+INV-00281,CloudBridge Ltd,IT,Cloud Infrastructure,3012.03,2025-09-19,2025-10-19,2025-10-01,12,30,0,1,1,1,High,Duplicate invoice detected,Escalate to manager,30,1,Medium
+INV-00282,DataCore Systems,HR,Office Supplies,10633.67,2025-10-12,2025-11-11,2025-10-28,16,30,1,1,0,1,High,Duplicate invoice detected,Escalate to manager,30,1,Large
+INV-00283,DataCore Systems,IT,Cloud Infrastructure,21065.43,2025-07-03,2025-07-18,2025-07-23,20,15,1,1,0,1,High,Duplicate invoice detected,Escalate to manager,15,1,Large
+INV-00284,FinEdge Services,Operations,Security Service,12685.41,2025-09-09,2025-11-08,2025-09-25,16,60,0,1,0,1,High,Duplicate invoice detected,Escalate to manager,60,1,Large
+INV-00285,DataCore Systems,Finance,Security Service,868.43,2025-01-17,2025-03-03,2025-01-25,8,45,1,0,1,0,Medium,Vendor has previous delays,Request missing information,45,0,Small
+INV-00286,OfficePlus Group,IT,Office Supplies,14184.7,2025-10-21,2025-11-05,2025-11-06,16,15,1,0,1,1,Medium,Vendor has previous delays,Escalate to manager,15,1,Large
+INV-00287,NetSecure Inc,HR,Software License,19024.1,2025-08-06,2025-09-05,2025-08-21,15,30,1,0,0,1,Low,No risk detected,Escalate to manager,30,1,Large
+INV-00288,TechNova Solutions,Operations,Cloud Infrastructure,8779.57,2025-03-02,2025-05-01,2025-03-05,3,60,1,0,1,0,Medium,Vendor has previous delays,Request missing information,60,0,Medium
+INV-00289,NetSecure Inc,Risk Management,Security Service,15855.99,2025-04-16,2025-05-16,2025-04-22,6,30,1,0,1,0,Medium,Vendor has previous delays,Request missing information,30,0,Large
+INV-00290,NetSecure Inc,HR,Cloud Infrastructure,14961.76,2025-05-30,2025-07-14,2025-06-05,6,45,1,0,1,0,Medium,Vendor has previous delays,Request missing information,45,0,Large
+INV-00291,CloudBridge Ltd,IT,Office Supplies,22977.34,2025-03-09,2025-04-08,2025-03-18,9,30,1,0,1,0,Medium,Vendor has previous delays,Request missing information,30,0,Large
+INV-00292,NetSecure Inc,IT,Logistics,9878.25,2025-11-18,2026-01-02,2025-11-23,5,45,0,1,0,0,High,Duplicate invoice detected,Send for manual review,45,0,Medium
+INV-00293,CloudBridge Ltd,Risk Management,Software License,10130.98,2025-08-21,2025-10-05,2025-08-30,9,45,0,0,1,0,Medium,Missing purchase order,Request missing information,45,0,Large
+INV-00294,TechNova Solutions,Risk Management,Software License,18300.21,2025-02-02,2025-03-19,2025-02-17,15,45,0,0,0,1,High,Amount exceeds approval limit,Escalate to manager,45,1,Large
+INV-00295,FinEdge Services,Operations,Cloud Infrastructure,8139.34,2025-10-08,2025-11-22,2025-10-18,10,45,1,1,0,0,High,Duplicate invoice detected,Send for manual review,45,0,Medium
+INV-00296,TechNova Solutions,Finance,Software License,15691.87,2025-03-05,2025-03-20,2025-03-20,15,15,1,1,0,1,High,Duplicate invoice detected,Escalate to manager,15,1,Large
+INV-00297,TechNova Solutions,Operations,Consulting Service,24892.78,2025-03-23,2025-05-07,2025-03-28,5,45,1,0,1,0,Medium,Vendor has previous delays,Request missing information,45,0,Large
+INV-00298,NetSecure Inc,Procurement,Software License,9358.91,2025-07-22,2025-08-06,2025-07-28,6,15,1,0,0,0,Low,No risk detected,Approve for payment,15,0,Medium
+INV-00299,CloudBridge Ltd,Risk Management,Software License,127.05,2025-03-09,2025-03-24,2025-03-25,16,15,1,1,0,1,High,Duplicate invoice detected,Escalate to manager,15,1,Small
+INV-00300,TechNova Solutions,Risk Management,Cloud Infrastructure,20446.01,2025-09-02,2025-10-02,2025-09-16,14,30,1,0,0,1,Low,No risk detected,Escalate to manager,30,1,Large
+INV-00301,CloudBridge Ltd,Risk Management,Software License,2669.72,2025-03-12,2025-04-26,2025-03-24,12,45,0,0,1,1,Medium,Missing purchase order,Escalate to manager,45,1,Medium
+INV-00302,DataCore Systems,Finance,Security Service,14125.95,2025-08-14,2025-09-13,2025-09-03,20,30,1,0,1,1,Medium,Vendor has previous delays,Escalate to manager,30,1,Large
+INV-00303,DataCore Systems,Operations,Security Service,17195.5,2025-02-21,2025-03-08,2025-02-28,7,15,1,0,1,0,Medium,Vendor has previous delays,Request missing information,15,0,Large
+INV-00304,GreenLogix,Procurement,Office Supplies,7931.14,2025-05-22,2025-06-21,2025-05-27,5,30,1,0,1,0,Medium,Vendor has previous delays,Request missing information,30,0,Medium
+INV-00305,OfficePlus Group,Risk Management,Software License,21212.51,2025-09-23,2025-10-23,2025-10-03,10,30,1,1,0,0,High,Duplicate invoice detected,Send for manual review,30,0,Large
+INV-00306,TechNova Solutions,IT,Office Supplies,9708.55,2025-11-23,2026-01-22,2025-12-01,8,60,1,0,0,0,Low,No risk detected,Approve for payment,60,0,Medium
+INV-00307,NetSecure Inc,IT,Office Supplies,21534.27,2025-07-07,2025-09-05,2025-07-26,19,60,1,1,0,1,High,Duplicate invoice detected,Escalate to manager,60,1,Large
+INV-00308,TechNova Solutions,HR,Software License,443.46,2025-01-31,2025-02-15,2025-02-07,7,15,0,0,1,0,Medium,Missing purchase order,Request missing information,15,0,Small
+INV-00309,GreenLogix,Operations,Logistics,10116.71,2025-05-23,2025-06-22,2025-06-10,18,30,1,0,0,1,Low,No risk detected,Escalate to manager,30,1,Large
+INV-00310,FinEdge Services,IT,Security Service,8236.08,2025-06-08,2025-06-23,2025-06-27,19,15,0,0,0,1,Medium,Missing purchase order,Escalate to manager,15,1,Medium
+INV-00311,FinEdge Services,Finance,Office Supplies,2988.07,2025-06-08,2025-06-23,2025-06-28,20,15,1,0,0,1,Low,No risk detected,Escalate to manager,15,1,Medium
+INV-00312,DataCore Systems,Risk Management,Software License,4179.43,2025-03-27,2025-05-11,2025-04-08,12,45,1,0,1,1,Medium,Vendor has previous delays,Escalate to manager,45,1,Medium
+INV-00313,OfficePlus Group,Risk Management,Software License,19308.61,2025-08-08,2025-09-22,2025-08-09,1,45,1,0,0,0,Low,No risk detected,Approve for payment,45,0,Large
+INV-00314,CloudBridge Ltd,Operations,Office Supplies,12818.47,2025-10-18,2025-12-17,2025-10-20,2,60,1,0,0,0,Low,No risk detected,Approve for payment,60,0,Large
+INV-00315,OfficePlus Group,Finance,Security Service,16885.6,2025-09-18,2025-10-18,2025-09-22,4,30,1,0,0,0,Low,No risk detected,Approve for payment,30,0,Large
+INV-00316,FinEdge Services,Finance,Office Supplies,9163.01,2025-01-19,2025-02-18,2025-01-24,5,30,0,0,0,0,Medium,Missing purchase order,Request missing information,30,0,Medium
+INV-00317,FinEdge Services,Operations,Logistics,8066.38,2025-03-03,2025-04-17,2025-03-06,3,45,1,0,0,0,Low,No risk detected,Approve for payment,45,0,Medium
+INV-00318,TechNova Solutions,Operations,Software License,21937.08,2025-06-17,2025-08-01,2025-06-27,10,45,1,1,0,0,High,Duplicate invoice detected,Send for manual review,45,0,Large
+INV-00319,NetSecure Inc,IT,Cloud Infrastructure,14138.79,2025-08-26,2025-09-25,2025-09-05,10,30,1,1,0,0,High,Duplicate invoice detected,Send for manual review,30,0,Large
+INV-00320,FinEdge Services,IT,Software License,23316.7,2025-10-05,2025-11-04,2025-10-06,1,30,1,0,0,0,Low,No risk detected,Approve for payment,30,0,Large
+INV-00321,TechNova Solutions,Risk Management,Office Supplies,21240.25,2025-04-16,2025-05-01,2025-04-26,10,15,1,1,0,0,High,Duplicate invoice detected,Send for manual review,15,0,Large
+INV-00322,TechNova Solutions,IT,Logistics,7067.65,2025-09-24,2025-10-24,2025-09-26,2,30,0,0,0,0,Medium,Missing purchase order,Request missing information,30,0,Medium
+INV-00323,CloudBridge Ltd,HR,Software License,12685.15,2025-10-31,2025-11-15,2025-11-13,13,15,1,1,1,1,High,Duplicate invoice detected,Escalate to manager,15,1,Large
+INV-00324,DataCore Systems,IT,Cloud Infrastructure,6598.67,2025-06-17,2025-08-16,2025-06-28,11,60,1,1,0,1,High,Duplicate invoice detected,Escalate to manager,60,1,Medium
+INV-00325,FinEdge Services,Finance,Consulting Service,3489.18,2025-03-21,2025-04-05,2025-04-09,19,15,1,0,0,1,Low,No risk detected,Escalate to manager,15,1,Medium
+INV-00326,Alpha Consulting,Procurement,Office Supplies,3106.34,2025-08-20,2025-09-19,2025-09-01,12,30,1,1,0,1,High,Duplicate invoice detected,Escalate to manager,30,1,Medium
+INV-00327,CloudBridge Ltd,Finance,Consulting Service,20209.16,2025-04-21,2025-05-06,2025-05-01,10,15,1,0,0,0,Low,No risk detected,Approve for payment,15,0,Large
+INV-00328,FinEdge Services,Procurement,Office Supplies,12885.15,2025-03-31,2025-05-15,2025-04-10,10,45,1,1,0,0,High,Duplicate invoice detected,Send for manual review,45,0,Large
+INV-00329,FinEdge Services,Finance,Office Supplies,2637.49,2025-01-07,2025-01-22,2025-01-12,5,15,1,0,0,0,Low,No risk detected,Approve for payment,15,0,Medium
+INV-00330,FinEdge Services,Operations,Cloud Infrastructure,17188.5,2025-02-08,2025-03-25,2025-02-11,3,45,1,0,0,0,Low,No risk detected,Approve for payment,45,0,Large
+INV-00331,Alpha Consulting,IT,Software License,22636.44,2025-01-22,2025-02-06,2025-02-02,11,15,0,0,0,1,High,Amount exceeds approval limit,Escalate to manager,15,1,Large
+INV-00332,GreenLogix,Risk Management,Office Supplies,12453.55,2025-03-30,2025-05-29,2025-04-12,13,60,1,0,0,1,Low,No risk detected,Escalate to manager,60,1,Large
+INV-00333,OfficePlus Group,Procurement,Office Supplies,22097.25,2025-06-01,2025-07-01,2025-06-03,2,30,0,1,1,0,High,Duplicate invoice detected,Send for manual review,30,0,Large
+INV-00334,Alpha Consulting,Finance,Software License,7066.42,2025-04-13,2025-06-12,2025-04-18,5,60,1,0,0,0,Low,No risk detected,Approve for payment,60,0,Medium
+INV-00335,NetSecure Inc,Operations,Security Service,19557.73,2025-07-18,2025-09-01,2025-07-30,12,45,1,0,0,1,Low,No risk detected,Escalate to manager,45,1,Large
+INV-00336,NetSecure Inc,HR,Consulting Service,829.66,2025-08-30,2025-09-14,2025-09-08,9,15,1,0,0,0,Low,No risk detected,Approve for payment,15,0,Small
+INV-00337,CloudBridge Ltd,IT,Logistics,6104.7,2025-04-23,2025-05-08,2025-05-11,18,15,0,0,0,1,Medium,Missing purchase order,Escalate to manager,15,1,Medium
+INV-00338,DataCore Systems,IT,Security Service,8018.31,2025-06-30,2025-07-15,2025-07-12,12,15,1,0,0,1,Low,No risk detected,Escalate to manager,15,1,Medium
+INV-00339,OfficePlus Group,IT,Office Supplies,1045.3,2025-11-05,2025-12-05,2025-11-07,2,30,1,0,1,0,Medium,Vendor has previous delays,Request missing information,30,0,Medium
+INV-00340,Alpha Consulting,Finance,Cloud Infrastructure,22955.62,2025-06-24,2025-07-24,2025-07-01,7,30,1,0,0,0,Low,No risk detected,Approve for payment,30,0,Large
+INV-00341,TechNova Solutions,IT,Security Service,17646.94,2025-09-27,2025-10-12,2025-10-02,5,15,1,0,0,0,Low,No risk detected,Approve for payment,15,0,Large
+INV-00342,GreenLogix,HR,Software License,8480.37,2025-03-22,2025-04-21,2025-04-02,11,30,0,1,1,1,High,Duplicate invoice detected,Escalate to manager,30,1,Medium
+INV-00343,NetSecure Inc,IT,Logistics,24221.7,2025-04-25,2025-06-09,2025-05-15,20,45,1,1,0,1,High,Duplicate invoice detected,Escalate to manager,45,1,Large
+INV-00344,OfficePlus Group,IT,Consulting Service,18247.89,2025-10-18,2025-12-17,2025-11-06,19,60,1,0,1,1,Medium,Vendor has previous delays,Escalate to manager,60,1,Large
+INV-00345,NetSecure Inc,HR,Consulting Service,16027.2,2025-03-14,2025-05-13,2025-03-18,4,60,1,0,0,0,Low,No risk detected,Approve for payment,60,0,Large
+INV-00346,NetSecure Inc,Procurement,Consulting Service,15941.05,2025-08-17,2025-10-01,2025-08-20,3,45,1,0,0,0,Low,No risk detected,Approve for payment,45,0,Large
+INV-00347,FinEdge Services,Risk Management,Software License,8826.98,2025-01-25,2025-02-09,2025-01-29,4,15,0,1,1,0,High,Duplicate invoice detected,Send for manual review,15,0,Medium
+INV-00348,GreenLogix,IT,Office Supplies,12377.74,2025-10-07,2025-11-21,2025-10-20,13,45,0,0,0,1,Medium,Missing purchase order,Escalate to manager,45,1,Large
+INV-00349,FinEdge Services,IT,Office Supplies,1935.36,2025-01-11,2025-02-25,2025-01-13,2,45,1,0,0,0,Low,No risk detected,Approve for payment,45,0,Medium
+INV-00350,CloudBridge Ltd,Procurement,Consulting Service,22209.49,2025-10-08,2025-10-23,2025-10-14,6,15,1,0,1,0,Medium,Vendor has previous delays,Request missing information,15,0,Large
+INV-00351,Alpha Consulting,Risk Management,Software License,10839.95,2025-03-22,2025-05-21,2025-03-28,6,60,1,0,0,0,Low,No risk detected,Approve for payment,60,0,Large
+INV-00352,FinEdge Services,IT,Office Supplies,17460.2,2025-05-25,2025-07-09,2025-06-12,18,45,1,0,0,1,Low,No risk detected,Escalate to manager,45,1,Large
+INV-00353,TechNova Solutions,Operations,Security Service,13786.6,2025-01-28,2025-02-27,2025-02-13,16,30,1,0,0,1,Low,No risk detected,Escalate to manager,30,1,Large
+INV-00354,CloudBridge Ltd,Procurement,Logistics,15664.76,2025-02-19,2025-03-21,2025-03-07,16,30,1,0,0,1,Low,No risk detected,Escalate to manager,30,1,Large
+INV-00355,OfficePlus Group,Finance,Office Supplies,21109.85,2025-08-30,2025-10-29,2025-09-09,10,60,0,0,0,0,High,Amount exceeds approval limit,Send for manual review,60,0,Large
+INV-00356,GreenLogix,IT,Cloud Infrastructure,22148.77,2025-08-17,2025-09-16,2025-08-29,12,30,1,0,0,1,Low,No risk detected,Escalate to manager,30,1,Large
+INV-00357,Alpha Consulting,Procurement,Consulting Service,20943.26,2025-03-19,2025-04-03,2025-04-07,19,15,1,0,1,1,Medium,Vendor has previous delays,Escalate to manager,15,1,Large
+INV-00358,NetSecure Inc,HR,Office Supplies,24270.57,2025-10-11,2025-11-10,2025-10-30,19,30,1,1,1,1,High,Duplicate invoice detected,Escalate to manager,30,1,Large
+INV-00359,GreenLogix,HR,Logistics,21685.66,2025-09-01,2025-10-01,2025-09-17,16,30,1,0,0,1,Low,No risk detected,Escalate to manager,30,1,Large
+INV-00360,TechNova Solutions,HR,Security Service,22521.33,2025-03-03,2025-04-02,2025-03-22,19,30,0,0,0,1,High,Amount exceeds approval limit,Escalate to manager,30,1,Large
+INV-00361,FinEdge Services,IT,Consulting Service,1162.63,2025-04-14,2025-06-13,2025-04-17,3,60,1,0,0,0,Low,No risk detected,Approve for payment,60,0,Medium
+INV-00362,CloudBridge Ltd,Finance,Office Supplies,13953.47,2025-05-22,2025-07-06,2025-06-09,18,45,0,0,1,1,Medium,Missing purchase order,Escalate to manager,45,1,Large
+INV-00363,GreenLogix,Finance,Office Supplies,3826.09,2025-02-24,2025-03-11,2025-03-15,19,15,1,0,1,1,Medium,Vendor has previous delays,Escalate to manager,15,1,Medium
+INV-00364,NetSecure Inc,Operations,Cloud Infrastructure,9637.78,2025-01-20,2025-03-21,2025-02-05,16,60,1,0,0,1,Low,No risk detected,Escalate to manager,60,1,Medium
+INV-00365,DataCore Systems,HR,Security Service,17052.24,2025-07-22,2025-08-06,2025-08-04,13,15,1,0,0,1,Low,No risk detected,Escalate to manager,15,1,Large
+INV-00366,Alpha Consulting,Procurement,Cloud Infrastructure,603.8,2025-05-24,2025-07-08,2025-06-03,10,45,0,0,0,0,Medium,Missing purchase order,Request missing information,45,0,Small
+INV-00367,DataCore Systems,Procurement,Logistics,11133.45,2025-08-02,2025-09-16,2025-08-13,11,45,1,0,0,1,Low,No risk detected,Escalate to manager,45,1,Large
+INV-00368,FinEdge Services,Operations,Logistics,12163.06,2025-01-29,2025-03-15,2025-02-15,17,45,1,0,0,1,Low,No risk detected,Escalate to manager,45,1,Large
+INV-00369,GreenLogix,IT,Security Service,21995.38,2025-04-09,2025-05-09,2025-04-10,1,30,1,0,0,0,Low,No risk detected,Approve for payment,30,0,Large
+INV-00370,TechNova Solutions,Operations,Software License,22958.97,2025-07-08,2025-08-22,2025-07-15,7,45,0,1,1,0,High,Duplicate invoice detected,Send for manual review,45,0,Large
+INV-00371,CloudBridge Ltd,Risk Management,Software License,6124.26,2025-04-01,2025-05-31,2025-04-17,16,60,0,0,0,1,Medium,Missing purchase order,Escalate to manager,60,1,Medium
+INV-00372,DataCore Systems,Procurement,Logistics,20788.67,2025-01-15,2025-03-01,2025-01-18,3,45,0,0,0,0,High,Amount exceeds approval limit,Send for manual review,45,0,Large
+INV-00373,FinEdge Services,IT,Logistics,5705.29,2025-07-29,2025-09-12,2025-08-05,7,45,1,0,0,0,Low,No risk detected,Approve for payment,45,0,Medium
+INV-00374,DataCore Systems,Risk Management,Consulting Service,15068.43,2025-05-10,2025-06-09,2025-05-11,1,30,1,0,0,0,Low,No risk detected,Approve for payment,30,0,Large
+INV-00375,GreenLogix,Procurement,Office Supplies,6374.77,2025-09-24,2025-11-08,2025-10-09,15,45,0,0,0,1,Medium,Missing purchase order,Escalate to manager,45,1,Medium
+INV-00376,NetSecure Inc,HR,Logistics,14884.94,2025-02-25,2025-04-11,2025-03-07,10,45,0,0,0,0,Medium,Missing purchase order,Request missing information,45,0,Large
+INV-00377,OfficePlus Group,Risk Management,Cloud Infrastructure,21551.14,2025-04-07,2025-05-22,2025-04-16,9,45,1,0,0,0,Low,No risk detected,Approve for payment,45,0,Large
+INV-00378,GreenLogix,Risk Management,Cloud Infrastructure,17050.82,2025-06-01,2025-07-31,2025-06-02,1,60,1,1,0,0,High,Duplicate invoice detected,Send for manual review,60,0,Large
+INV-00379,GreenLogix,Risk Management,Software License,14617.29,2025-06-25,2025-07-25,2025-07-14,19,30,1,1,1,1,High,Duplicate invoice detected,Escalate to manager,30,1,Large
+INV-00380,NetSecure Inc,HR,Cloud Infrastructure,21150.94,2025-05-31,2025-06-30,2025-06-18,18,30,1,1,0,1,High,Duplicate invoice detected,Escalate to manager,30,1,Large
+INV-00381,OfficePlus Group,Risk Management,Security Service,19096.66,2025-02-15,2025-04-01,2025-02-21,6,45,1,0,0,0,Low,No risk detected,Approve for payment,45,0,Large
+INV-00382,OfficePlus Group,Operations,Cloud Infrastructure,9354.89,2025-08-26,2025-10-10,2025-09-14,19,45,1,1,0,1,High,Duplicate invoice detected,Escalate to manager,45,1,Medium
+INV-00383,CloudBridge Ltd,Operations,Consulting Service,12561.89,2025-07-31,2025-09-14,2025-08-13,13,45,1,0,0,1,Low,No risk detected,Escalate to manager,45,1,Large
+INV-00384,FinEdge Services,Procurement,Office Supplies,24681.07,2025-06-11,2025-07-11,2025-06-26,15,30,1,0,0,1,Low,No risk detected,Escalate to manager,30,1,Large
+INV-00385,NetSecure Inc,Risk Management,Consulting Service,7904.01,2025-08-20,2025-09-04,2025-08-22,2,15,1,0,0,0,Low,No risk detected,Approve for payment,15,0,Medium
+INV-00386,DataCore Systems,Operations,Software License,3322.21,2025-07-26,2025-09-24,2025-08-09,14,60,0,1,0,1,High,Duplicate invoice detected,Escalate to manager,60,1,Medium
+INV-00387,TechNova Solutions,Finance,Security Service,5065.41,2025-06-14,2025-06-29,2025-06-26,12,15,1,0,1,1,Medium,Vendor has previous delays,Escalate to manager,15,1,Medium
+INV-00388,TechNova Solutions,Risk Management,Logistics,6295.7,2025-03-08,2025-04-22,2025-03-20,12,45,1,1,1,1,High,Duplicate invoice detected,Escalate to manager,45,1,Medium
+INV-00389,OfficePlus Group,IT,Software License,20613.71,2025-08-22,2025-10-06,2025-09-01,10,45,1,1,1,0,High,Duplicate invoice detected,Send for manual review,45,0,Large
+INV-00390,DataCore Systems,Procurement,Office Supplies,9045.35,2025-07-26,2025-08-25,2025-08-02,7,30,1,0,0,0,Low,No risk detected,Approve for payment,30,0,Medium
+INV-00391,DataCore Systems,IT,Logistics,645.64,2025-03-05,2025-04-04,2025-03-22,17,30,1,0,0,1,Low,No risk detected,Escalate to manager,30,1,Small
+INV-00392,OfficePlus Group,HR,Security Service,1309.82,2025-01-11,2025-01-26,2025-01-13,2,15,1,0,0,0,Low,No risk detected,Approve for payment,15,0,Medium
+INV-00393,Alpha Consulting,Operations,Software License,13727.33,2025-04-16,2025-05-16,2025-05-02,16,30,1,0,0,1,Low,No risk detected,Escalate to manager,30,1,Large
+INV-00394,CloudBridge Ltd,Risk Management,Security Service,6822.43,2025-08-03,2025-09-02,2025-08-23,20,30,1,0,0,1,Low,No risk detected,Escalate to manager,30,1,Medium
+INV-00395,CloudBridge Ltd,Finance,Office Supplies,5046.3,2025-09-25,2025-11-09,2025-10-02,7,45,1,0,1,0,Medium,Vendor has previous delays,Request missing information,45,0,Medium
+INV-00396,GreenLogix,Procurement,Consulting Service,1081.2,2025-09-04,2025-10-04,2025-09-20,16,30,1,0,0,1,Low,No risk detected,Escalate to manager,30,1,Medium
+INV-00397,TechNova Solutions,Risk Management,Software License,22681.31,2025-03-18,2025-05-17,2025-04-06,19,60,1,0,1,1,Medium,Vendor has previous delays,Escalate to manager,60,1,Large
+INV-00398,CloudBridge Ltd,Procurement,Logistics,5855.89,2025-08-26,2025-10-10,2025-09-05,10,45,1,0,0,0,Low,No risk detected,Approve for payment,45,0,Medium
+INV-00399,TechNova Solutions,Procurement,Cloud Infrastructure,20059.74,2025-03-01,2025-04-30,2025-03-12,11,60,1,0,0,1,Low,No risk detected,Escalate to manager,60,1,Large
+INV-00400,DataCore Systems,Risk Management,Logistics,4345.76,2025-11-15,2026-01-14,2025-11-27,12,60,1,0,0,1,Low,No risk detected,Escalate to manager,60,1,Medium
+INV-00401,NetSecure Inc,IT,Software License,10079.36,2025-07-17,2025-08-31,2025-08-01,15,45,0,1,1,1,High,Duplicate invoice detected,Escalate to manager,45,1,Large
+INV-00402,DataCore Systems,Finance,Consulting Service,17434.63,2025-02-23,2025-03-25,2025-02-25,2,30,0,1,1,0,High,Duplicate invoice detected,Send for manual review,30,0,Large
+INV-00403,Alpha Consulting,IT,Security Service,9555.79,2025-03-08,2025-03-23,2025-03-20,12,15,0,1,0,1,High,Duplicate invoice detected,Escalate to manager,15,1,Medium
+INV-00404,GreenLogix,Operations,Software License,1677.07,2025-09-26,2025-10-11,2025-10-07,11,15,1,0,1,1,Medium,Vendor has previous delays,Escalate to manager,15,1,Medium
+INV-00405,CloudBridge Ltd,Operations,Logistics,18193.63,2025-11-25,2026-01-09,2025-12-11,16,45,0,0,1,1,High,Amount exceeds approval limit,Escalate to manager,45,1,Large
+INV-00406,TechNova Solutions,Finance,Logistics,23365.85,2025-09-11,2025-11-10,2025-09-28,17,60,1,0,0,1,Low,No risk detected,Escalate to manager,60,1,Large
+INV-00407,NetSecure Inc,IT,Cloud Infrastructure,24256.61,2025-10-09,2025-11-08,2025-10-11,2,30,0,1,0,0,High,Duplicate invoice detected,Send for manual review,30,0,Large
+INV-00408,CloudBridge Ltd,Operations,Office Supplies,20051.41,2025-09-13,2025-09-28,2025-09-28,15,15,0,0,0,1,High,Amount exceeds approval limit,Escalate to manager,15,1,Large
+INV-00409,Alpha Consulting,Risk Management,Logistics,542.45,2025-01-19,2025-03-20,2025-02-01,13,60,1,0,1,1,Medium,Vendor has previous delays,Escalate to manager,60,1,Small
+INV-00410,OfficePlus Group,HR,Security Service,5250.6,2025-07-06,2025-08-20,2025-07-21,15,45,1,0,0,1,Low,No risk detected,Escalate to manager,45,1,Medium
+INV-00411,NetSecure Inc,HR,Security Service,15038.78,2025-02-28,2025-04-29,2025-03-12,12,60,1,0,0,1,Low,No risk detected,Escalate to manager,60,1,Large
+INV-00412,NetSecure Inc,Procurement,Logistics,24114.4,2025-02-24,2025-04-10,2025-03-06,10,45,1,0,0,0,Low,No risk detected,Approve for payment,45,0,Large
+INV-00413,DataCore Systems,Risk Management,Logistics,18066.82,2025-11-09,2025-12-24,2025-11-13,4,45,1,0,0,0,Low,No risk detected,Approve for payment,45,0,Large
+INV-00414,GreenLogix,IT,Office Supplies,20631.4,2025-02-25,2025-04-11,2025-03-04,7,45,0,0,1,0,High,Amount exceeds approval limit,Send for manual review,45,0,Large
+INV-00415,CloudBridge Ltd,Operations,Office Supplies,16495.57,2025-09-13,2025-10-13,2025-09-30,17,30,1,0,1,1,Medium,Vendor has previous delays,Escalate to manager,30,1,Large
+INV-00416,GreenLogix,HR,Office Supplies,23116.83,2025-03-07,2025-04-06,2025-03-13,6,30,1,1,1,0,High,Duplicate invoice detected,Send for manual review,30,0,Large
+INV-00417,NetSecure Inc,HR,Office Supplies,10524.75,2025-05-21,2025-06-20,2025-06-10,20,30,0,0,0,1,Medium,Missing purchase order,Escalate to manager,30,1,Large
+INV-00418,Alpha Consulting,IT,Consulting Service,10377.36,2025-10-08,2025-11-22,2025-10-25,17,45,1,0,0,1,Low,No risk detected,Escalate to manager,45,1,Large
+INV-00419,FinEdge Services,HR,Logistics,7335.43,2025-04-02,2025-05-02,2025-04-14,12,30,1,0,0,1,Low,No risk detected,Escalate to manager,30,1,Medium
+INV-00420,Alpha Consulting,HR,Security Service,23572.57,2025-08-05,2025-09-19,2025-08-19,14,45,1,0,0,1,Low,No risk detected,Escalate to manager,45,1,Large
+INV-00421,GreenLogix,IT,Software License,16789.33,2025-03-24,2025-05-08,2025-03-31,7,45,1,0,0,0,Low,No risk detected,Approve for payment,45,0,Large
+INV-00422,TechNova Solutions,Risk Management,Cloud Infrastructure,5179.62,2025-07-03,2025-07-18,2025-07-21,18,15,0,0,1,1,Medium,Missing purchase order,Escalate to manager,15,1,Medium
+INV-00423,FinEdge Services,Risk Management,Logistics,14075.64,2025-01-25,2025-03-11,2025-02-02,8,45,0,1,0,0,High,Duplicate invoice detected,Send for manual review,45,0,Large
+INV-00424,NetSecure Inc,HR,Software License,422.83,2025-11-14,2025-12-14,2025-11-23,9,30,0,0,1,0,Medium,Missing purchase order,Request missing information,30,0,Small
+INV-00425,NetSecure Inc,HR,Security Service,18487.41,2025-05-31,2025-06-30,2025-06-07,7,30,0,0,1,0,High,Amount exceeds approval limit,Send for manual review,30,0,Large
+INV-00426,CloudBridge Ltd,IT,Consulting Service,18403.48,2025-01-21,2025-03-22,2025-01-25,4,60,0,0,1,0,High,Amount exceeds approval limit,Send for manual review,60,0,Large
+INV-00427,OfficePlus Group,IT,Consulting Service,14641.25,2025-06-19,2025-07-04,2025-06-28,9,15,0,0,0,0,Medium,Missing purchase order,Request missing information,15,0,Large
+INV-00428,DataCore Systems,Procurement,Security Service,1366.3,2025-09-09,2025-10-24,2025-09-29,20,45,1,0,1,1,Medium,Vendor has previous delays,Escalate to manager,45,1,Medium
+INV-00429,NetSecure Inc,HR,Consulting Service,23928.99,2025-09-16,2025-10-01,2025-10-03,17,15,1,1,1,1,High,Duplicate invoice detected,Escalate to manager,15,1,Large
+INV-00430,GreenLogix,Finance,Cloud Infrastructure,5607.83,2025-06-19,2025-08-03,2025-06-26,7,45,1,0,0,0,Low,No risk detected,Approve for payment,45,0,Medium
+INV-00431,Alpha Consulting,HR,Logistics,319.21,2025-05-04,2025-07-03,2025-05-16,12,60,1,0,1,1,Medium,Vendor has previous delays,Escalate to manager,60,1,Small
+INV-00432,NetSecure Inc,Operations,Software License,9708.31,2025-01-13,2025-02-27,2025-01-31,18,45,1,1,0,1,High,Duplicate invoice detected,Escalate to manager,45,1,Medium
+INV-00433,TechNova Solutions,Procurement,Logistics,4893.56,2025-02-19,2025-03-06,2025-03-08,17,15,1,0,1,1,Medium,Vendor has previous delays,Escalate to manager,15,1,Medium
+INV-00434,CloudBridge Ltd,IT,Logistics,15774.91,2025-02-23,2025-04-24,2025-03-02,7,60,1,1,1,0,High,Duplicate invoice detected,Send for manual review,60,0,Large
+INV-00435,CloudBridge Ltd,Risk Management,Logistics,3928.49,2025-01-20,2025-03-06,2025-02-04,15,45,1,0,0,1,Low,No risk detected,Escalate to manager,45,1,Medium
+INV-00436,DataCore Systems,Procurement,Security Service,1854.01,2025-07-28,2025-09-11,2025-08-05,8,45,0,1,1,0,High,Duplicate invoice detected,Send for manual review,45,0,Medium
+INV-00437,GreenLogix,Operations,Cloud Infrastructure,520.59,2025-11-25,2025-12-10,2025-11-29,4,15,1,0,1,0,Medium,Vendor has previous delays,Request missing information,15,0,Small
+INV-00438,CloudBridge Ltd,Procurement,Security Service,2742.77,2025-05-25,2025-06-09,2025-06-04,10,15,0,1,0,0,High,Duplicate invoice detected,Send for manual review,15,0,Medium
+INV-00439,TechNova Solutions,Operations,Consulting Service,13383.35,2025-10-07,2025-12-06,2025-10-12,5,60,1,0,0,0,Low,No risk detected,Approve for payment,60,0,Large
+INV-00440,NetSecure Inc,Finance,Security Service,21881.7,2025-01-22,2025-02-06,2025-01-27,5,15,1,1,1,0,High,Duplicate invoice detected,Send for manual review,15,0,Large
+INV-00441,CloudBridge Ltd,Procurement,Consulting Service,18732.59,2025-07-31,2025-08-30,2025-08-12,12,30,1,0,0,1,Low,No risk detected,Escalate to manager,30,1,Large
+INV-00442,FinEdge Services,HR,Cloud Infrastructure,4938.72,2025-10-09,2025-10-24,2025-10-15,6,15,0,0,0,0,Medium,Missing purchase order,Request missing information,15,0,Medium
+INV-00443,CloudBridge Ltd,Procurement,Software License,5015.7,2025-06-19,2025-08-18,2025-07-08,19,60,1,0,1,1,Medium,Vendor has previous delays,Escalate to manager,60,1,Medium
+INV-00444,FinEdge Services,Finance,Cloud Infrastructure,15525.94,2025-09-06,2025-10-21,2025-09-13,7,45,0,0,1,0,High,Amount exceeds approval limit,Send for manual review,45,0,Large
+INV-00445,OfficePlus Group,Risk Management,Security Service,3894.63,2025-06-11,2025-07-26,2025-06-30,19,45,0,0,0,1,Medium,Missing purchase order,Escalate to manager,45,1,Medium
+INV-00446,NetSecure Inc,IT,Consulting Service,17833.76,2025-07-04,2025-08-18,2025-07-18,14,45,1,0,0,1,Low,No risk detected,Escalate to manager,45,1,Large
+INV-00447,Alpha Consulting,Operations,Cloud Infrastructure,19391.7,2025-03-31,2025-04-15,2025-04-16,16,15,1,0,0,1,Low,No risk detected,Escalate to manager,15,1,Large
+INV-00448,FinEdge Services,Procurement,Logistics,22169.76,2025-01-10,2025-01-25,2025-01-13,3,15,1,1,1,0,High,Duplicate invoice detected,Send for manual review,15,0,Large
+INV-00449,FinEdge Services,Finance,Security Service,6589.35,2025-03-18,2025-05-17,2025-04-05,18,60,1,1,0,1,High,Duplicate invoice detected,Escalate to manager,60,1,Medium
+INV-00450,OfficePlus Group,IT,Office Supplies,12577.97,2025-07-06,2025-09-04,2025-07-09,3,60,1,0,1,0,Medium,Vendor has previous delays,Request missing information,60,0,Large
+INV-00451,DataCore Systems,HR,Consulting Service,11210.89,2025-09-05,2025-10-05,2025-09-11,6,30,1,0,0,0,Low,No risk detected,Approve for payment,30,0,Large
+INV-00452,Alpha Consulting,IT,Software License,6682.49,2025-04-16,2025-05-01,2025-04-24,8,15,1,1,0,0,High,Duplicate invoice detected,Send for manual review,15,0,Medium
+INV-00453,Alpha Consulting,Finance,Software License,24516.69,2025-09-24,2025-10-09,2025-10-05,11,15,1,0,1,1,Medium,Vendor has previous delays,Escalate to manager,15,1,Large
+INV-00454,DataCore Systems,Operations,Logistics,9525.11,2025-09-22,2025-10-07,2025-10-11,19,15,1,1,0,1,High,Duplicate invoice detected,Escalate to manager,15,1,Medium
+INV-00455,GreenLogix,Procurement,Cloud Infrastructure,12222.85,2025-09-14,2025-09-29,2025-09-30,16,15,1,1,0,1,High,Duplicate invoice detected,Escalate to manager,15,1,Large
+INV-00456,FinEdge Services,Finance,Security Service,16122.58,2025-04-06,2025-05-06,2025-04-13,7,30,1,0,1,0,Medium,Vendor has previous delays,Request missing information,30,0,Large
+INV-00457,CloudBridge Ltd,Risk Management,Consulting Service,10423.88,2025-09-04,2025-09-19,2025-09-15,11,15,0,1,0,1,High,Duplicate invoice detected,Escalate to manager,15,1,Large
+INV-00458,DataCore Systems,Risk Management,Office Supplies,658.91,2025-10-21,2025-11-20,2025-10-23,2,30,1,0,1,0,Medium,Vendor has previous delays,Request missing information,30,0,Small
+INV-00459,TechNova Solutions,HR,Consulting Service,1492.21,2025-09-22,2025-10-22,2025-10-01,9,30,0,0,1,0,Medium,Missing purchase order,Request missing information,30,0,Medium
+INV-00460,OfficePlus Group,Finance,Consulting Service,11285.16,2025-03-29,2025-05-28,2025-04-14,16,60,1,1,1,1,High,Duplicate invoice detected,Escalate to manager,60,1,Large
+INV-00461,DataCore Systems,HR,Consulting Service,15617.97,2025-03-27,2025-05-11,2025-04-13,17,45,1,1,1,1,High,Duplicate invoice detected,Escalate to manager,45,1,Large
+INV-00462,CloudBridge Ltd,IT,Office Supplies,9698.0,2025-04-14,2025-04-29,2025-04-18,4,15,0,0,1,0,Medium,Missing purchase order,Request missing information,15,0,Medium
+INV-00463,CloudBridge Ltd,IT,Office Supplies,22550.04,2025-09-30,2025-10-15,2025-10-20,20,15,1,0,0,1,Low,No risk detected,Escalate to manager,15,1,Large
+INV-00464,DataCore Systems,HR,Security Service,20705.29,2025-07-09,2025-09-07,2025-07-23,14,60,1,1,0,1,High,Duplicate invoice detected,Escalate to manager,60,1,Large
+INV-00465,Alpha Consulting,Operations,Cloud Infrastructure,14767.3,2025-08-06,2025-08-21,2025-08-25,19,15,1,0,0,1,Low,No risk detected,Escalate to manager,15,1,Large
+INV-00466,FinEdge Services,Finance,Cloud Infrastructure,14997.48,2025-05-12,2025-07-11,2025-05-30,18,60,1,0,1,1,Medium,Vendor has previous delays,Escalate to manager,60,1,Large
+INV-00467,TechNova Solutions,HR,Security Service,3033.93,2025-04-16,2025-06-15,2025-04-17,1,60,1,1,0,0,High,Duplicate invoice detected,Send for manual review,60,0,Medium
+INV-00468,CloudBridge Ltd,IT,Office Supplies,16324.24,2025-10-02,2025-11-16,2025-10-11,9,45,0,0,1,0,High,Amount exceeds approval limit,Send for manual review,45,0,Large
+INV-00469,OfficePlus Group,Risk Management,Office Supplies,18898.8,2025-04-02,2025-06-01,2025-04-16,14,60,1,1,0,1,High,Duplicate invoice detected,Escalate to manager,60,1,Large
+INV-00470,OfficePlus Group,HR,Cloud Infrastructure,19377.44,2025-03-02,2025-04-01,2025-03-15,13,30,1,1,1,1,High,Duplicate invoice detected,Escalate to manager,30,1,Large
+INV-00471,DataCore Systems,Finance,Consulting Service,12757.75,2025-03-24,2025-04-08,2025-04-04,11,15,0,0,0,1,Medium,Missing purchase order,Escalate to manager,15,1,Large
+INV-00472,DataCore Systems,Operations,Security Service,10940.9,2025-04-24,2025-06-08,2025-04-27,3,45,1,0,1,0,Medium,Vendor has previous delays,Request missing information,45,0,Large
+INV-00473,TechNova Solutions,Risk Management,Office Supplies,23274.06,2025-11-02,2025-12-17,2025-11-15,13,45,1,0,1,1,Medium,Vendor has previous delays,Escalate to manager,45,1,Large
+INV-00474,Alpha Consulting,Operations,Software License,5122.51,2025-04-10,2025-05-25,2025-04-27,17,45,1,0,1,1,Medium,Vendor has previous delays,Escalate to manager,45,1,Medium
+INV-00475,DataCore Systems,Risk Management,Software License,9057.53,2025-02-14,2025-03-16,2025-02-15,1,30,1,1,0,0,High,Duplicate invoice detected,Send for manual review,30,0,Medium
+INV-00476,GreenLogix,Operations,Security Service,5087.73,2025-02-16,2025-03-03,2025-02-17,1,15,1,0,0,0,Low,No risk detected,Approve for payment,15,0,Medium
+INV-00477,OfficePlus Group,IT,Security Service,24080.12,2025-10-22,2025-12-21,2025-11-06,15,60,1,0,0,1,Low,No risk detected,Escalate to manager,60,1,Large
+INV-00478,GreenLogix,HR,Software License,14009.9,2025-06-24,2025-08-08,2025-07-11,17,45,1,0,1,1,Medium,Vendor has previous delays,Escalate to manager,45,1,Large
+INV-00479,OfficePlus Group,Risk Management,Office Supplies,24154.78,2025-05-05,2025-07-04,2025-05-24,19,60,1,1,1,1,High,Duplicate invoice detected,Escalate to manager,60,1,Large
+INV-00480,Alpha Consulting,HR,Software License,12101.06,2025-07-15,2025-07-30,2025-07-24,9,15,1,0,0,0,Low,No risk detected,Approve for payment,15,0,Large
+INV-00481,GreenLogix,Procurement,Security Service,13437.73,2025-05-28,2025-06-27,2025-06-06,9,30,1,1,1,0,High,Duplicate invoice detected,Send for manual review,30,0,Large
+INV-00482,NetSecure Inc,Finance,Security Service,23291.77,2025-07-01,2025-08-15,2025-07-17,16,45,1,0,0,1,Low,No risk detected,Escalate to manager,45,1,Large
+INV-00483,FinEdge Services,Operations,Logistics,5071.7,2025-04-16,2025-05-31,2025-04-24,8,45,1,0,0,0,Low,No risk detected,Approve for payment,45,0,Medium
+INV-00484,NetSecure Inc,IT,Software License,3084.97,2025-11-11,2026-01-10,2025-11-14,3,60,1,0,0,0,Low,No risk detected,Approve for payment,60,0,Medium
+INV-00485,NetSecure Inc,HR,Cloud Infrastructure,12359.28,2025-09-09,2025-10-24,2025-09-28,19,45,1,0,0,1,Low,No risk detected,Escalate to manager,45,1,Large
+INV-00486,FinEdge Services,HR,Consulting Service,1448.29,2025-10-04,2025-12-03,2025-10-18,14,60,1,0,0,1,Low,No risk detected,Escalate to manager,60,1,Medium
+INV-00487,DataCore Systems,Operations,Software License,17486.29,2025-01-05,2025-02-19,2025-01-20,15,45,1,0,0,1,Low,No risk detected,Escalate to manager,45,1,Large
+INV-00488,CloudBridge Ltd,Procurement,Cloud Infrastructure,15358.17,2025-10-08,2025-11-07,2025-10-17,9,30,1,0,0,0,Low,No risk detected,Approve for payment,30,0,Large
+INV-00489,Alpha Consulting,HR,Cloud Infrastructure,9211.51,2025-04-18,2025-06-17,2025-05-04,16,60,0,0,0,1,Medium,Missing purchase order,Escalate to manager,60,1,Medium
+INV-00490,GreenLogix,Procurement,Office Supplies,4579.24,2025-02-21,2025-03-23,2025-02-26,5,30,1,0,1,0,Medium,Vendor has previous delays,Request missing information,30,0,Medium
+INV-00491,GreenLogix,Operations,Consulting Service,3731.51,2025-01-05,2025-03-06,2025-01-10,5,60,1,1,0,0,High,Duplicate invoice detected,Send for manual review,60,0,Medium
+INV-00492,DataCore Systems,Risk Management,Security Service,13396.17,2025-06-03,2025-08-02,2025-06-14,11,60,1,0,0,1,Low,No risk detected,Escalate to manager,60,1,Large
+INV-00493,CloudBridge Ltd,Risk Management,Consulting Service,1594.91,2025-11-19,2026-01-18,2025-11-28,9,60,1,1,1,0,High,Duplicate invoice detected,Send for manual review,60,0,Medium
+INV-00494,NetSecure Inc,Procurement,Cloud Infrastructure,9071.63,2025-06-26,2025-08-10,2025-07-14,18,45,1,1,0,1,High,Duplicate invoice detected,Escalate to manager,45,1,Medium
+INV-00495,NetSecure Inc,Risk Management,Security Service,5054.06,2025-05-26,2025-06-25,2025-06-14,19,30,1,0,1,1,Medium,Vendor has previous delays,Escalate to manager,30,1,Medium
+INV-00496,Alpha Consulting,Risk Management,Office Supplies,22251.85,2025-08-26,2025-10-10,2025-09-08,13,45,1,0,1,1,Medium,Vendor has previous delays,Escalate to manager,45,1,Large
+INV-00497,NetSecure Inc,Operations,Logistics,15346.52,2025-02-10,2025-02-25,2025-02-23,13,15,1,0,0,1,Low,No risk detected,Escalate to manager,15,1,Large
+INV-00498,NetSecure Inc,Procurement,Logistics,7354.77,2025-05-19,2025-07-18,2025-05-28,9,60,0,0,1,0,Medium,Missing purchase order,Request missing information,60,0,Medium
+INV-00499,Alpha Consulting,Operations,Consulting Service,4678.77,2025-05-01,2025-05-31,2025-05-02,1,30,1,0,0,0,Low,No risk detected,Approve for payment,30,0,Medium
+INV-00500,DataCore Systems,Operations,Software License,2479.29,2025-01-14,2025-01-29,2025-01-30,16,15,0,0,0,1,Medium,Missing purchase order,Escalate to manager,15,1,Medium
+INV-00501,OfficePlus Group,HR,Consulting Service,2199.35,2025-04-28,2025-06-12,2025-05-11,13,45,1,0,0,1,Low,No risk detected,Escalate to manager,45,1,Medium
+INV-00502,DataCore Systems,IT,Security Service,20979.09,2025-07-02,2025-07-17,2025-07-03,1,15,1,1,0,0,High,Duplicate invoice detected,Send for manual review,15,0,Large
+INV-00503,OfficePlus Group,HR,Office Supplies,3464.36,2025-10-30,2025-11-29,2025-11-17,18,30,0,1,1,1,High,Duplicate invoice detected,Escalate to manager,30,1,Medium
+INV-00504,OfficePlus Group,Procurement,Office Supplies,13537.74,2025-06-07,2025-08-06,2025-06-10,3,60,1,1,0,0,High,Duplicate invoice detected,Send for manual review,60,0,Large
+INV-00505,DataCore Systems,Procurement,Software License,102.3,2025-05-27,2025-07-11,2025-06-01,5,45,0,0,1,0,Medium,Missing purchase order,Request missing information,45,0,Small
+INV-00506,Alpha Consulting,Operations,Cloud Infrastructure,327.4,2025-11-02,2025-12-17,2025-11-16,14,45,1,0,1,1,Medium,Vendor has previous delays,Escalate to manager,45,1,Small
+INV-00507,NetSecure Inc,IT,Office Supplies,22065.84,2025-05-08,2025-07-07,2025-05-22,14,60,1,1,0,1,High,Duplicate invoice detected,Escalate to manager,60,1,Large
+INV-00508,FinEdge Services,Procurement,Software License,10613.76,2025-05-26,2025-07-10,2025-06-03,8,45,1,1,0,0,High,Duplicate invoice detected,Send for manual review,45,0,Large
+INV-00509,CloudBridge Ltd,IT,Consulting Service,7310.92,2025-05-20,2025-07-19,2025-06-04,15,60,0,0,0,1,Medium,Missing purchase order,Escalate to manager,60,1,Medium
+INV-00510,TechNova Solutions,IT,Software License,24245.93,2025-02-22,2025-03-24,2025-02-23,1,30,1,0,0,0,Low,No risk detected,Approve for payment,30,0,Large
+INV-00511,Alpha Consulting,Risk Management,Software License,5896.98,2025-09-10,2025-09-25,2025-09-15,5,15,1,0,0,0,Low,No risk detected,Approve for payment,15,0,Medium
+INV-00512,OfficePlus Group,Operations,Cloud Infrastructure,11645.74,2025-02-11,2025-03-28,2025-02-13,2,45,1,0,0,0,Low,No risk detected,Approve for payment,45,0,Large
+INV-00513,GreenLogix,Finance,Security Service,11806.65,2025-07-15,2025-08-29,2025-07-22,7,45,1,0,1,0,Medium,Vendor has previous delays,Request missing information,45,0,Large
+INV-00514,FinEdge Services,Operations,Office Supplies,6254.34,2025-08-24,2025-09-23,2025-08-26,2,30,1,0,0,0,Low,No risk detected,Approve for payment,30,0,Medium
+INV-00515,GreenLogix,Risk Management,Cloud Infrastructure,23411.76,2025-10-09,2025-10-24,2025-10-15,6,15,1,0,0,0,Low,No risk detected,Approve for payment,15,0,Large
+INV-00516,OfficePlus Group,IT,Cloud Infrastructure,22199.24,2025-05-01,2025-05-16,2025-05-08,7,15,0,0,0,0,High,Amount exceeds approval limit,Send for manual review,15,0,Large
+INV-00517,DataCore Systems,Procurement,Security Service,3079.27,2025-01-22,2025-02-06,2025-01-30,8,15,0,0,0,0,Medium,Missing purchase order,Request missing information,15,0,Medium
+INV-00518,CloudBridge Ltd,IT,Consulting Service,12547.99,2025-11-17,2026-01-01,2025-12-07,20,45,1,0,0,1,Low,No risk detected,Escalate to manager,45,1,Large
+INV-00519,DataCore Systems,Risk Management,Security Service,19807.51,2025-04-30,2025-06-29,2025-05-05,5,60,1,0,0,0,Low,No risk detected,Approve for payment,60,0,Large
+INV-00520,FinEdge Services,Finance,Logistics,9506.45,2025-01-21,2025-03-07,2025-01-26,5,45,0,1,1,0,High,Duplicate invoice detected,Send for manual review,45,0,Medium
+INV-00521,OfficePlus Group,HR,Logistics,12303.29,2025-10-06,2025-11-05,2025-10-25,19,30,1,0,1,1,Medium,Vendor has previous delays,Escalate to manager,30,1,Large
+INV-00522,Alpha Consulting,Procurement,Security Service,22870.4,2025-02-05,2025-03-07,2025-02-23,18,30,1,1,0,1,High,Duplicate invoice detected,Escalate to manager,30,1,Large
+INV-00523,OfficePlus Group,HR,Cloud Infrastructure,11406.57,2025-04-05,2025-06-04,2025-04-22,17,60,1,0,1,1,Medium,Vendor has previous delays,Escalate to manager,60,1,Large
+INV-00524,FinEdge Services,Procurement,Logistics,1677.21,2025-04-08,2025-06-07,2025-04-26,18,60,0,0,1,1,Medium,Missing purchase order,Escalate to manager,60,1,Medium
+INV-00525,OfficePlus Group,Procurement,Office Supplies,16058.51,2025-09-25,2025-10-10,2025-09-29,4,15,1,0,0,0,Low,No risk detected,Approve for payment,15,0,Large
+INV-00526,DataCore Systems,Finance,Consulting Service,2765.67,2025-01-17,2025-02-01,2025-01-24,7,15,0,1,1,0,High,Duplicate invoice detected,Send for manual review,15,0,Medium
+INV-00527,OfficePlus Group,Finance,Cloud Infrastructure,5596.0,2025-04-17,2025-05-02,2025-04-20,3,15,0,0,0,0,Medium,Missing purchase order,Request missing information,15,0,Medium
+INV-00528,TechNova Solutions,Procurement,Security Service,18612.59,2025-01-30,2025-03-16,2025-02-13,14,45,1,0,1,1,Medium,Vendor has previous delays,Escalate to manager,45,1,Large
+INV-00529,CloudBridge Ltd,Procurement,Software License,23620.63,2025-02-21,2025-03-08,2025-03-10,17,15,1,1,0,1,High,Duplicate invoice detected,Escalate to manager,15,1,Large
+INV-00530,FinEdge Services,HR,Logistics,6294.2,2025-02-24,2025-04-25,2025-03-02,6,60,1,1,1,0,High,Duplicate invoice detected,Send for manual review,60,0,Medium
+INV-00531,GreenLogix,Finance,Consulting Service,19832.29,2025-09-16,2025-11-15,2025-10-04,18,60,1,0,1,1,Medium,Vendor has previous delays,Escalate to manager,60,1,Large
+INV-00532,Alpha Consulting,Procurement,Cloud Infrastructure,13797.03,2025-07-31,2025-09-14,2025-08-11,11,45,0,0,1,1,Medium,Missing purchase order,Escalate to manager,45,1,Large
+INV-00533,FinEdge Services,HR,Security Service,5426.81,2025-07-04,2025-08-18,2025-07-22,18,45,0,1,0,1,High,Duplicate invoice detected,Escalate to manager,45,1,Medium
+INV-00534,TechNova Solutions,Risk Management,Software License,24575.62,2025-09-23,2025-10-08,2025-10-13,20,15,1,0,0,1,Low,No risk detected,Escalate to manager,15,1,Large
+INV-00535,OfficePlus Group,IT,Consulting Service,21407.44,2025-10-11,2025-11-25,2025-10-12,1,45,1,0,0,0,Low,No risk detected,Approve for payment,45,0,Large
+INV-00536,Alpha Consulting,Procurement,Consulting Service,3546.36,2025-04-30,2025-05-30,2025-05-12,12,30,1,0,0,1,Low,No risk detected,Escalate to manager,30,1,Medium
+INV-00537,GreenLogix,HR,Consulting Service,18383.22,2025-03-30,2025-05-29,2025-04-10,11,60,0,0,1,1,High,Amount exceeds approval limit,Escalate to manager,60,1,Large
+INV-00538,OfficePlus Group,Finance,Logistics,20227.7,2025-01-29,2025-02-13,2025-02-11,13,15,1,0,0,1,Low,No risk detected,Escalate to manager,15,1,Large
+INV-00539,GreenLogix,Finance,Consulting Service,18717.2,2025-11-21,2025-12-06,2025-12-11,20,15,0,0,0,1,High,Amount exceeds approval limit,Escalate to manager,15,1,Large
+INV-00540,TechNova Solutions,Procurement,Security Service,14166.33,2025-03-20,2025-04-19,2025-03-31,11,30,1,1,0,1,High,Duplicate invoice detected,Escalate to manager,30,1,Large
+INV-00541,CloudBridge Ltd,IT,Office Supplies,7315.6,2025-03-09,2025-04-08,2025-03-22,13,30,1,0,0,1,Low,No risk detected,Escalate to manager,30,1,Medium
+INV-00542,TechNova Solutions,HR,Office Supplies,6637.69,2025-03-08,2025-05-07,2025-03-21,13,60,1,1,1,1,High,Duplicate invoice detected,Escalate to manager,60,1,Medium
+INV-00543,FinEdge Services,Operations,Office Supplies,16340.99,2025-05-05,2025-06-04,2025-05-12,7,30,1,0,0,0,Low,No risk detected,Approve for payment,30,0,Large
+INV-00544,NetSecure Inc,Risk Management,Security Service,2330.91,2025-07-07,2025-09-05,2025-07-21,14,60,1,0,0,1,Low,No risk detected,Escalate to manager,60,1,Medium
+INV-00545,NetSecure Inc,HR,Logistics,702.75,2025-06-29,2025-07-29,2025-07-09,10,30,0,0,0,0,Medium,Missing purchase order,Request missing information,30,0,Small
+INV-00546,TechNova Solutions,IT,Consulting Service,17165.44,2025-02-27,2025-03-14,2025-03-04,5,15,1,0,1,0,Medium,Vendor has previous delays,Request missing information,15,0,Large
+INV-00547,DataCore Systems,Procurement,Software License,8647.46,2025-08-19,2025-10-03,2025-08-23,4,45,0,0,0,0,Medium,Missing purchase order,Request missing information,45,0,Medium
+INV-00548,FinEdge Services,Risk Management,Security Service,5375.7,2025-10-08,2025-11-22,2025-10-26,18,45,0,0,1,1,Medium,Missing purchase order,Escalate to manager,45,1,Medium
+INV-00549,TechNova Solutions,Operations,Security Service,22660.4,2025-05-11,2025-05-26,2025-05-28,17,15,1,0,0,1,Low,No risk detected,Escalate to manager,15,1,Large
+INV-00550,FinEdge Services,Risk Management,Security Service,6854.91,2025-02-04,2025-02-19,2025-02-19,15,15,0,0,1,1,Medium,Missing purchase order,Escalate to manager,15,1,Medium
+INV-00551,NetSecure Inc,Finance,Software License,7383.14,2025-07-14,2025-08-13,2025-07-27,13,30,1,0,0,1,Low,No risk detected,Escalate to manager,30,1,Medium
+INV-00552,CloudBridge Ltd,IT,Consulting Service,12566.21,2025-01-21,2025-02-05,2025-02-05,15,15,1,0,0,1,Low,No risk detected,Escalate to manager,15,1,Large
+INV-00553,Alpha Consulting,Operations,Logistics,4009.43,2025-07-01,2025-08-15,2025-07-13,12,45,1,0,1,1,Medium,Vendor has previous delays,Escalate to manager,45,1,Medium
+INV-00554,OfficePlus Group,Finance,Logistics,6516.22,2025-10-12,2025-10-27,2025-10-25,13,15,1,0,0,1,Low,No risk detected,Escalate to manager,15,1,Medium
+INV-00555,NetSecure Inc,Operations,Logistics,3517.79,2025-08-02,2025-09-01,2025-08-15,13,30,1,0,0,1,Low,No risk detected,Escalate to manager,30,1,Medium
+INV-00556,OfficePlus Group,HR,Cloud Infrastructure,11284.31,2025-03-12,2025-04-11,2025-03-17,5,30,1,0,0,0,Low,No risk detected,Approve for payment,30,0,Large
+INV-00557,DataCore Systems,Operations,Consulting Service,16440.17,2025-06-12,2025-07-12,2025-07-01,19,30,1,0,0,1,Low,No risk detected,Escalate to manager,30,1,Large
+INV-00558,NetSecure Inc,IT,Logistics,834.14,2025-07-30,2025-09-28,2025-08-10,11,60,1,1,1,1,High,Duplicate invoice detected,Escalate to manager,60,1,Small
+INV-00559,OfficePlus Group,IT,Consulting Service,2758.61,2025-11-10,2025-11-25,2025-11-16,6,15,1,0,1,0,Medium,Vendor has previous delays,Request missing information,15,0,Medium
+INV-00560,FinEdge Services,IT,Logistics,749.5,2025-03-10,2025-05-09,2025-03-13,3,60,0,0,0,0,Medium,Missing purchase order,Request missing information,60,0,Small
+INV-00561,GreenLogix,Operations,Office Supplies,3524.07,2025-01-17,2025-02-16,2025-01-24,7,30,0,0,0,0,Medium,Missing purchase order,Request missing information,30,0,Medium
+INV-00562,GreenLogix,IT,Logistics,16816.34,2025-02-03,2025-03-05,2025-02-10,7,30,1,1,1,0,High,Duplicate invoice detected,Send for manual review,30,0,Large
+INV-00563,Alpha Consulting,Risk Management,Cloud Infrastructure,21682.7,2025-07-27,2025-09-25,2025-08-04,8,60,1,1,1,0,High,Duplicate invoice detected,Send for manual review,60,0,Large
+INV-00564,NetSecure Inc,Operations,Security Service,23484.56,2025-09-24,2025-10-09,2025-10-13,19,15,1,1,0,1,High,Duplicate invoice detected,Escalate to manager,15,1,Large
+INV-00565,TechNova Solutions,IT,Security Service,13492.94,2025-09-22,2025-11-21,2025-09-24,2,60,1,0,0,0,Low,No risk detected,Approve for payment,60,0,Large
+INV-00566,Alpha Consulting,Operations,Cloud Infrastructure,19364.56,2025-03-27,2025-05-26,2025-04-06,10,60,0,0,1,0,High,Amount exceeds approval limit,Send for manual review,60,0,Large
+INV-00567,TechNova Solutions,Risk Management,Security Service,22601.52,2025-02-16,2025-04-17,2025-03-03,15,60,1,0,1,1,Medium,Vendor has previous delays,Escalate to manager,60,1,Large
+INV-00568,DataCore Systems,Operations,Office Supplies,8154.18,2025-08-21,2025-09-20,2025-08-22,1,30,1,1,0,0,High,Duplicate invoice detected,Send for manual review,30,0,Medium
+INV-00569,OfficePlus Group,Procurement,Logistics,16249.55,2025-02-16,2025-03-03,2025-02-22,6,15,1,1,1,0,High,Duplicate invoice detected,Send for manual review,15,0,Large
+INV-00570,NetSecure Inc,Finance,Security Service,17711.25,2025-07-13,2025-08-12,2025-07-30,17,30,0,0,0,1,High,Amount exceeds approval limit,Escalate to manager,30,1,Large
+INV-00571,NetSecure Inc,HR,Logistics,21580.54,2025-04-02,2025-05-02,2025-04-08,6,30,1,1,0,0,High,Duplicate invoice detected,Send for manual review,30,0,Large
+INV-00572,OfficePlus Group,Risk Management,Office Supplies,7290.64,2025-03-09,2025-03-24,2025-03-15,6,15,1,0,1,0,Medium,Vendor has previous delays,Request missing information,15,0,Medium
+INV-00573,OfficePlus Group,Finance,Office Supplies,12490.93,2025-11-08,2025-11-23,2025-11-24,16,15,0,0,0,1,Medium,Missing purchase order,Escalate to manager,15,1,Large
+INV-00574,Alpha Consulting,Operations,Office Supplies,11102.7,2025-05-06,2025-05-21,2025-05-26,20,15,1,0,0,1,Low,No risk detected,Escalate to manager,15,1,Large
+INV-00575,DataCore Systems,IT,Software License,16366.59,2025-01-17,2025-02-16,2025-01-19,2,30,1,0,0,0,Low,No risk detected,Approve for payment,30,0,Large
+INV-00576,TechNova Solutions,Finance,Office Supplies,24844.01,2025-11-09,2025-12-24,2025-11-15,6,45,1,1,1,0,High,Duplicate invoice detected,Send for manual review,45,0,Large
+INV-00577,NetSecure Inc,Finance,Software License,19235.95,2025-07-14,2025-08-28,2025-07-25,11,45,1,1,1,1,High,Duplicate invoice detected,Escalate to manager,45,1,Large
+INV-00578,CloudBridge Ltd,Procurement,Office Supplies,3450.19,2025-09-27,2025-11-11,2025-10-06,9,45,0,0,1,0,Medium,Missing purchase order,Request missing information,45,0,Medium
+INV-00579,FinEdge Services,HR,Software License,2821.63,2025-09-05,2025-09-20,2025-09-22,17,15,1,1,1,1,High,Duplicate invoice detected,Escalate to manager,15,1,Medium
+INV-00580,NetSecure Inc,Procurement,Security Service,14421.05,2025-03-08,2025-04-22,2025-03-28,20,45,0,1,0,1,High,Duplicate invoice detected,Escalate to manager,45,1,Large
+INV-00581,DataCore Systems,HR,Consulting Service,17743.82,2025-03-02,2025-03-17,2025-03-09,7,15,1,1,1,0,High,Duplicate invoice detected,Send for manual review,15,0,Large
+INV-00582,CloudBridge Ltd,Risk Management,Consulting Service,20009.15,2025-01-24,2025-03-25,2025-02-07,14,60,1,0,1,1,Medium,Vendor has previous delays,Escalate to manager,60,1,Large
+INV-00583,FinEdge Services,Finance,Logistics,5109.56,2025-02-04,2025-03-21,2025-02-14,10,45,1,0,1,0,Medium,Vendor has previous delays,Request missing information,45,0,Medium
+INV-00584,NetSecure Inc,Finance,Software License,17177.31,2025-10-19,2025-12-18,2025-10-30,11,60,1,0,0,1,Low,No risk detected,Escalate to manager,60,1,Large
+INV-00585,NetSecure Inc,Procurement,Logistics,12029.8,2025-11-27,2025-12-12,2025-12-13,16,15,1,1,0,1,High,Duplicate invoice detected,Escalate to manager,15,1,Large
+INV-00586,Alpha Consulting,HR,Cloud Infrastructure,11615.5,2025-09-24,2025-10-09,2025-10-08,14,15,1,0,1,1,Medium,Vendor has previous delays,Escalate to manager,15,1,Large
+INV-00587,TechNova Solutions,IT,Security Service,17168.78,2025-03-18,2025-04-02,2025-03-30,12,15,1,0,0,1,Low,No risk detected,Escalate to manager,15,1,Large
+INV-00588,GreenLogix,Risk Management,Security Service,21075.9,2025-04-06,2025-06-05,2025-04-25,19,60,1,0,1,1,Medium,Vendor has previous delays,Escalate to manager,60,1,Large
+INV-00589,NetSecure Inc,Risk Management,Software License,6860.29,2025-05-02,2025-07-01,2025-05-05,3,60,1,1,0,0,High,Duplicate invoice detected,Send for manual review,60,0,Medium
+INV-00590,FinEdge Services,HR,Cloud Infrastructure,4457.82,2025-04-14,2025-04-29,2025-04-26,12,15,1,1,1,1,High,Duplicate invoice detected,Escalate to manager,15,1,Medium
+INV-00591,TechNova Solutions,Operations,Security Service,3936.54,2025-09-26,2025-11-25,2025-10-07,11,60,1,0,0,1,Low,No risk detected,Escalate to manager,60,1,Medium
+INV-00592,CloudBridge Ltd,HR,Logistics,24818.74,2025-08-24,2025-09-08,2025-08-31,7,15,0,0,0,0,High,Amount exceeds approval limit,Send for manual review,15,0,Large
+INV-00593,OfficePlus Group,Finance,Logistics,21218.29,2025-08-28,2025-10-12,2025-08-31,3,45,1,0,1,0,Medium,Vendor has previous delays,Request missing information,45,0,Large
+INV-00594,OfficePlus Group,Finance,Security Service,18986.5,2025-04-13,2025-05-28,2025-04-20,7,45,1,0,0,0,Low,No risk detected,Approve for payment,45,0,Large
+INV-00595,NetSecure Inc,Operations,Logistics,3029.51,2025-05-21,2025-06-20,2025-05-26,5,30,1,0,1,0,Medium,Vendor has previous delays,Request missing information,30,0,Medium
+INV-00596,CloudBridge Ltd,IT,Security Service,8822.92,2025-03-14,2025-04-28,2025-03-25,11,45,1,0,0,1,Low,No risk detected,Escalate to manager,45,1,Medium
+INV-00597,CloudBridge Ltd,Procurement,Security Service,22316.85,2025-01-26,2025-03-27,2025-02-13,18,60,1,0,0,1,Low,No risk detected,Escalate to manager,60,1,Large
+INV-00598,TechNova Solutions,Finance,Office Supplies,1439.62,2025-04-02,2025-06-01,2025-04-16,14,60,0,0,0,1,Medium,Missing purchase order,Escalate to manager,60,1,Medium
+INV-00599,NetSecure Inc,IT,Logistics,18984.22,2025-08-27,2025-09-11,2025-09-14,18,15,1,0,1,1,Medium,Vendor has previous delays,Escalate to manager,15,1,Large
+INV-00600,Alpha Consulting,Finance,Office Supplies,7828.75,2025-04-29,2025-06-28,2025-05-14,15,60,1,0,1,1,Medium,Vendor has previous delays,Escalate to manager,60,1,Medium
+INV-00601,OfficePlus Group,Procurement,Office Supplies,4665.49,2025-08-21,2025-10-05,2025-09-01,11,45,0,0,0,1,Medium,Missing purchase order,Escalate to manager,45,1,Medium
+INV-00602,Alpha Consulting,Finance,Cloud Infrastructure,12018.44,2025-06-28,2025-08-12,2025-07-04,6,45,1,0,0,0,Low,No risk detected,Approve for payment,45,0,Large
+INV-00603,CloudBridge Ltd,Procurement,Security Service,16271.34,2025-07-25,2025-09-23,2025-08-04,10,60,0,0,1,0,High,Amount exceeds approval limit,Send for manual review,60,0,Large
+INV-00604,FinEdge Services,HR,Consulting Service,24349.9,2025-06-24,2025-07-09,2025-07-07,13,15,1,1,0,1,High,Duplicate invoice detected,Escalate to manager,15,1,Large
+INV-00605,NetSecure Inc,HR,Logistics,5980.24,2025-02-28,2025-04-29,2025-03-03,3,60,0,0,1,0,Medium,Missing purchase order,Request missing information,60,0,Medium
+INV-00606,CloudBridge Ltd,Operations,Consulting Service,7770.09,2025-11-03,2025-11-18,2025-11-16,13,15,1,1,0,1,High,Duplicate invoice detected,Escalate to manager,15,1,Medium
+INV-00607,Alpha Consulting,Risk Management,Logistics,1630.91,2025-10-25,2025-11-24,2025-11-01,7,30,1,0,1,0,Medium,Vendor has previous delays,Request missing information,30,0,Medium
+INV-00608,DataCore Systems,Operations,Security Service,7358.43,2025-04-11,2025-06-10,2025-05-01,20,60,1,0,0,1,Low,No risk detected,Escalate to manager,60,1,Medium
+INV-00609,OfficePlus Group,Operations,Logistics,24566.25,2025-10-26,2025-11-10,2025-11-07,12,15,1,1,0,1,High,Duplicate invoice detected,Escalate to manager,15,1,Large
+INV-00610,OfficePlus Group,Finance,Cloud Infrastructure,22536.78,2025-10-14,2025-10-29,2025-10-16,2,15,1,0,0,0,Low,No risk detected,Approve for payment,15,0,Large
+INV-00611,TechNova Solutions,IT,Office Supplies,17585.32,2025-07-15,2025-08-29,2025-07-28,13,45,0,1,0,1,High,Duplicate invoice detected,Escalate to manager,45,1,Large
+INV-00612,FinEdge Services,Risk Management,Consulting Service,11924.3,2025-07-04,2025-09-02,2025-07-11,7,60,0,0,0,0,Medium,Missing purchase order,Request missing information,60,0,Large
+INV-00613,DataCore Systems,IT,Software License,1886.48,2025-09-07,2025-10-07,2025-09-08,1,30,0,0,0,0,Medium,Missing purchase order,Request missing information,30,0,Medium
+INV-00614,DataCore Systems,Risk Management,Office Supplies,21517.8,2025-11-16,2026-01-15,2025-12-06,20,60,1,1,1,1,High,Duplicate invoice detected,Escalate to manager,60,1,Large
+INV-00615,GreenLogix,HR,Office Supplies,9679.4,2025-08-06,2025-09-05,2025-08-14,8,30,1,1,1,0,High,Duplicate invoice detected,Send for manual review,30,0,Medium
+INV-00616,FinEdge Services,Risk Management,Security Service,6804.34,2025-01-18,2025-03-04,2025-02-05,18,45,1,1,1,1,High,Duplicate invoice detected,Escalate to manager,45,1,Medium
+INV-00617,NetSecure Inc,Finance,Security Service,12090.17,2025-09-27,2025-10-27,2025-09-30,3,30,1,1,1,0,High,Duplicate invoice detected,Send for manual review,30,0,Large
+INV-00618,CloudBridge Ltd,HR,Security Service,2302.31,2025-11-21,2025-12-06,2025-12-07,16,15,1,0,0,1,Low,No risk detected,Escalate to manager,15,1,Medium
+INV-00619,TechNova Solutions,Operations,Office Supplies,12865.31,2025-08-04,2025-09-18,2025-08-20,16,45,1,0,0,1,Low,No risk detected,Escalate to manager,45,1,Large
+INV-00620,DataCore Systems,Finance,Logistics,23079.33,2025-02-01,2025-03-18,2025-02-11,10,45,0,0,1,0,High,Amount exceeds approval limit,Send for manual review,45,0,Large
+INV-00621,TechNova Solutions,Risk Management,Cloud Infrastructure,20241.5,2025-05-27,2025-06-11,2025-06-16,20,15,0,0,0,1,High,Amount exceeds approval limit,Escalate to manager,15,1,Large
+INV-00622,CloudBridge Ltd,Procurement,Cloud Infrastructure,3400.22,2025-05-12,2025-06-26,2025-05-21,9,45,1,0,1,0,Medium,Vendor has previous delays,Request missing information,45,0,Medium
+INV-00623,DataCore Systems,HR,Logistics,3863.28,2025-03-31,2025-05-15,2025-04-15,15,45,1,0,0,1,Low,No risk detected,Escalate to manager,45,1,Medium
+INV-00624,DataCore Systems,HR,Software License,8636.92,2025-11-01,2025-12-01,2025-11-04,3,30,1,1,0,0,High,Duplicate invoice detected,Send for manual review,30,0,Medium
+INV-00625,GreenLogix,IT,Logistics,11060.61,2025-10-23,2025-11-22,2025-10-29,6,30,1,0,1,0,Medium,Vendor has previous delays,Request missing information,30,0,Large
+INV-00626,OfficePlus Group,Finance,Software License,4273.25,2025-06-04,2025-08-03,2025-06-17,13,60,0,0,0,1,Medium,Missing purchase order,Escalate to manager,60,1,Medium
+INV-00627,GreenLogix,Operations,Cloud Infrastructure,3714.23,2025-05-28,2025-06-12,2025-06-11,14,15,0,1,1,1,High,Duplicate invoice detected,Escalate to manager,15,1,Medium
+INV-00628,NetSecure Inc,HR,Logistics,23901.18,2025-08-10,2025-09-24,2025-08-14,4,45,1,0,0,0,Low,No risk detected,Approve for payment,45,0,Large
+INV-00629,OfficePlus Group,Finance,Cloud Infrastructure,16393.15,2025-05-04,2025-07-03,2025-05-17,13,60,1,0,1,1,Medium,Vendor has previous delays,Escalate to manager,60,1,Large
+INV-00630,DataCore Systems,Procurement,Security Service,363.39,2025-01-07,2025-01-22,2025-01-08,1,15,0,0,1,0,Medium,Missing purchase order,Request missing information,15,0,Small
+INV-00631,CloudBridge Ltd,Risk Management,Office Supplies,8852.76,2025-04-09,2025-05-24,2025-04-19,10,45,1,0,1,0,Medium,Vendor has previous delays,Request missing information,45,0,Medium
+INV-00632,CloudBridge Ltd,Finance,Security Service,16449.48,2025-03-03,2025-03-18,2025-03-10,7,15,1,0,0,0,Low,No risk detected,Approve for payment,15,0,Large
+INV-00633,DataCore Systems,Finance,Logistics,4688.15,2025-02-08,2025-04-09,2025-02-18,10,60,0,0,0,0,Medium,Missing purchase order,Request missing information,60,0,Medium
+INV-00634,NetSecure Inc,Procurement,Consulting Service,19540.21,2025-07-15,2025-07-30,2025-07-24,9,15,0,0,0,0,High,Amount exceeds approval limit,Send for manual review,15,0,Large
+INV-00635,OfficePlus Group,Procurement,Consulting Service,11070.31,2025-11-09,2025-12-09,2025-11-25,16,30,0,0,1,1,Medium,Missing purchase order,Escalate to manager,30,1,Large
+INV-00636,Alpha Consulting,Finance,Consulting Service,13561.74,2025-11-11,2025-12-11,2025-11-25,14,30,1,1,1,1,High,Duplicate invoice detected,Escalate to manager,30,1,Large
+INV-00637,OfficePlus Group,Finance,Software License,1915.7,2025-08-17,2025-10-01,2025-09-05,19,45,1,1,0,1,High,Duplicate invoice detected,Escalate to manager,45,1,Medium
+INV-00638,TechNova Solutions,Finance,Logistics,9823.05,2025-07-20,2025-09-03,2025-07-25,5,45,1,1,0,0,High,Duplicate invoice detected,Send for manual review,45,0,Medium
+INV-00639,GreenLogix,Operations,Logistics,19545.33,2025-01-02,2025-02-01,2025-01-05,3,30,0,1,0,0,High,Duplicate invoice detected,Send for manual review,30,0,Large
+INV-00640,NetSecure Inc,Procurement,Logistics,7640.42,2025-07-07,2025-07-22,2025-07-09,2,15,1,0,0,0,Low,No risk detected,Approve for payment,15,0,Medium
+INV-00641,OfficePlus Group,Risk Management,Consulting Service,4497.8,2025-04-08,2025-06-07,2025-04-10,2,60,1,1,0,0,High,Duplicate invoice detected,Send for manual review,60,0,Medium
+INV-00642,NetSecure Inc,Operations,Software License,22141.83,2025-03-13,2025-04-12,2025-03-28,15,30,1,0,0,1,Low,No risk detected,Escalate to manager,30,1,Large
+INV-00643,FinEdge Services,Operations,Office Supplies,1668.52,2025-09-13,2025-10-28,2025-10-01,18,45,0,0,0,1,Medium,Missing purchase order,Escalate to manager,45,1,Medium
+INV-00644,NetSecure Inc,Finance,Cloud Infrastructure,19715.69,2025-03-02,2025-05-01,2025-03-04,2,60,1,1,1,0,High,Duplicate invoice detected,Send for manual review,60,0,Large
+INV-00645,DataCore Systems,Risk Management,Security Service,5901.34,2025-03-14,2025-03-29,2025-03-17,3,15,0,0,0,0,Medium,Missing purchase order,Request missing information,15,0,Medium
+INV-00646,TechNova Solutions,IT,Logistics,16254.78,2025-11-20,2025-12-20,2025-11-21,1,30,1,0,0,0,Low,No risk detected,Approve for payment,30,0,Large
+INV-00647,Alpha Consulting,HR,Consulting Service,20900.27,2025-02-28,2025-03-15,2025-03-03,3,15,0,0,0,0,High,Amount exceeds approval limit,Send for manual review,15,0,Large
+INV-00648,FinEdge Services,Operations,Cloud Infrastructure,20306.87,2025-03-03,2025-04-17,2025-03-16,13,45,1,0,0,1,Low,No risk detected,Escalate to manager,45,1,Large
+INV-00649,TechNova Solutions,HR,Consulting Service,8454.04,2025-03-14,2025-04-28,2025-03-18,4,45,0,0,1,0,Medium,Missing purchase order,Request missing information,45,0,Medium
+INV-00650,NetSecure Inc,HR,Consulting Service,11022.66,2025-03-10,2025-03-25,2025-03-29,19,15,1,1,0,1,High,Duplicate invoice detected,Escalate to manager,15,1,Large
+INV-00651,TechNova Solutions,Operations,Software License,258.1,2025-10-31,2025-11-15,2025-11-06,6,15,1,1,1,0,High,Duplicate invoice detected,Send for manual review,15,0,Small
+INV-00652,Alpha Consulting,Risk Management,Consulting Service,5233.39,2025-07-30,2025-09-28,2025-08-08,9,60,1,0,1,0,Medium,Vendor has previous delays,Request missing information,60,0,Medium
+INV-00653,TechNova Solutions,HR,Consulting Service,17958.25,2025-11-18,2025-12-03,2025-12-08,20,15,1,0,0,1,Low,No risk detected,Escalate to manager,15,1,Large
+INV-00654,TechNova Solutions,HR,Consulting Service,4878.38,2025-11-13,2025-11-28,2025-11-30,17,15,1,0,0,1,Low,No risk detected,Escalate to manager,15,1,Medium
+INV-00655,FinEdge Services,Procurement,Software License,4923.6,2025-09-12,2025-11-11,2025-09-17,5,60,1,0,1,0,Medium,Vendor has previous delays,Request missing information,60,0,Medium
+INV-00656,TechNova Solutions,Finance,Logistics,9168.41,2025-05-09,2025-07-08,2025-05-16,7,60,1,1,0,0,High,Duplicate invoice detected,Send for manual review,60,0,Medium
+INV-00657,CloudBridge Ltd,Risk Management,Software License,23129.05,2025-01-15,2025-02-14,2025-01-21,6,30,0,0,0,0,High,Amount exceeds approval limit,Send for manual review,30,0,Large
+INV-00658,FinEdge Services,Risk Management,Office Supplies,14858.4,2025-04-12,2025-06-11,2025-04-23,11,60,1,0,0,1,Low,No risk detected,Escalate to manager,60,1,Large
+INV-00659,NetSecure Inc,IT,Software License,6004.25,2025-07-12,2025-08-11,2025-07-26,14,30,1,0,0,1,Low,No risk detected,Escalate to manager,30,1,Medium
+INV-00660,Alpha Consulting,Finance,Office Supplies,3709.04,2025-04-02,2025-06-01,2025-04-22,20,60,0,0,0,1,Medium,Missing purchase order,Escalate to manager,60,1,Medium
+INV-00661,Alpha Consulting,Risk Management,Consulting Service,15837.33,2025-06-21,2025-07-21,2025-06-30,9,30,1,0,1,0,Medium,Vendor has previous delays,Request missing information,30,0,Large
+INV-00662,TechNova Solutions,Procurement,Consulting Service,2866.62,2025-08-03,2025-10-02,2025-08-18,15,60,1,0,0,1,Low,No risk detected,Escalate to manager,60,1,Medium
+INV-00663,OfficePlus Group,HR,Consulting Service,19759.72,2025-10-23,2025-11-22,2025-11-12,20,30,1,0,0,1,Low,No risk detected,Escalate to manager,30,1,Large
+INV-00664,Alpha Consulting,IT,Security Service,11889.88,2025-01-08,2025-02-22,2025-01-23,15,45,0,0,0,1,Medium,Missing purchase order,Escalate to manager,45,1,Large
+INV-00665,NetSecure Inc,Operations,Security Service,5637.92,2025-10-21,2025-11-20,2025-11-09,19,30,1,1,0,1,High,Duplicate invoice detected,Escalate to manager,30,1,Medium
+INV-00666,TechNova Solutions,Operations,Logistics,19238.3,2025-09-29,2025-11-28,2025-10-01,2,60,0,1,1,0,High,Duplicate invoice detected,Send for manual review,60,0,Large
+INV-00667,CloudBridge Ltd,Operations,Office Supplies,6088.74,2025-07-28,2025-08-12,2025-08-15,18,15,1,0,0,1,Low,No risk detected,Escalate to manager,15,1,Medium
+INV-00668,OfficePlus Group,IT,Logistics,24973.9,2025-06-06,2025-08-05,2025-06-07,1,60,1,1,1,0,High,Duplicate invoice detected,Send for manual review,60,0,Large
+INV-00669,TechNova Solutions,Operations,Office Supplies,19318.69,2025-07-09,2025-08-08,2025-07-22,13,30,0,0,1,1,High,Amount exceeds approval limit,Escalate to manager,30,1,Large
+INV-00670,CloudBridge Ltd,Operations,Logistics,8389.36,2025-08-07,2025-09-21,2025-08-09,2,45,1,0,1,0,Medium,Vendor has previous delays,Request missing information,45,0,Medium
+INV-00671,CloudBridge Ltd,HR,Cloud Infrastructure,18420.44,2025-01-27,2025-03-13,2025-01-29,2,45,1,1,0,0,High,Duplicate invoice detected,Send for manual review,45,0,Large
+INV-00672,Alpha Consulting,HR,Software License,9202.72,2025-10-15,2025-10-30,2025-10-21,6,15,1,0,0,0,Low,No risk detected,Approve for payment,15,0,Medium
+INV-00673,FinEdge Services,HR,Software License,16261.06,2025-04-26,2025-05-26,2025-05-15,19,30,1,0,0,1,Low,No risk detected,Escalate to manager,30,1,Large
+INV-00674,GreenLogix,Procurement,Software License,1677.89,2025-09-06,2025-11-05,2025-09-18,12,60,1,1,1,1,High,Duplicate invoice detected,Escalate to manager,60,1,Medium
+INV-00675,OfficePlus Group,Operations,Security Service,9266.83,2025-08-23,2025-09-22,2025-08-26,3,30,1,0,0,0,Low,No risk detected,Approve for payment,30,0,Medium
+INV-00676,DataCore Systems,Procurement,Software License,2823.19,2025-03-17,2025-04-01,2025-03-26,9,15,0,0,0,0,Medium,Missing purchase order,Request missing information,15,0,Medium
+INV-00677,TechNova Solutions,Procurement,Office Supplies,24242.41,2025-08-31,2025-09-30,2025-09-18,18,30,1,1,0,1,High,Duplicate invoice detected,Escalate to manager,30,1,Large
+INV-00678,TechNova Solutions,Procurement,Consulting Service,1667.44,2025-07-30,2025-09-13,2025-08-07,8,45,1,0,0,0,Low,No risk detected,Approve for payment,45,0,Medium
+INV-00679,Alpha Consulting,Operations,Cloud Infrastructure,14224.57,2025-05-14,2025-06-13,2025-05-24,10,30,1,1,0,0,High,Duplicate invoice detected,Send for manual review,30,0,Large
+INV-00680,OfficePlus Group,Finance,Consulting Service,8892.71,2025-11-13,2025-12-13,2025-11-28,15,30,1,0,0,1,Low,No risk detected,Escalate to manager,30,1,Medium
+INV-00681,DataCore Systems,Risk Management,Logistics,22627.31,2025-05-02,2025-06-01,2025-05-07,5,30,1,0,0,0,Low,No risk detected,Approve for payment,30,0,Large
+INV-00682,DataCore Systems,Operations,Cloud Infrastructure,9304.84,2025-06-12,2025-06-27,2025-06-19,7,15,1,0,0,0,Low,No risk detected,Approve for payment,15,0,Medium
+INV-00683,Alpha Consulting,HR,Consulting Service,13387.71,2025-07-27,2025-08-11,2025-07-31,4,15,0,0,0,0,Medium,Missing purchase order,Request missing information,15,0,Large
+INV-00684,NetSecure Inc,IT,Software License,24256.74,2025-06-01,2025-07-16,2025-06-19,18,45,0,0,1,1,High,Amount exceeds approval limit,Escalate to manager,45,1,Large
+INV-00685,DataCore Systems,HR,Logistics,22681.33,2025-02-27,2025-04-13,2025-03-14,15,45,0,0,0,1,High,Amount exceeds approval limit,Escalate to manager,45,1,Large
+INV-00686,CloudBridge Ltd,Procurement,Software License,10100.59,2025-07-02,2025-08-31,2025-07-10,8,60,1,0,0,0,Low,No risk detected,Approve for payment,60,0,Large
+INV-00687,FinEdge Services,HR,Security Service,5631.38,2025-01-12,2025-02-11,2025-01-21,9,30,1,1,1,0,High,Duplicate invoice detected,Send for manual review,30,0,Medium
+INV-00688,CloudBridge Ltd,HR,Office Supplies,4941.81,2025-07-04,2025-07-19,2025-07-15,11,15,0,0,1,1,Medium,Missing purchase order,Escalate to manager,15,1,Medium
+INV-00689,GreenLogix,Procurement,Office Supplies,9383.5,2025-06-29,2025-08-13,2025-07-09,10,45,1,1,1,0,High,Duplicate invoice detected,Send for manual review,45,0,Medium
+INV-00690,CloudBridge Ltd,IT,Logistics,22206.34,2025-05-28,2025-07-27,2025-06-11,14,60,1,1,1,1,High,Duplicate invoice detected,Escalate to manager,60,1,Large
+INV-00691,GreenLogix,IT,Security Service,14988.6,2025-06-05,2025-07-05,2025-06-10,5,30,0,0,0,0,Medium,Missing purchase order,Request missing information,30,0,Large
+INV-00692,GreenLogix,Finance,Software License,10295.57,2025-03-31,2025-05-30,2025-04-09,9,60,0,0,0,0,Medium,Missing purchase order,Request missing information,60,0,Large
+INV-00693,DataCore Systems,Operations,Cloud Infrastructure,13891.29,2025-10-27,2025-12-11,2025-10-29,2,45,1,1,1,0,High,Duplicate invoice detected,Send for manual review,45,0,Large
+INV-00694,Alpha Consulting,IT,Software License,19801.37,2025-06-03,2025-07-18,2025-06-08,5,45,0,0,1,0,High,Amount exceeds approval limit,Send for manual review,45,0,Large
+INV-00695,OfficePlus Group,Operations,Consulting Service,12347.97,2025-03-03,2025-03-18,2025-03-11,8,15,1,1,0,0,High,Duplicate invoice detected,Send for manual review,15,0,Large
+INV-00696,NetSecure Inc,HR,Office Supplies,14182.81,2025-03-03,2025-05-02,2025-03-12,9,60,1,0,0,0,Low,No risk detected,Approve for payment,60,0,Large
+INV-00697,DataCore Systems,HR,Software License,3738.81,2025-07-02,2025-08-01,2025-07-17,15,30,1,0,0,1,Low,No risk detected,Escalate to manager,30,1,Medium
+INV-00698,NetSecure Inc,Operations,Logistics,22811.41,2025-05-29,2025-06-13,2025-06-10,12,15,1,0,1,1,Medium,Vendor has previous delays,Escalate to manager,15,1,Large
+INV-00699,FinEdge Services,Risk Management,Consulting Service,19140.77,2025-10-06,2025-11-05,2025-10-26,20,30,1,0,1,1,Medium,Vendor has previous delays,Escalate to manager,30,1,Large
+INV-00700,OfficePlus Group,Procurement,Logistics,17479.39,2025-10-01,2025-10-16,2025-10-13,12,15,1,0,0,1,Low,No risk detected,Escalate to manager,15,1,Large
+INV-00701,DataCore Systems,HR,Cloud Infrastructure,9388.05,2025-06-24,2025-08-23,2025-07-10,16,60,1,0,0,1,Low,No risk detected,Escalate to manager,60,1,Medium
+INV-00702,DataCore Systems,HR,Consulting Service,20806.18,2025-08-02,2025-08-17,2025-08-20,18,15,0,0,0,1,High,Amount exceeds approval limit,Escalate to manager,15,1,Large
+INV-00703,DataCore Systems,Finance,Office Supplies,8770.43,2025-08-15,2025-09-14,2025-08-27,12,30,1,0,1,1,Medium,Vendor has previous delays,Escalate to manager,30,1,Medium
+INV-00704,OfficePlus Group,Finance,Logistics,20382.9,2025-03-14,2025-04-13,2025-03-22,8,30,1,0,0,0,Low,No risk detected,Approve for payment,30,0,Large
+INV-00705,FinEdge Services,IT,Software License,10677.65,2025-01-10,2025-01-25,2025-01-14,4,15,0,1,0,0,High,Duplicate invoice detected,Send for manual review,15,0,Large
+INV-00706,FinEdge Services,Finance,Software License,19847.07,2025-08-29,2025-09-13,2025-09-15,17,15,1,0,0,1,Low,No risk detected,Escalate to manager,15,1,Large
+INV-00707,CloudBridge Ltd,Procurement,Logistics,355.78,2025-11-05,2025-11-20,2025-11-09,4,15,1,0,0,0,Low,No risk detected,Approve for payment,15,0,Small
+INV-00708,NetSecure Inc,Finance,Software License,3724.37,2025-06-30,2025-08-14,2025-07-09,9,45,1,0,1,0,Medium,Vendor has previous delays,Request missing information,45,0,Medium
+INV-00709,CloudBridge Ltd,Finance,Security Service,19104.78,2025-04-09,2025-05-09,2025-04-26,17,30,1,0,1,1,Medium,Vendor has previous delays,Escalate to manager,30,1,Large
+INV-00710,TechNova Solutions,Risk Management,Software License,23113.38,2025-07-07,2025-09-05,2025-07-24,17,60,1,1,1,1,High,Duplicate invoice detected,Escalate to manager,60,1,Large
+INV-00711,CloudBridge Ltd,IT,Cloud Infrastructure,24534.4,2025-09-21,2025-10-21,2025-10-05,14,30,1,1,0,1,High,Duplicate invoice detected,Escalate to manager,30,1,Large
+INV-00712,NetSecure Inc,Finance,Office Supplies,2846.87,2025-07-04,2025-09-02,2025-07-09,5,60,1,0,0,0,Low,No risk detected,Approve for payment,60,0,Medium
+INV-00713,NetSecure Inc,Operations,Software License,9681.05,2025-08-16,2025-09-30,2025-08-31,15,45,1,1,0,1,High,Duplicate invoice detected,Escalate to manager,45,1,Medium
+INV-00714,GreenLogix,IT,Software License,22379.39,2025-04-02,2025-05-17,2025-04-18,16,45,1,1,1,1,High,Duplicate invoice detected,Escalate to manager,45,1,Large
+INV-00715,CloudBridge Ltd,Operations,Office Supplies,13114.29,2025-03-15,2025-03-30,2025-03-18,3,15,0,1,1,0,High,Duplicate invoice detected,Send for manual review,15,0,Large
+INV-00716,CloudBridge Ltd,Risk Management,Consulting Service,1711.29,2025-04-13,2025-05-28,2025-04-20,7,45,0,0,0,0,Medium,Missing purchase order,Request missing information,45,0,Medium
+INV-00717,GreenLogix,Risk Management,Office Supplies,7035.11,2025-11-26,2026-01-10,2025-12-15,19,45,0,0,0,1,Medium,Missing purchase order,Escalate to manager,45,1,Medium
+INV-00718,GreenLogix,Operations,Security Service,7044.38,2025-03-04,2025-03-19,2025-03-19,15,15,1,1,0,1,High,Duplicate invoice detected,Escalate to manager,15,1,Medium
+INV-00719,FinEdge Services,Risk Management,Consulting Service,840.12,2025-09-13,2025-09-28,2025-09-15,2,15,1,0,0,0,Low,No risk detected,Approve for payment,15,0,Small
+INV-00720,NetSecure Inc,IT,Cloud Infrastructure,15586.97,2025-09-24,2025-10-09,2025-09-28,4,15,0,1,0,0,High,Duplicate invoice detected,Send for manual review,15,0,Large
+INV-00721,OfficePlus Group,Risk Management,Office Supplies,12307.23,2025-10-04,2025-11-18,2025-10-13,9,45,1,0,0,0,Low,No risk detected,Approve for payment,45,0,Large
+INV-00722,CloudBridge Ltd,Operations,Office Supplies,7932.52,2025-08-24,2025-10-23,2025-09-06,13,60,1,0,0,1,Low,No risk detected,Escalate to manager,60,1,Medium
+INV-00723,OfficePlus Group,Risk Management,Consulting Service,12337.84,2025-07-19,2025-09-02,2025-07-24,5,45,0,0,1,0,Medium,Missing purchase order,Request missing information,45,0,Large
+INV-00724,Alpha Consulting,Risk Management,Security Service,17165.82,2025-09-01,2025-10-31,2025-09-20,19,60,1,0,0,1,Low,No risk detected,Escalate to manager,60,1,Large
+INV-00725,OfficePlus Group,Operations,Security Service,24274.68,2025-05-26,2025-07-10,2025-06-15,20,45,1,0,0,1,Low,No risk detected,Escalate to manager,45,1,Large
+INV-00726,TechNova Solutions,IT,Cloud Infrastructure,8787.03,2025-11-17,2025-12-02,2025-12-06,19,15,1,1,0,1,High,Duplicate invoice detected,Escalate to manager,15,1,Medium
+INV-00727,GreenLogix,Procurement,Cloud Infrastructure,10357.05,2025-05-07,2025-06-06,2025-05-09,2,30,1,0,1,0,Medium,Vendor has previous delays,Request missing information,30,0,Large
+INV-00728,CloudBridge Ltd,Risk Management,Software License,21736.61,2025-03-28,2025-05-12,2025-04-01,4,45,1,0,0,0,Low,No risk detected,Approve for payment,45,0,Large
+INV-00729,Alpha Consulting,Risk Management,Office Supplies,14244.43,2025-01-11,2025-02-25,2025-01-25,14,45,0,0,0,1,Medium,Missing purchase order,Escalate to manager,45,1,Large
+INV-00730,GreenLogix,HR,Office Supplies,8128.29,2025-02-21,2025-04-22,2025-02-25,4,60,1,0,0,0,Low,No risk detected,Approve for payment,60,0,Medium
+INV-00731,NetSecure Inc,IT,Security Service,7558.07,2025-09-12,2025-10-12,2025-09-26,14,30,1,0,0,1,Low,No risk detected,Escalate to manager,30,1,Medium
+INV-00732,OfficePlus Group,Finance,Cloud Infrastructure,24906.07,2025-11-16,2025-12-16,2025-11-29,13,30,1,0,1,1,Medium,Vendor has previous delays,Escalate to manager,30,1,Large
+INV-00733,NetSecure Inc,Procurement,Software License,14204.06,2025-08-07,2025-10-06,2025-08-24,17,60,1,0,0,1,Low,No risk detected,Escalate to manager,60,1,Large
+INV-00734,OfficePlus Group,HR,Cloud Infrastructure,10879.47,2025-04-13,2025-05-28,2025-05-01,18,45,0,1,0,1,High,Duplicate invoice detected,Escalate to manager,45,1,Large
+INV-00735,Alpha Consulting,Risk Management,Security Service,4596.96,2025-10-23,2025-11-22,2025-10-24,1,30,0,0,1,0,Medium,Missing purchase order,Request missing information,30,0,Medium
+INV-00736,Alpha Consulting,Procurement,Logistics,13364.71,2025-10-17,2025-12-16,2025-11-06,20,60,1,0,0,1,Low,No risk detected,Escalate to manager,60,1,Large
+INV-00737,Alpha Consulting,IT,Consulting Service,3846.77,2025-07-30,2025-09-28,2025-08-09,10,60,1,0,1,0,Medium,Vendor has previous delays,Request missing information,60,0,Medium
+INV-00738,FinEdge Services,Operations,Cloud Infrastructure,20610.4,2025-11-04,2025-12-19,2025-11-10,6,45,1,1,0,0,High,Duplicate invoice detected,Send for manual review,45,0,Large
+INV-00739,CloudBridge Ltd,IT,Consulting Service,789.83,2025-09-06,2025-11-05,2025-09-16,10,60,0,1,1,0,High,Duplicate invoice detected,Send for manual review,60,0,Small
+INV-00740,TechNova Solutions,IT,Consulting Service,6890.53,2025-05-23,2025-07-07,2025-05-24,1,45,1,0,1,0,Medium,Vendor has previous delays,Request missing information,45,0,Medium
+INV-00741,Alpha Consulting,Finance,Software License,21503.64,2025-11-05,2025-12-20,2025-11-08,3,45,1,0,0,0,Low,No risk detected,Approve for payment,45,0,Large
+INV-00742,NetSecure Inc,Risk Management,Logistics,22154.41,2025-05-01,2025-05-31,2025-05-14,13,30,1,0,1,1,Medium,Vendor has previous delays,Escalate to manager,30,1,Large
+INV-00743,OfficePlus Group,Operations,Software License,6028.11,2025-06-18,2025-08-02,2025-06-22,4,45,0,0,0,0,Medium,Missing purchase order,Request missing information,45,0,Medium
+INV-00744,FinEdge Services,IT,Software License,4461.34,2025-07-29,2025-09-27,2025-08-07,9,60,1,0,0,0,Low,No risk detected,Approve for payment,60,0,Medium
+INV-00745,NetSecure Inc,Risk Management,Software License,7980.6,2025-05-07,2025-07-06,2025-05-21,14,60,1,0,0,1,Low,No risk detected,Escalate to manager,60,1,Medium
+INV-00746,Alpha Consulting,Risk Management,Cloud Infrastructure,20552.0,2025-01-28,2025-02-12,2025-01-29,1,15,1,0,1,0,Medium,Vendor has previous delays,Request missing information,15,0,Large
+INV-00747,GreenLogix,Procurement,Logistics,23966.24,2025-10-01,2025-10-16,2025-10-13,12,15,1,1,0,1,High,Duplicate invoice detected,Escalate to manager,15,1,Large
+INV-00748,TechNova Solutions,Operations,Cloud Infrastructure,7592.11,2025-04-18,2025-06-02,2025-04-26,8,45,1,1,1,0,High,Duplicate invoice detected,Send for manual review,45,0,Medium
+INV-00749,NetSecure Inc,Risk Management,Office Supplies,19754.0,2025-09-09,2025-09-24,2025-09-18,9,15,0,1,0,0,High,Duplicate invoice detected,Send for manual review,15,0,Large
+INV-00750,GreenLogix,Finance,Consulting Service,17492.21,2025-06-30,2025-07-15,2025-07-17,17,15,0,0,0,1,High,Amount exceeds approval limit,Escalate to manager,15,1,Large
+INV-00751,TechNova Solutions,Finance,Logistics,16075.65,2025-01-02,2025-02-01,2025-01-17,15,30,0,0,1,1,High,Amount exceeds approval limit,Escalate to manager,30,1,Large
+INV-00752,OfficePlus Group,Procurement,Security Service,2147.58,2025-09-22,2025-10-22,2025-09-28,6,30,1,1,0,0,High,Duplicate invoice detected,Send for manual review,30,0,Medium
+INV-00753,Alpha Consulting,Operations,Logistics,3424.39,2025-05-25,2025-07-09,2025-05-31,6,45,1,0,0,0,Low,No risk detected,Approve for payment,45,0,Medium
+INV-00754,NetSecure Inc,IT,Office Supplies,21922.11,2025-01-11,2025-02-10,2025-01-30,19,30,1,0,0,1,Low,No risk detected,Escalate to manager,30,1,Large
+INV-00755,Alpha Consulting,IT,Cloud Infrastructure,17561.4,2025-07-25,2025-08-09,2025-07-31,6,15,0,0,0,0,High,Amount exceeds approval limit,Send for manual review,15,0,Large
+INV-00756,CloudBridge Ltd,Procurement,Consulting Service,23686.36,2025-09-27,2025-10-12,2025-10-01,4,15,0,1,1,0,High,Duplicate invoice detected,Send for manual review,15,0,Large
+INV-00757,Alpha Consulting,Finance,Consulting Service,17867.74,2025-05-28,2025-07-12,2025-06-04,7,45,0,1,0,0,High,Duplicate invoice detected,Send for manual review,45,0,Large
+INV-00758,GreenLogix,IT,Security Service,5467.61,2025-08-03,2025-09-02,2025-08-13,10,30,1,1,0,0,High,Duplicate invoice detected,Send for manual review,30,0,Medium
+INV-00759,TechNova Solutions,Procurement,Cloud Infrastructure,5963.59,2025-07-09,2025-08-08,2025-07-24,15,30,0,0,0,1,Medium,Missing purchase order,Escalate to manager,30,1,Medium
+INV-00760,Alpha Consulting,IT,Cloud Infrastructure,24362.54,2025-07-16,2025-08-15,2025-07-29,13,30,0,0,0,1,High,Amount exceeds approval limit,Escalate to manager,30,1,Large
+INV-00761,CloudBridge Ltd,HR,Software License,1397.6,2025-07-01,2025-08-30,2025-07-09,8,60,1,0,0,0,Low,No risk detected,Approve for payment,60,0,Medium
+INV-00762,GreenLogix,Procurement,Office Supplies,16814.42,2025-10-25,2025-11-09,2025-10-30,5,15,1,0,0,0,Low,No risk detected,Approve for payment,15,0,Large
+INV-00763,Alpha Consulting,Procurement,Office Supplies,3384.8,2025-03-14,2025-05-13,2025-03-25,11,60,1,0,0,1,Low,No risk detected,Escalate to manager,60,1,Medium
+INV-00764,TechNova Solutions,IT,Office Supplies,21804.82,2025-08-09,2025-09-23,2025-08-18,9,45,1,0,1,0,Medium,Vendor has previous delays,Request missing information,45,0,Large
+INV-00765,OfficePlus Group,HR,Cloud Infrastructure,10950.81,2025-09-09,2025-10-24,2025-09-15,6,45,1,1,0,0,High,Duplicate invoice detected,Send for manual review,45,0,Large
+INV-00766,FinEdge Services,IT,Software License,5823.53,2025-05-14,2025-07-13,2025-05-16,2,60,1,1,0,0,High,Duplicate invoice detected,Send for manual review,60,0,Medium
+INV-00767,CloudBridge Ltd,Operations,Software License,11093.84,2025-08-23,2025-10-22,2025-09-10,18,60,0,0,1,1,Medium,Missing purchase order,Escalate to manager,60,1,Large
+INV-00768,DataCore Systems,Finance,Cloud Infrastructure,2430.09,2025-03-28,2025-04-27,2025-04-07,10,30,1,0,1,0,Medium,Vendor has previous delays,Request missing information,30,0,Medium
+INV-00769,TechNova Solutions,HR,Security Service,4596.16,2025-09-13,2025-10-13,2025-09-16,3,30,1,0,0,0,Low,No risk detected,Approve for payment,30,0,Medium
+INV-00770,OfficePlus Group,Risk Management,Logistics,3137.57,2025-06-15,2025-06-30,2025-06-27,12,15,1,0,0,1,Low,No risk detected,Escalate to manager,15,1,Medium
+INV-00771,Alpha Consulting,Risk Management,Logistics,12048.39,2025-06-18,2025-07-03,2025-06-27,9,15,1,1,0,0,High,Duplicate invoice detected,Send for manual review,15,0,Large
+INV-00772,DataCore Systems,IT,Software License,20058.79,2025-01-29,2025-03-15,2025-02-08,10,45,1,1,0,0,High,Duplicate invoice detected,Send for manual review,45,0,Large
+INV-00773,GreenLogix,Procurement,Consulting Service,6078.0,2025-01-11,2025-01-26,2025-01-24,13,15,1,0,0,1,Low,No risk detected,Escalate to manager,15,1,Medium
+INV-00774,GreenLogix,Procurement,Logistics,18838.71,2025-06-02,2025-06-17,2025-06-07,5,15,0,1,1,0,High,Duplicate invoice detected,Send for manual review,15,0,Large
+INV-00775,OfficePlus Group,Risk Management,Security Service,3369.04,2025-09-20,2025-11-04,2025-09-24,4,45,1,1,0,0,High,Duplicate invoice detected,Send for manual review,45,0,Medium
+INV-00776,GreenLogix,Operations,Cloud Infrastructure,14120.12,2025-08-05,2025-08-20,2025-08-19,14,15,1,0,0,1,Low,No risk detected,Escalate to manager,15,1,Large
+INV-00777,GreenLogix,Finance,Software License,12882.2,2025-03-21,2025-04-20,2025-04-05,15,30,0,0,0,1,Medium,Missing purchase order,Escalate to manager,30,1,Large
+INV-00778,Alpha Consulting,Operations,Software License,22689.47,2025-03-18,2025-05-02,2025-04-03,16,45,1,0,0,1,Low,No risk detected,Escalate to manager,45,1,Large
+INV-00779,GreenLogix,Procurement,Security Service,1288.43,2025-09-20,2025-10-05,2025-09-23,3,15,1,1,0,0,High,Duplicate invoice detected,Send for manual review,15,0,Medium
+INV-00780,CloudBridge Ltd,Operations,Logistics,18035.72,2025-05-11,2025-06-25,2025-05-20,9,45,1,0,0,0,Low,No risk detected,Approve for payment,45,0,Large
+INV-00781,Alpha Consulting,IT,Consulting Service,21088.45,2025-08-02,2025-08-17,2025-08-04,2,15,1,0,1,0,Medium,Vendor has previous delays,Request missing information,15,0,Large
+INV-00782,Alpha Consulting,Risk Management,Office Supplies,15632.88,2025-04-06,2025-05-21,2025-04-15,9,45,1,0,0,0,Low,No risk detected,Approve for payment,45,0,Large
+INV-00783,OfficePlus Group,Risk Management,Software License,10901.59,2025-07-22,2025-08-06,2025-07-23,1,15,1,0,0,0,Low,No risk detected,Approve for payment,15,0,Large
+INV-00784,Alpha Consulting,Operations,Logistics,10186.78,2025-06-05,2025-08-04,2025-06-25,20,60,1,1,0,1,High,Duplicate invoice detected,Escalate to manager,60,1,Large
+INV-00785,CloudBridge Ltd,IT,Consulting Service,445.51,2025-04-07,2025-04-22,2025-04-11,4,15,1,0,0,0,Low,No risk detected,Approve for payment,15,0,Small
+INV-00786,DataCore Systems,Risk Management,Consulting Service,10951.13,2025-02-14,2025-03-16,2025-03-04,18,30,1,1,0,1,High,Duplicate invoice detected,Escalate to manager,30,1,Large
+INV-00787,Alpha Consulting,Operations,Software License,2999.82,2025-09-06,2025-11-05,2025-09-11,5,60,0,0,0,0,Medium,Missing purchase order,Request missing information,60,0,Medium
+INV-00788,FinEdge Services,IT,Cloud Infrastructure,14278.82,2025-06-20,2025-07-05,2025-07-03,13,15,1,0,1,1,Medium,Vendor has previous delays,Escalate to manager,15,1,Large
+INV-00789,GreenLogix,Operations,Office Supplies,18453.25,2025-01-19,2025-03-05,2025-02-08,20,45,0,1,0,1,High,Duplicate invoice detected,Escalate to manager,45,1,Large
+INV-00790,Alpha Consulting,IT,Logistics,1611.55,2025-10-23,2025-12-22,2025-10-24,1,60,1,0,0,0,Low,No risk detected,Approve for payment,60,0,Medium
+INV-00791,GreenLogix,Operations,Software License,12420.24,2025-08-12,2025-10-11,2025-08-24,12,60,1,0,0,1,Low,No risk detected,Escalate to manager,60,1,Large
+INV-00792,FinEdge Services,Operations,Cloud Infrastructure,11008.96,2025-10-28,2025-11-27,2025-11-14,17,30,1,1,0,1,High,Duplicate invoice detected,Escalate to manager,30,1,Large
+INV-00793,OfficePlus Group,Risk Management,Logistics,9820.24,2025-08-30,2025-10-14,2025-09-13,14,45,1,0,0,1,Low,No risk detected,Escalate to manager,45,1,Medium
+INV-00794,CloudBridge Ltd,Risk Management,Office Supplies,3314.5,2025-11-07,2025-12-07,2025-11-14,7,30,0,0,0,0,Medium,Missing purchase order,Request missing information,30,0,Medium
+INV-00795,Alpha Consulting,Procurement,Consulting Service,5314.88,2025-07-03,2025-07-18,2025-07-05,2,15,1,0,1,0,Medium,Vendor has previous delays,Request missing information,15,0,Medium
+INV-00796,DataCore Systems,IT,Security Service,896.05,2025-08-09,2025-09-23,2025-08-12,3,45,1,0,0,0,Low,No risk detected,Approve for payment,45,0,Small
+INV-00797,FinEdge Services,Operations,Cloud Infrastructure,24842.2,2025-10-13,2025-10-28,2025-10-25,12,15,1,0,1,1,Medium,Vendor has previous delays,Escalate to manager,15,1,Large
+INV-00798,CloudBridge Ltd,Risk Management,Software License,23173.14,2025-02-26,2025-04-27,2025-03-13,15,60,1,0,1,1,Medium,Vendor has previous delays,Escalate to manager,60,1,Large
+INV-00799,TechNova Solutions,HR,Software License,4259.45,2025-07-05,2025-08-04,2025-07-09,4,30,1,0,1,0,Medium,Vendor has previous delays,Request missing information,30,0,Medium
+INV-00800,Alpha Consulting,HR,Office Supplies,18340.54,2025-07-06,2025-08-05,2025-07-10,4,30,1,0,0,0,Low,No risk detected,Approve for payment,30,0,Large
+INV-00801,FinEdge Services,Operations,Office Supplies,19253.56,2025-08-31,2025-09-30,2025-09-01,1,30,1,0,1,0,Medium,Vendor has previous delays,Request missing information,30,0,Large
+INV-00802,DataCore Systems,Finance,Cloud Infrastructure,9373.67,2025-11-19,2026-01-03,2025-12-03,14,45,1,0,1,1,Medium,Vendor has previous delays,Escalate to manager,45,1,Medium
+INV-00803,GreenLogix,IT,Consulting Service,20064.04,2025-08-23,2025-10-22,2025-09-06,14,60,1,0,0,1,Low,No risk detected,Escalate to manager,60,1,Large
+INV-00804,DataCore Systems,Finance,Logistics,20175.55,2025-06-23,2025-07-08,2025-06-26,3,15,1,1,0,0,High,Duplicate invoice detected,Send for manual review,15,0,Large
+INV-00805,GreenLogix,Finance,Office Supplies,19003.89,2025-11-20,2025-12-05,2025-11-25,5,15,1,1,0,0,High,Duplicate invoice detected,Send for manual review,15,0,Large
+INV-00806,OfficePlus Group,Risk Management,Logistics,7911.01,2025-05-24,2025-06-08,2025-06-05,12,15,1,1,0,1,High,Duplicate invoice detected,Escalate to manager,15,1,Medium
+INV-00807,FinEdge Services,HR,Security Service,19729.71,2025-07-27,2025-09-10,2025-08-11,15,45,1,0,0,1,Low,No risk detected,Escalate to manager,45,1,Large
+INV-00808,TechNova Solutions,HR,Cloud Infrastructure,9810.84,2025-04-20,2025-06-04,2025-04-25,5,45,1,0,1,0,Medium,Vendor has previous delays,Request missing information,45,0,Medium
+INV-00809,NetSecure Inc,Risk Management,Consulting Service,683.2,2025-05-04,2025-06-18,2025-05-22,18,45,1,1,1,1,High,Duplicate invoice detected,Escalate to manager,45,1,Small
+INV-00810,CloudBridge Ltd,Risk Management,Software License,21055.43,2025-03-05,2025-04-19,2025-03-14,9,45,1,0,0,0,Low,No risk detected,Approve for payment,45,0,Large
+INV-00811,OfficePlus Group,HR,Logistics,229.81,2025-10-25,2025-11-24,2025-11-05,11,30,1,0,0,1,Low,No risk detected,Escalate to manager,30,1,Small
+INV-00812,OfficePlus Group,Risk Management,Logistics,14361.87,2025-09-24,2025-11-23,2025-09-29,5,60,1,0,0,0,Low,No risk detected,Approve for payment,60,0,Large
+INV-00813,FinEdge Services,Procurement,Office Supplies,2539.9,2025-02-11,2025-04-12,2025-02-25,14,60,1,0,0,1,Low,No risk detected,Escalate to manager,60,1,Medium
+INV-00814,DataCore Systems,Operations,Consulting Service,11209.49,2025-10-29,2025-12-28,2025-11-10,12,60,0,0,1,1,Medium,Missing purchase order,Escalate to manager,60,1,Large
+INV-00815,Alpha Consulting,Risk Management,Office Supplies,24913.14,2025-03-25,2025-05-24,2025-04-10,16,60,1,0,0,1,Low,No risk detected,Escalate to manager,60,1,Large
+INV-00816,Alpha Consulting,IT,Logistics,12878.32,2025-04-19,2025-05-04,2025-05-06,17,15,0,1,0,1,High,Duplicate invoice detected,Escalate to manager,15,1,Large
+INV-00817,DataCore Systems,HR,Cloud Infrastructure,23050.26,2025-02-26,2025-04-27,2025-03-02,4,60,1,0,1,0,Medium,Vendor has previous delays,Request missing information,60,0,Large
+INV-00818,OfficePlus Group,Finance,Security Service,3917.28,2025-07-11,2025-08-25,2025-07-23,12,45,1,0,0,1,Low,No risk detected,Escalate to manager,45,1,Medium
+INV-00819,TechNova Solutions,IT,Consulting Service,19616.43,2025-06-06,2025-06-21,2025-06-20,14,15,1,0,0,1,Low,No risk detected,Escalate to manager,15,1,Large
+INV-00820,Alpha Consulting,Finance,Software License,13733.68,2025-08-02,2025-08-17,2025-08-05,3,15,0,0,1,0,Medium,Missing purchase order,Request missing information,15,0,Large
+INV-00821,Alpha Consulting,Procurement,Office Supplies,11933.17,2025-03-12,2025-04-11,2025-04-01,20,30,0,1,1,1,High,Duplicate invoice detected,Escalate to manager,30,1,Large
+INV-00822,Alpha Consulting,IT,Logistics,8197.89,2025-07-18,2025-09-16,2025-08-07,20,60,1,1,0,1,High,Duplicate invoice detected,Escalate to manager,60,1,Medium
+INV-00823,TechNova Solutions,Risk Management,Office Supplies,18424.23,2025-01-13,2025-02-12,2025-01-16,3,30,1,0,1,0,Medium,Vendor has previous delays,Request missing information,30,0,Large
+INV-00824,CloudBridge Ltd,IT,Security Service,13591.67,2025-09-01,2025-10-01,2025-09-03,2,30,1,0,1,0,Medium,Vendor has previous delays,Request missing information,30,0,Large
+INV-00825,DataCore Systems,Finance,Cloud Infrastructure,19690.25,2025-02-13,2025-04-14,2025-02-21,8,60,1,1,1,0,High,Duplicate invoice detected,Send for manual review,60,0,Large
+INV-00826,TechNova Solutions,Operations,Software License,8564.92,2025-01-13,2025-03-14,2025-01-19,6,60,1,1,0,0,High,Duplicate invoice detected,Send for manual review,60,0,Medium
+INV-00827,CloudBridge Ltd,Finance,Software License,13590.3,2025-04-04,2025-05-04,2025-04-14,10,30,1,0,0,0,Low,No risk detected,Approve for payment,30,0,Large
+INV-00828,OfficePlus Group,Operations,Logistics,4312.86,2025-04-03,2025-05-18,2025-04-23,20,45,1,0,0,1,Low,No risk detected,Escalate to manager,45,1,Medium
+INV-00829,GreenLogix,Finance,Cloud Infrastructure,3647.27,2025-07-12,2025-08-26,2025-07-23,11,45,1,0,0,1,Low,No risk detected,Escalate to manager,45,1,Medium
+INV-00830,FinEdge Services,HR,Security Service,5988.63,2025-02-28,2025-04-29,2025-03-17,17,60,1,0,0,1,Low,No risk detected,Escalate to manager,60,1,Medium
+INV-00831,Alpha Consulting,HR,Office Supplies,1729.91,2025-11-21,2026-01-20,2025-11-22,1,60,1,0,0,0,Low,No risk detected,Approve for payment,60,0,Medium
+INV-00832,CloudBridge Ltd,IT,Security Service,16323.62,2025-10-18,2025-12-02,2025-10-23,5,45,0,1,0,0,High,Duplicate invoice detected,Send for manual review,45,0,Large
+INV-00833,FinEdge Services,IT,Cloud Infrastructure,13556.95,2025-10-03,2025-11-02,2025-10-09,6,30,0,1,0,0,High,Duplicate invoice detected,Send for manual review,30,0,Large
+INV-00834,TechNova Solutions,Operations,Security Service,7302.31,2025-01-31,2025-02-15,2025-02-06,6,15,0,0,1,0,Medium,Missing purchase order,Request missing information,15,0,Medium
+INV-00835,OfficePlus Group,Risk Management,Office Supplies,24981.12,2025-01-24,2025-03-10,2025-01-31,7,45,1,0,0,0,Low,No risk detected,Approve for payment,45,0,Large
+INV-00836,CloudBridge Ltd,Operations,Logistics,3162.13,2025-08-10,2025-09-24,2025-08-15,5,45,1,0,1,0,Medium,Vendor has previous delays,Request missing information,45,0,Medium
+INV-00837,NetSecure Inc,Risk Management,Cloud Infrastructure,24493.04,2025-05-06,2025-06-20,2025-05-21,15,45,1,0,0,1,Low,No risk detected,Escalate to manager,45,1,Large
+INV-00838,Alpha Consulting,HR,Cloud Infrastructure,495.28,2025-11-08,2025-11-23,2025-11-13,5,15,0,0,0,0,Medium,Missing purchase order,Request missing information,15,0,Small
+INV-00839,DataCore Systems,Operations,Security Service,22392.18,2025-10-03,2025-12-02,2025-10-19,16,60,1,0,1,1,Medium,Vendor has previous delays,Escalate to manager,60,1,Large
+INV-00840,TechNova Solutions,Risk Management,Office Supplies,16838.92,2025-11-04,2026-01-03,2025-11-16,12,60,1,1,0,1,High,Duplicate invoice detected,Escalate to manager,60,1,Large
+INV-00841,TechNova Solutions,Finance,Office Supplies,9324.97,2025-01-05,2025-03-06,2025-01-12,7,60,1,0,0,0,Low,No risk detected,Approve for payment,60,0,Medium
+INV-00842,NetSecure Inc,IT,Software License,20425.39,2025-04-30,2025-05-30,2025-05-10,10,30,0,0,0,0,High,Amount exceeds approval limit,Send for manual review,30,0,Large
+INV-00843,OfficePlus Group,Operations,Logistics,17703.5,2025-04-11,2025-04-26,2025-04-18,7,15,0,0,0,0,High,Amount exceeds approval limit,Send for manual review,15,0,Large
+INV-00844,Alpha Consulting,IT,Security Service,4924.88,2025-02-03,2025-03-05,2025-02-22,19,30,1,0,0,1,Low,No risk detected,Escalate to manager,30,1,Medium
+INV-00845,OfficePlus Group,HR,Consulting Service,22036.98,2025-01-12,2025-02-11,2025-01-21,9,30,1,1,0,0,High,Duplicate invoice detected,Send for manual review,30,0,Large
+INV-00846,GreenLogix,Risk Management,Logistics,23582.55,2025-08-10,2025-09-24,2025-08-12,2,45,0,0,0,0,High,Amount exceeds approval limit,Send for manual review,45,0,Large
+INV-00847,Alpha Consulting,Operations,Cloud Infrastructure,12979.7,2025-01-25,2025-02-24,2025-01-27,2,30,1,1,1,0,High,Duplicate invoice detected,Send for manual review,30,0,Large
+INV-00848,Alpha Consulting,Procurement,Software License,9857.29,2025-10-20,2025-11-04,2025-10-31,11,15,1,0,1,1,Medium,Vendor has previous delays,Escalate to manager,15,1,Medium
+INV-00849,GreenLogix,Finance,Consulting Service,5002.23,2025-02-02,2025-03-19,2025-02-13,11,45,1,0,0,1,Low,No risk detected,Escalate to manager,45,1,Medium
+INV-00850,GreenLogix,Finance,Security Service,19950.8,2025-05-07,2025-06-21,2025-05-18,11,45,1,1,0,1,High,Duplicate invoice detected,Escalate to manager,45,1,Large
+INV-00851,NetSecure Inc,Finance,Cloud Infrastructure,13039.91,2025-11-04,2025-11-19,2025-11-12,8,15,0,0,1,0,Medium,Missing purchase order,Request missing information,15,0,Large
+INV-00852,Alpha Consulting,HR,Software License,2229.81,2025-07-13,2025-07-28,2025-07-15,2,15,1,0,0,0,Low,No risk detected,Approve for payment,15,0,Medium
+INV-00853,TechNova Solutions,Operations,Software License,7606.63,2025-02-22,2025-03-09,2025-03-08,14,15,1,0,0,1,Low,No risk detected,Escalate to manager,15,1,Medium
+INV-00854,GreenLogix,Operations,Software License,15470.82,2025-11-03,2025-12-03,2025-11-17,14,30,1,1,0,1,High,Duplicate invoice detected,Escalate to manager,30,1,Large
+INV-00855,Alpha Consulting,Operations,Security Service,15518.84,2025-08-21,2025-09-05,2025-09-01,11,15,1,0,0,1,Low,No risk detected,Escalate to manager,15,1,Large
+INV-00856,CloudBridge Ltd,Finance,Security Service,17861.15,2025-10-21,2025-11-20,2025-11-09,19,30,1,0,0,1,Low,No risk detected,Escalate to manager,30,1,Large
+INV-00857,GreenLogix,Operations,Logistics,15559.19,2025-03-12,2025-04-11,2025-03-18,6,30,1,0,0,0,Low,No risk detected,Approve for payment,30,0,Large
+INV-00858,OfficePlus Group,HR,Office Supplies,12876.83,2025-10-26,2025-12-10,2025-11-07,12,45,1,0,0,1,Low,No risk detected,Escalate to manager,45,1,Large
+INV-00859,OfficePlus Group,HR,Cloud Infrastructure,7347.49,2025-01-30,2025-03-01,2025-01-31,1,30,1,0,0,0,Low,No risk detected,Approve for payment,30,0,Medium
+INV-00860,NetSecure Inc,IT,Consulting Service,16049.81,2025-06-24,2025-07-09,2025-07-01,7,15,1,1,1,0,High,Duplicate invoice detected,Send for manual review,15,0,Large
+INV-00861,Alpha Consulting,HR,Logistics,8345.52,2025-11-12,2025-12-27,2025-12-01,19,45,1,1,0,1,High,Duplicate invoice detected,Escalate to manager,45,1,Medium
+INV-00862,DataCore Systems,Finance,Office Supplies,21915.03,2025-04-23,2025-06-22,2025-04-25,2,60,1,0,1,0,Medium,Vendor has previous delays,Request missing information,60,0,Large
+INV-00863,FinEdge Services,Operations,Security Service,5407.15,2025-07-12,2025-08-26,2025-07-28,16,45,1,1,0,1,High,Duplicate invoice detected,Escalate to manager,45,1,Medium
+INV-00864,TechNova Solutions,Procurement,Software License,1935.91,2025-03-14,2025-03-29,2025-03-15,1,15,1,1,0,0,High,Duplicate invoice detected,Send for manual review,15,0,Medium
+INV-00865,NetSecure Inc,Finance,Software License,5058.16,2025-04-23,2025-05-23,2025-05-03,10,30,1,0,0,0,Low,No risk detected,Approve for payment,30,0,Medium
+INV-00866,FinEdge Services,IT,Consulting Service,635.15,2025-01-11,2025-01-26,2025-01-20,9,15,1,1,1,0,High,Duplicate invoice detected,Send for manual review,15,0,Small
+INV-00867,CloudBridge Ltd,Procurement,Consulting Service,7696.3,2025-07-10,2025-08-24,2025-07-18,8,45,1,1,1,0,High,Duplicate invoice detected,Send for manual review,45,0,Medium
+INV-00868,CloudBridge Ltd,Finance,Consulting Service,22079.81,2025-04-09,2025-05-09,2025-04-14,5,30,0,0,0,0,High,Amount exceeds approval limit,Send for manual review,30,0,Large
+INV-00869,GreenLogix,Risk Management,Consulting Service,23033.24,2025-10-02,2025-11-01,2025-10-22,20,30,1,0,0,1,Low,No risk detected,Escalate to manager,30,1,Large
+INV-00870,FinEdge Services,Finance,Logistics,19910.74,2025-04-18,2025-06-17,2025-04-23,5,60,1,1,1,0,High,Duplicate invoice detected,Send for manual review,60,0,Large
+INV-00871,CloudBridge Ltd,IT,Security Service,9764.08,2025-09-13,2025-10-28,2025-09-30,17,45,0,0,0,1,Medium,Missing purchase order,Escalate to manager,45,1,Medium
+INV-00872,NetSecure Inc,HR,Logistics,12134.1,2025-05-18,2025-07-17,2025-06-03,16,60,0,0,0,1,Medium,Missing purchase order,Escalate to manager,60,1,Large
+INV-00873,FinEdge Services,IT,Office Supplies,21592.89,2025-06-06,2025-07-06,2025-06-19,13,30,0,1,1,1,High,Duplicate invoice detected,Escalate to manager,30,1,Large
+INV-00874,DataCore Systems,Procurement,Cloud Infrastructure,13808.74,2025-06-01,2025-06-16,2025-06-06,5,15,0,0,0,0,Medium,Missing purchase order,Request missing information,15,0,Large
+INV-00875,TechNova Solutions,Operations,Security Service,15566.03,2025-08-28,2025-10-27,2025-09-11,14,60,0,1,0,1,High,Duplicate invoice detected,Escalate to manager,60,1,Large
+INV-00876,Alpha Consulting,Procurement,Cloud Infrastructure,9621.04,2025-04-30,2025-06-29,2025-05-06,6,60,1,0,0,0,Low,No risk detected,Approve for payment,60,0,Medium
+INV-00877,CloudBridge Ltd,Procurement,Security Service,12868.5,2025-04-27,2025-06-11,2025-04-30,3,45,1,0,0,0,Low,No risk detected,Approve for payment,45,0,Large
+INV-00878,NetSecure Inc,Finance,Security Service,5087.63,2025-05-09,2025-06-23,2025-05-16,7,45,1,0,0,0,Low,No risk detected,Approve for payment,45,0,Medium
+INV-00879,DataCore Systems,Risk Management,Logistics,13623.83,2025-06-03,2025-06-18,2025-06-12,9,15,1,0,0,0,Low,No risk detected,Approve for payment,15,0,Large
+INV-00880,GreenLogix,HR,Logistics,396.08,2025-07-23,2025-08-22,2025-08-09,17,30,1,0,1,1,Medium,Vendor has previous delays,Escalate to manager,30,1,Small
+INV-00881,FinEdge Services,Operations,Consulting Service,12944.05,2025-08-25,2025-10-24,2025-09-12,18,60,1,0,0,1,Low,No risk detected,Escalate to manager,60,1,Large
+INV-00882,FinEdge Services,Operations,Logistics,10500.43,2025-10-13,2025-12-12,2025-10-28,15,60,1,0,0,1,Low,No risk detected,Escalate to manager,60,1,Large
+INV-00883,DataCore Systems,Procurement,Logistics,341.06,2025-04-26,2025-06-10,2025-05-08,12,45,0,1,1,1,High,Duplicate invoice detected,Escalate to manager,45,1,Small
+INV-00884,GreenLogix,Risk Management,Security Service,7560.97,2025-10-18,2025-11-02,2025-11-06,19,15,1,0,0,1,Low,No risk detected,Escalate to manager,15,1,Medium
+INV-00885,NetSecure Inc,HR,Logistics,19998.73,2025-07-15,2025-09-13,2025-08-04,20,60,1,1,0,1,High,Duplicate invoice detected,Escalate to manager,60,1,Large
+INV-00886,GreenLogix,IT,Office Supplies,2805.1,2025-11-24,2026-01-23,2025-12-13,19,60,1,0,0,1,Low,No risk detected,Escalate to manager,60,1,Medium
+INV-00887,CloudBridge Ltd,Risk Management,Security Service,4523.14,2025-01-14,2025-03-15,2025-02-03,20,60,1,0,0,1,Low,No risk detected,Escalate to manager,60,1,Medium
+INV-00888,GreenLogix,Procurement,Consulting Service,5902.68,2025-08-21,2025-09-05,2025-09-07,17,15,1,0,1,1,Medium,Vendor has previous delays,Escalate to manager,15,1,Medium
+INV-00889,TechNova Solutions,IT,Cloud Infrastructure,21506.71,2025-03-22,2025-05-21,2025-04-05,14,60,1,0,1,1,Medium,Vendor has previous delays,Escalate to manager,60,1,Large
+INV-00890,GreenLogix,Operations,Logistics,1812.2,2025-04-16,2025-05-16,2025-04-23,7,30,1,1,1,0,High,Duplicate invoice detected,Send for manual review,30,0,Medium
+INV-00891,Alpha Consulting,IT,Security Service,14419.78,2025-09-15,2025-10-15,2025-09-25,10,30,0,0,0,0,Medium,Missing purchase order,Request missing information,30,0,Large
+INV-00892,TechNova Solutions,IT,Office Supplies,1692.85,2025-09-27,2025-10-27,2025-10-10,13,30,1,1,0,1,High,Duplicate invoice detected,Escalate to manager,30,1,Medium
+INV-00893,Alpha Consulting,HR,Software License,18458.54,2025-06-27,2025-08-26,2025-07-07,10,60,1,1,1,0,High,Duplicate invoice detected,Send for manual review,60,0,Large
+INV-00894,DataCore Systems,Operations,Consulting Service,4571.49,2025-08-23,2025-10-22,2025-09-12,20,60,0,0,1,1,Medium,Missing purchase order,Escalate to manager,60,1,Medium
+INV-00895,CloudBridge Ltd,Operations,Logistics,23647.62,2025-05-21,2025-06-20,2025-05-29,8,30,1,0,1,0,Medium,Vendor has previous delays,Request missing information,30,0,Large
+INV-00896,FinEdge Services,Operations,Office Supplies,24810.5,2025-07-08,2025-07-23,2025-07-26,18,15,1,0,1,1,Medium,Vendor has previous delays,Escalate to manager,15,1,Large
+INV-00897,NetSecure Inc,Operations,Office Supplies,4204.49,2025-08-25,2025-09-09,2025-09-01,7,15,1,0,1,0,Medium,Vendor has previous delays,Request missing information,15,0,Medium
+INV-00898,Alpha Consulting,Operations,Cloud Infrastructure,18674.34,2025-01-20,2025-03-21,2025-01-27,7,60,1,0,0,0,Low,No risk detected,Approve for payment,60,0,Large
+INV-00899,DataCore Systems,Procurement,Logistics,18742.03,2025-02-04,2025-04-05,2025-02-20,16,60,1,0,1,1,Medium,Vendor has previous delays,Escalate to manager,60,1,Large
+INV-00900,Alpha Consulting,IT,Office Supplies,20528.62,2025-01-10,2025-02-09,2025-01-16,6,30,1,0,0,0,Low,No risk detected,Approve for payment,30,0,Large
+INV-00901,CloudBridge Ltd,HR,Logistics,9832.15,2025-05-20,2025-06-04,2025-05-23,3,15,1,1,0,0,High,Duplicate invoice detected,Send for manual review,15,0,Medium
+INV-00902,DataCore Systems,IT,Logistics,957.68,2025-08-15,2025-09-14,2025-09-02,18,30,1,0,0,1,Low,No risk detected,Escalate to manager,30,1,Small
+INV-00903,OfficePlus Group,Operations,Software License,14995.31,2025-04-14,2025-06-13,2025-04-16,2,60,1,0,0,0,Low,No risk detected,Approve for payment,60,0,Large
+INV-00904,FinEdge Services,Finance,Software License,10599.9,2025-04-09,2025-05-24,2025-04-10,1,45,1,0,0,0,Low,No risk detected,Approve for payment,45,0,Large
+INV-00905,DataCore Systems,Risk Management,Consulting Service,1195.91,2025-06-17,2025-07-02,2025-07-04,17,15,1,0,1,1,Medium,Vendor has previous delays,Escalate to manager,15,1,Medium
+INV-00906,FinEdge Services,HR,Office Supplies,23479.19,2025-04-20,2025-05-20,2025-04-24,4,30,1,0,0,0,Low,No risk detected,Approve for payment,30,0,Large
+INV-00907,DataCore Systems,Finance,Office Supplies,16384.42,2025-04-19,2025-06-18,2025-04-20,1,60,0,0,0,0,High,Amount exceeds approval limit,Send for manual review,60,0,Large
+INV-00908,OfficePlus Group,Risk Management,Security Service,9287.6,2025-07-30,2025-08-29,2025-08-02,3,30,1,1,0,0,High,Duplicate invoice detected,Send for manual review,30,0,Medium
+INV-00909,DataCore Systems,Procurement,Software License,15036.69,2025-06-20,2025-07-20,2025-07-03,13,30,1,0,1,1,Medium,Vendor has previous delays,Escalate to manager,30,1,Large
+INV-00910,Alpha Consulting,Finance,Cloud Infrastructure,539.46,2025-07-15,2025-09-13,2025-08-03,19,60,1,0,0,1,Low,No risk detected,Escalate to manager,60,1,Small
+INV-00911,TechNova Solutions,HR,Software License,7790.33,2025-11-14,2025-12-14,2025-11-28,14,30,1,0,0,1,Low,No risk detected,Escalate to manager,30,1,Medium
+INV-00912,NetSecure Inc,Operations,Cloud Infrastructure,5130.09,2025-11-25,2025-12-25,2025-12-08,13,30,1,0,1,1,Medium,Vendor has previous delays,Escalate to manager,30,1,Medium
+INV-00913,Alpha Consulting,Risk Management,Cloud Infrastructure,3443.25,2025-09-24,2025-10-09,2025-10-05,11,15,0,0,0,1,Medium,Missing purchase order,Escalate to manager,15,1,Medium
+INV-00914,FinEdge Services,Risk Management,Cloud Infrastructure,8633.94,2025-05-08,2025-05-23,2025-05-15,7,15,1,1,1,0,High,Duplicate invoice detected,Send for manual review,15,0,Medium
+INV-00915,NetSecure Inc,IT,Office Supplies,15781.58,2025-02-05,2025-04-06,2025-02-08,3,60,1,0,1,0,Medium,Vendor has previous delays,Request missing information,60,0,Large
+INV-00916,DataCore Systems,IT,Consulting Service,2384.81,2025-05-01,2025-05-31,2025-05-20,19,30,1,1,1,1,High,Duplicate invoice detected,Escalate to manager,30,1,Medium
+INV-00917,Alpha Consulting,Procurement,Consulting Service,18069.68,2025-04-01,2025-05-31,2025-04-09,8,60,1,0,0,0,Low,No risk detected,Approve for payment,60,0,Large
+INV-00918,Alpha Consulting,Risk Management,Consulting Service,6869.33,2025-07-04,2025-07-19,2025-07-20,16,15,0,1,0,1,High,Duplicate invoice detected,Escalate to manager,15,1,Medium
+INV-00919,Alpha Consulting,Operations,Office Supplies,12681.78,2025-09-04,2025-10-04,2025-09-18,14,30,1,1,0,1,High,Duplicate invoice detected,Escalate to manager,30,1,Large
+INV-00920,CloudBridge Ltd,Procurement,Security Service,13476.22,2025-05-12,2025-06-11,2025-05-30,18,30,0,1,0,1,High,Duplicate invoice detected,Escalate to manager,30,1,Large
+INV-00921,Alpha Consulting,Procurement,Office Supplies,14097.34,2025-06-20,2025-07-05,2025-07-06,16,15,1,1,0,1,High,Duplicate invoice detected,Escalate to manager,15,1,Large
+INV-00922,DataCore Systems,IT,Software License,419.57,2025-09-09,2025-10-24,2025-09-26,17,45,0,1,0,1,High,Duplicate invoice detected,Escalate to manager,45,1,Small
+INV-00923,NetSecure Inc,Operations,Office Supplies,7764.49,2025-07-29,2025-08-13,2025-08-17,19,15,1,0,0,1,Low,No risk detected,Escalate to manager,15,1,Medium
+INV-00924,DataCore Systems,IT,Office Supplies,23931.71,2025-11-22,2026-01-21,2025-12-04,12,60,1,0,1,1,Medium,Vendor has previous delays,Escalate to manager,60,1,Large
+INV-00925,GreenLogix,Operations,Logistics,6245.12,2025-07-05,2025-07-20,2025-07-21,16,15,1,0,0,1,Low,No risk detected,Escalate to manager,15,1,Medium
+INV-00926,Alpha Consulting,Risk Management,Consulting Service,6431.77,2025-01-07,2025-02-06,2025-01-27,20,30,1,0,1,1,Medium,Vendor has previous delays,Escalate to manager,30,1,Medium
+INV-00927,GreenLogix,Operations,Logistics,14695.39,2025-08-05,2025-09-04,2025-08-08,3,30,1,1,0,0,High,Duplicate invoice detected,Send for manual review,30,0,Large
+INV-00928,OfficePlus Group,HR,Security Service,16496.3,2025-07-30,2025-09-13,2025-08-12,13,45,1,0,1,1,Medium,Vendor has previous delays,Escalate to manager,45,1,Large
+INV-00929,NetSecure Inc,IT,Cloud Infrastructure,18743.38,2025-01-04,2025-02-18,2025-01-17,13,45,1,1,0,1,High,Duplicate invoice detected,Escalate to manager,45,1,Large
+INV-00930,CloudBridge Ltd,Finance,Logistics,10504.21,2025-08-09,2025-09-23,2025-08-23,14,45,1,0,0,1,Low,No risk detected,Escalate to manager,45,1,Large
+INV-00931,DataCore Systems,Risk Management,Consulting Service,5030.71,2025-08-19,2025-09-03,2025-08-25,6,15,1,0,0,0,Low,No risk detected,Approve for payment,15,0,Medium
+INV-00932,TechNova Solutions,Risk Management,Consulting Service,20248.55,2025-07-29,2025-09-12,2025-08-05,7,45,0,0,1,0,High,Amount exceeds approval limit,Send for manual review,45,0,Large
+INV-00933,DataCore Systems,Finance,Cloud Infrastructure,2234.11,2025-02-02,2025-03-19,2025-02-06,4,45,1,0,1,0,Medium,Vendor has previous delays,Request missing information,45,0,Medium
+INV-00934,FinEdge Services,Operations,Office Supplies,16852.83,2025-02-01,2025-02-16,2025-02-05,4,15,1,0,1,0,Medium,Vendor has previous delays,Request missing information,15,0,Large
+INV-00935,TechNova Solutions,Finance,Consulting Service,13106.13,2025-11-05,2026-01-04,2025-11-06,1,60,1,1,0,0,High,Duplicate invoice detected,Send for manual review,60,0,Large
+INV-00936,NetSecure Inc,HR,Office Supplies,8480.1,2025-05-03,2025-06-17,2025-05-14,11,45,1,1,0,1,High,Duplicate invoice detected,Escalate to manager,45,1,Medium
+INV-00937,TechNova Solutions,Procurement,Cloud Infrastructure,20176.13,2025-07-25,2025-09-23,2025-07-26,1,60,1,0,1,0,Medium,Vendor has previous delays,Request missing information,60,0,Large
+INV-00938,CloudBridge Ltd,HR,Cloud Infrastructure,23781.44,2025-08-20,2025-10-04,2025-08-28,8,45,0,1,1,0,High,Duplicate invoice detected,Send for manual review,45,0,Large
+INV-00939,FinEdge Services,Finance,Logistics,23942.92,2025-11-21,2025-12-06,2025-12-02,11,15,1,0,1,1,Medium,Vendor has previous delays,Escalate to manager,15,1,Large
+INV-00940,NetSecure Inc,Risk Management,Office Supplies,5915.61,2025-11-10,2026-01-09,2025-11-26,16,60,1,0,0,1,Low,No risk detected,Escalate to manager,60,1,Medium
+INV-00941,Alpha Consulting,Risk Management,Logistics,22639.55,2025-11-07,2025-12-22,2025-11-20,13,45,1,0,1,1,Medium,Vendor has previous delays,Escalate to manager,45,1,Large
+INV-00942,TechNova Solutions,IT,Office Supplies,19940.84,2025-03-28,2025-05-27,2025-04-07,10,60,0,0,0,0,High,Amount exceeds approval limit,Send for manual review,60,0,Large
+INV-00943,FinEdge Services,IT,Consulting Service,4343.78,2025-08-11,2025-08-26,2025-08-14,3,15,1,0,0,0,Low,No risk detected,Approve for payment,15,0,Medium
+INV-00944,GreenLogix,Procurement,Consulting Service,18007.46,2025-03-11,2025-03-26,2025-03-27,16,15,0,0,1,1,High,Amount exceeds approval limit,Escalate to manager,15,1,Large
+INV-00945,NetSecure Inc,IT,Security Service,19181.8,2025-11-26,2025-12-11,2025-12-16,20,15,1,1,1,1,High,Duplicate invoice detected,Escalate to manager,15,1,Large
+INV-00946,GreenLogix,Risk Management,Logistics,19648.54,2025-04-25,2025-05-25,2025-05-09,14,30,1,0,0,1,Low,No risk detected,Escalate to manager,30,1,Large
+INV-00947,CloudBridge Ltd,Finance,Software License,8571.92,2025-03-01,2025-03-31,2025-03-20,19,30,1,0,0,1,Low,No risk detected,Escalate to manager,30,1,Medium
+INV-00948,GreenLogix,HR,Logistics,141.79,2025-07-18,2025-08-17,2025-07-20,2,30,0,0,0,0,Medium,Missing purchase order,Request missing information,30,0,Small
+INV-00949,DataCore Systems,HR,Logistics,15080.28,2025-07-22,2025-08-06,2025-07-30,8,15,1,1,0,0,High,Duplicate invoice detected,Send for manual review,15,0,Large
+INV-00950,DataCore Systems,Procurement,Consulting Service,12545.83,2025-11-04,2025-12-04,2025-11-19,15,30,1,0,1,1,Medium,Vendor has previous delays,Escalate to manager,30,1,Large
+INV-00951,TechNova Solutions,HR,Cloud Infrastructure,7791.4,2025-10-21,2025-12-05,2025-10-25,4,45,0,0,0,0,Medium,Missing purchase order,Request missing information,45,0,Medium
+INV-00952,OfficePlus Group,Risk Management,Office Supplies,1564.43,2025-04-18,2025-05-18,2025-04-29,11,30,1,0,0,1,Low,No risk detected,Escalate to manager,30,1,Medium
+INV-00953,Alpha Consulting,Risk Management,Office Supplies,7547.63,2025-10-08,2025-10-23,2025-10-14,6,15,0,0,0,0,Medium,Missing purchase order,Request missing information,15,0,Medium
+INV-00954,Alpha Consulting,Procurement,Office Supplies,9837.47,2025-05-25,2025-07-09,2025-06-11,17,45,1,1,0,1,High,Duplicate invoice detected,Escalate to manager,45,1,Medium
+INV-00955,DataCore Systems,Procurement,Security Service,21659.8,2025-08-23,2025-10-07,2025-08-25,2,45,1,0,0,0,Low,No risk detected,Approve for payment,45,0,Large
+INV-00956,Alpha Consulting,Procurement,Consulting Service,5323.18,2025-07-05,2025-07-20,2025-07-12,7,15,1,0,0,0,Low,No risk detected,Approve for payment,15,0,Medium
+INV-00957,GreenLogix,Risk Management,Consulting Service,23157.03,2025-08-31,2025-10-15,2025-09-04,4,45,1,0,0,0,Low,No risk detected,Approve for payment,45,0,Large
+INV-00958,NetSecure Inc,HR,Office Supplies,24246.2,2025-01-18,2025-02-17,2025-01-31,13,30,1,0,0,1,Low,No risk detected,Escalate to manager,30,1,Large
+INV-00959,Alpha Consulting,Procurement,Logistics,14944.27,2025-02-15,2025-04-16,2025-02-21,6,60,0,1,0,0,High,Duplicate invoice detected,Send for manual review,60,0,Large
+INV-00960,Alpha Consulting,Procurement,Software License,3088.01,2025-09-08,2025-09-23,2025-09-11,3,15,1,0,1,0,Medium,Vendor has previous delays,Request missing information,15,0,Medium
+INV-00961,Alpha Consulting,Procurement,Logistics,18659.45,2025-07-16,2025-08-15,2025-08-04,19,30,0,1,0,1,High,Duplicate invoice detected,Escalate to manager,30,1,Large
+INV-00962,DataCore Systems,Finance,Cloud Infrastructure,1681.11,2025-07-27,2025-08-26,2025-08-14,18,30,1,1,1,1,High,Duplicate invoice detected,Escalate to manager,30,1,Medium
+INV-00963,Alpha Consulting,Finance,Security Service,20944.88,2025-04-17,2025-05-02,2025-05-05,18,15,1,0,1,1,Medium,Vendor has previous delays,Escalate to manager,15,1,Large
+INV-00964,DataCore Systems,Finance,Security Service,11236.1,2025-01-21,2025-02-05,2025-02-01,11,15,1,0,1,1,Medium,Vendor has previous delays,Escalate to manager,15,1,Large
+INV-00965,DataCore Systems,Finance,Security Service,6493.34,2025-03-05,2025-03-20,2025-03-07,2,15,1,0,1,0,Medium,Vendor has previous delays,Request missing information,15,0,Medium
+INV-00966,DataCore Systems,Operations,Logistics,102.13,2025-09-23,2025-10-08,2025-10-03,10,15,1,1,0,0,High,Duplicate invoice detected,Send for manual review,15,0,Small
+INV-00967,Alpha Consulting,Risk Management,Cloud Infrastructure,13114.39,2025-02-20,2025-03-22,2025-03-04,12,30,1,0,0,1,Low,No risk detected,Escalate to manager,30,1,Large
+INV-00968,FinEdge Services,IT,Cloud Infrastructure,21416.52,2025-11-05,2025-12-05,2025-11-12,7,30,1,0,0,0,Low,No risk detected,Approve for payment,30,0,Large
+INV-00969,DataCore Systems,Risk Management,Security Service,10608.17,2025-05-14,2025-06-28,2025-06-01,18,45,0,0,0,1,Medium,Missing purchase order,Escalate to manager,45,1,Large
+INV-00970,Alpha Consulting,Finance,Cloud Infrastructure,16945.49,2025-02-06,2025-03-08,2025-02-11,5,30,1,0,1,0,Medium,Vendor has previous delays,Request missing information,30,0,Large
+INV-00971,NetSecure Inc,HR,Logistics,16229.5,2025-08-03,2025-09-02,2025-08-20,17,30,1,0,0,1,Low,No risk detected,Escalate to manager,30,1,Large
+INV-00972,GreenLogix,Finance,Security Service,6262.69,2025-09-30,2025-10-15,2025-10-09,9,15,1,1,0,0,High,Duplicate invoice detected,Send for manual review,15,0,Medium
+INV-00973,NetSecure Inc,Risk Management,Software License,9134.21,2025-03-16,2025-04-30,2025-03-27,11,45,1,0,0,1,Low,No risk detected,Escalate to manager,45,1,Medium
+INV-00974,CloudBridge Ltd,Operations,Consulting Service,9527.95,2025-03-31,2025-04-15,2025-04-04,4,15,1,1,0,0,High,Duplicate invoice detected,Send for manual review,15,0,Medium
+INV-00975,NetSecure Inc,Risk Management,Security Service,21648.42,2025-11-08,2025-12-23,2025-11-26,18,45,1,0,0,1,Low,No risk detected,Escalate to manager,45,1,Large
+INV-00976,NetSecure Inc,Operations,Consulting Service,8694.8,2025-09-02,2025-11-01,2025-09-20,18,60,1,0,0,1,Low,No risk detected,Escalate to manager,60,1,Medium
+INV-00977,DataCore Systems,Risk Management,Consulting Service,3652.49,2025-01-28,2025-03-14,2025-02-16,19,45,1,0,1,1,Medium,Vendor has previous delays,Escalate to manager,45,1,Medium
+INV-00978,GreenLogix,Risk Management,Office Supplies,4659.3,2025-09-15,2025-11-14,2025-09-27,12,60,1,0,0,1,Low,No risk detected,Escalate to manager,60,1,Medium
+INV-00979,FinEdge Services,Procurement,Logistics,21462.24,2025-06-10,2025-08-09,2025-06-20,10,60,1,0,0,0,Low,No risk detected,Approve for payment,60,0,Large
+INV-00980,FinEdge Services,Finance,Consulting Service,14425.39,2025-10-11,2025-11-25,2025-10-14,3,45,0,0,0,0,Medium,Missing purchase order,Request missing information,45,0,Large
+INV-00981,DataCore Systems,Operations,Office Supplies,12923.79,2025-07-27,2025-08-11,2025-08-14,18,15,1,0,1,1,Medium,Vendor has previous delays,Escalate to manager,15,1,Large
+INV-00982,TechNova Solutions,Risk Management,Office Supplies,17594.53,2025-09-28,2025-10-28,2025-10-10,12,30,1,1,0,1,High,Duplicate invoice detected,Escalate to manager,30,1,Large
+INV-00983,FinEdge Services,IT,Software License,9239.57,2025-01-27,2025-03-13,2025-02-01,5,45,0,1,0,0,High,Duplicate invoice detected,Send for manual review,45,0,Medium
+INV-00984,DataCore Systems,Procurement,Software License,8515.17,2025-05-29,2025-06-13,2025-06-06,8,15,1,1,0,0,High,Duplicate invoice detected,Send for manual review,15,0,Medium
+INV-00985,OfficePlus Group,IT,Software License,18476.84,2025-04-22,2025-06-21,2025-05-11,19,60,1,0,0,1,Low,No risk detected,Escalate to manager,60,1,Large
+INV-00986,Alpha Consulting,Finance,Cloud Infrastructure,246.69,2025-06-02,2025-07-17,2025-06-17,15,45,1,0,0,1,Low,No risk detected,Escalate to manager,45,1,Small
+INV-00987,NetSecure Inc,Risk Management,Consulting Service,10111.5,2025-08-09,2025-08-24,2025-08-10,1,15,0,0,0,0,Medium,Missing purchase order,Request missing information,15,0,Large
+INV-00988,DataCore Systems,Operations,Software License,22836.42,2025-05-09,2025-06-08,2025-05-10,1,30,1,1,0,0,High,Duplicate invoice detected,Send for manual review,30,0,Large
+INV-00989,NetSecure Inc,Procurement,Cloud Infrastructure,10765.7,2025-02-25,2025-04-11,2025-03-03,6,45,0,1,0,0,High,Duplicate invoice detected,Send for manual review,45,0,Large
+INV-00990,DataCore Systems,Procurement,Logistics,10905.61,2025-02-26,2025-03-28,2025-03-10,12,30,1,0,0,1,Low,No risk detected,Escalate to manager,30,1,Large
+INV-00991,DataCore Systems,Operations,Office Supplies,18623.71,2025-04-12,2025-05-12,2025-04-14,2,30,0,0,0,0,High,Amount exceeds approval limit,Send for manual review,30,0,Large
+INV-00992,GreenLogix,Operations,Security Service,12439.63,2025-07-24,2025-09-07,2025-07-29,5,45,0,0,0,0,Medium,Missing purchase order,Request missing information,45,0,Large
+INV-00993,CloudBridge Ltd,Finance,Consulting Service,3973.0,2025-05-02,2025-05-17,2025-05-19,17,15,1,0,0,1,Low,No risk detected,Escalate to manager,15,1,Medium
+INV-00994,TechNova Solutions,Operations,Office Supplies,7307.72,2025-08-08,2025-08-23,2025-08-24,16,15,1,0,1,1,Medium,Vendor has previous delays,Escalate to manager,15,1,Medium
+INV-00995,DataCore Systems,IT,Cloud Infrastructure,19191.52,2025-08-08,2025-09-07,2025-08-17,9,30,1,1,1,0,High,Duplicate invoice detected,Send for manual review,30,0,Large
+INV-00996,CloudBridge Ltd,Risk Management,Logistics,12608.12,2025-10-30,2025-11-29,2025-11-05,6,30,1,0,0,0,Low,No risk detected,Approve for payment,30,0,Large
+INV-00997,DataCore Systems,Operations,Software License,6919.15,2025-08-07,2025-09-06,2025-08-14,7,30,1,0,0,0,Low,No risk detected,Approve for payment,30,0,Medium
+INV-00998,TechNova Solutions,Operations,Office Supplies,13171.78,2025-06-22,2025-07-22,2025-06-30,8,30,0,1,0,0,High,Duplicate invoice detected,Send for manual review,30,0,Large
+INV-00999,GreenLogix,Risk Management,Software License,7676.82,2025-05-24,2025-07-08,2025-06-02,9,45,1,1,0,0,High,Duplicate invoice detected,Send for manual review,45,0,Medium
+INV-01000,NetSecure Inc,Finance,Consulting Service,1118.14,2025-04-19,2025-06-03,2025-04-21,2,45,1,1,0,0,High,Duplicate invoice detected,Send for manual review,45,0,Medium

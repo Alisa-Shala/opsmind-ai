@@ -1,0 +1,12 @@
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+streamlit
+plotly
+groq
+python-dotenv
+anthropic
+pyspellchecker
+scipy
