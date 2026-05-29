@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "defaultMode": "bypassPermissions",
+    "allow": [
+      "Bash(*)"
+    ],
+    "additionalDirectories": [
+      "C:\\Users\\Dell\\OneDrive\\Desktop\\opsmind-ai"
+    ]
+  }
+}
