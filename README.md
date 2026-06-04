@@ -4,6 +4,17 @@ OpsMind AI is an end-to-end Agentic AI system built for Accounts Payable (AP) op
 
 ---
 
+## 🚀 Live Demo
+
+**[opsmind-ai.streamlit.app](https://opsmind-ai.streamlit.app)**
+
+Open the live app directly in your browser — no installation needed.
+
+> **Optional:** Add a free Groq API key in the sidebar to enable GenAI features.
+> Get one at [console.groq.com](https://console.groq.com) — no credit card required.
+
+---
+
 ## Features
 
 - **AI Agent Decision Center** — ML risk classification + fraud scoring + exception detection + agentic tool use
@@ -34,19 +45,25 @@ OpsMind AI is an end-to-end Agentic AI system built for Accounts Payable (AP) op
 
 ---
 
-## How to Run
+## How to Run Locally
 
-### 1. Install dependencies
+### 1. Clone the repository
+```bash
+git clone https://github.com/Alisa-Shala/opsmind-ai.git
+cd opsmind-ai
+```
+
+### 2. Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-### 2. Run setup (generates data, trains models, launches dashboard)
+### 3. Run setup — one click
 ```bash
 setup_and_run.bat
 ```
 
-Or manually:
+Or manually step by step:
 ```bash
 py src/generate_dataset.py
 py src/data_cleaning.py
@@ -55,7 +72,7 @@ py src/train_models.py
 py -m streamlit run src/app.py
 ```
 
-### 3. Add API Key (optional — enables GenAI features)
+### 4. Add API Key (optional — enables GenAI features)
 Enter your Groq API key in the sidebar → Apply.
 Get a free key at [console.groq.com](https://console.groq.com)
 
